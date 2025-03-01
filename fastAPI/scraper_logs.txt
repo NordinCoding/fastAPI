@@ -1,0 +1,26 @@
+2025-03-01 14:57:49 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-01 14:57:49 - DEBUG: Navigating to Bol.com product page
+2025-03-01 14:57:55 - ERROR: Failed to load page: Page.goto: Timeout 5000ms exceeded.
+Call log:
+  - navigating to "https://www.amazon.nl/onderarmtrainer-gripkrachttrainer-handtrainingsapparaat-krachttraining-stressvermindering/dp/B0B1X3GFK1?__mk_nl_NL=%C3%85M%C3%85%C5%BD%C3%95%C3%91&_encoding=UTF8&content-id=amzn1.sym.38d00f9d-c930-48f8-b7a7-6c9414a37747&dib=eyJ2IjoiMSJ9.5JPE1H3TtkzMShxK1ajJwhTLjzXFEW-W7QBdioGuyiQuMVy-HDWZowVpwdkh_JKp0SIHedb7D_3_G5ulwy-UBTZLQn_jbNN1Fz9VruQ4T6n5xrZnJ6OM2VtuXmS0gpKuM1rbixHnmcR0uGDI9pWaCDO0qF2gC2pmX0qGB3KtzwYdOiOADeRnbC5We2MlpDc0HcYi1R2onGIYRfH8ABm7AXW8YOa0Bdu_sy6j7Rg7k44.I24Ev_I7lZj7O1CgeLtc9WpGxCjWvVOJLktdF7gl6U8&dib_tag=se&keywords=krachttraining&pd_rd_r=835b9c60-09dc-461d-aca6-9402cc698eea&pd_rd_w=mOgLk&pd_rd_wg=81m0f&qid=1740837359&refinements=p_72%3A4993218031%2Cp_98%3A17344308031%2Cp_36%3A-3000&rnid=16332312031&rps=1&s=sporting-goods&sr=1-1", waiting until "networkidle"
+
+2025-03-01 14:59:27 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-01 14:59:27 - DEBUG: Navigating to Bol.com product page
+2025-03-01 14:59:30 - DEBUG: Page loaded successfully
+2025-03-01 14:59:30 - DEBUG: Accepting cookies
+2025-03-01 14:59:30 - DEBUG: Selecting country/language
+2025-03-01 14:59:31 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-01 15:00:06 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-01 15:00:06 - DEBUG: Navigating to Bol.com product page
+2025-03-01 15:00:08 - DEBUG: Page loaded successfully
+2025-03-01 15:00:08 - DEBUG: Accepting cookies
+2025-03-01 15:00:08 - DEBUG: Selecting country/language
+2025-03-01 15:00:09 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-01 15:00:09 - DEBUG: Closing browser, scraping succesful
+2025-03-01 15:01:04 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-01 15:01:04 - DEBUG: Navigating to Bol.com product page
+2025-03-01 15:01:09 - DEBUG: Page loaded successfully
+2025-03-01 15:01:09 - DEBUG: Accepting cookies
+2025-03-01 15:01:09 - DEBUG: Selecting country/language
+2025-03-01 15:01:10 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-01 15:01:10 - DEBUG: Closing browser, scraping succesful
