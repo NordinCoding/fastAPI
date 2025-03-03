@@ -15,7 +15,7 @@ async def read_root():
 @app.get("/scrape/<path:mypath>")
 def scrape_item(mypath):
     try:
-        URL = unquote(mypath)
+        URL = mypath
         dictValues = bol_scraper(URL)
         return dictValues
     except Exception as e:
