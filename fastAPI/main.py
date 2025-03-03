@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {"Hello, World!"}
+    return {"Correct usage: "http://157.180.29.91/URL"}
 
 
 @app.get("/items/{URL}")
