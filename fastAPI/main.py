@@ -11,7 +11,7 @@ async def read_root():
     return {"Correct usage: "http://157.180.29.91/URL"}
 
 
-@app.get("/items/{URL}")
+@app.get("/{URL}")
 def scrape_item(URL: str):
     dictValues = bol_scraper(URL)
     return dictValues
