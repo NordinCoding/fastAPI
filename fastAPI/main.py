@@ -15,9 +15,10 @@ async def read_root():
 @app.get("/scrape/<path:mypath>")
 def scrape_item(mypath):
     try:
-        URL = unquote(mypath)
+        URL = mypath
         dictValues = bol_scraper(URL)
         return dictValues
     except Exception as e:
         log_to_file(f"Failed to scrape item: {str(e)}", "ERROR")
-        raise HTTPException(status_code=500, detail="Failed to scrape item")
+        return {"error": "Failed to scrape item", "details": str(e)}
+        
