@@ -71,7 +71,8 @@ def bol_scraper(URL):
             
             page = browser.new_page()
             try:
-                page.goto(URL, wait_until="networkidle", timeout=5000)
+                page.goto(URL, timeout=5000)
+                time.sleep(0.2)
             except Exception as e:
                 log_to_file(f"Failed to load page: {str(e)}", "ERROR")
                 return {"error": "Page not found", "details": str(e)}
@@ -82,11 +83,9 @@ def bol_scraper(URL):
             log_to_file("Accepting cookies", "DEBUG")
             
             try:
-                #cookies_button = page.locator('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
-                #cookies_button.wait_for(state="visible", timeout=5000)
-                #time.sleep(0.2)
-                #cookies_button.click(force=True)
-                page.evaluate('document.querySelector("#js-first-screen-accept-all-button").click()')
+                cookies_button = page.locator('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
+                cookies_button.wait_for(state="visible", timeout=5000)
+                cookies_button.click(force=True)
             except Exception as e:
                 log_to_file(f"Failed to accept cookies: {str(e)}", "ERROR")
                 return {"error": "Cookies button not found", "details": str(e)}
