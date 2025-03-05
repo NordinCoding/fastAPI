@@ -338,3 +338,33 @@ Call log:
 2025-03-05 21:04:05 - DEBUG: Scraping and formatting product data and storing it in dictValues
 2025-03-05 21:04:05 - DEBUG: Closing browser, scraping succesful
 
+2025-03-05 21:15:29 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 21:15:30 - DEBUG: Navigating to Bol.com product page
+2025-03-05 21:15:31 - DEBUG: Page loaded successfully
+2025-03-05 21:15:31 - DEBUG: Accepting cookies
+2025-03-05 21:15:31 - DEBUG: Cookies accepted
+2025-03-05 21:15:31 - DEBUG: Selecting country/language
+2025-03-05 21:15:32 - DEBUG: Selected country/language Successfully
+2025-03-05 21:15:32 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 21:15:32 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 21:20:08 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 21:20:08 - DEBUG: Navigating to Bol.com product page
+2025-03-05 21:20:09 - DEBUG: Page loaded successfully
+2025-03-05 21:20:09 - DEBUG: Accepting cookies
+2025-03-05 21:20:09 - DEBUG: Cookies accepted
+2025-03-05 21:20:09 - DEBUG: Selecting country/language
+2025-03-05 21:20:10 - DEBUG: Selected country/language Successfully
+2025-03-05 21:20:10 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 21:20:10 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 21:20:18 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 21:20:19 - DEBUG: Navigating to Bol.com product page
+2025-03-05 21:20:20 - DEBUG: Page loaded successfully
+2025-03-05 21:20:20 - DEBUG: Accepting cookies
+2025-03-05 21:20:21 - DEBUG: Cookies accepted
+2025-03-05 21:20:21 - DEBUG: Selecting country/language
+2025-03-05 21:20:21 - DEBUG: Selected country/language Successfully
+2025-03-05 21:20:21 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 21:20:21 - DEBUG: Closing browser, scraping succesful
+

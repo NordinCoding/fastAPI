@@ -39,7 +39,7 @@ def bol_scraper(URL):
             log_to_file("Initializing Bol.com scraper browser instance", "DEBUG")
             
             browser = p.firefox.launch(
-                headless=True,
+                headless=False,
                 args=["--no-sandbox",
                     "--disable-setuid-sandbox",
                     "--disable-dev-shm-usage",
@@ -98,8 +98,7 @@ def bol_scraper(URL):
             try:
                 button = page.locator('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
                 button.wait_for(state="visible", timeout=5000)
-                time.sleep(0.2)
-                button.click()
+                button.click(force=True)
             except Exception as e:
                 log_to_file(f"Failed to select country/language: {str(e)}", "ERROR")
                 return {"error": "Country/language button not found", "details": str(e)}
