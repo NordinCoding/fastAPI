@@ -39,7 +39,7 @@ def bol_scraper(URL):
             log_to_file("Initializing Bol.com scraper browser instance", "DEBUG")
             
             browser = p.firefox.launch(
-                headless=False,
+                headless=True,
                 args=["--no-sandbox",
                     "--disable-setuid-sandbox",
                     "--disable-dev-shm-usage",
