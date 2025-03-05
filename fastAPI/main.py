@@ -2,7 +2,7 @@ from typing import Union
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 from mainPlay import bol_scraper, log_to_file
-from urllib.parse import unquote
+from urllib.parse import unquote, quote
 
 app = FastAPI()
 
@@ -15,6 +15,7 @@ async def read_root():
 @app.get("/scrape")
 def scrape_item(url: str = Query(..., description="URL of the product to scrape")):
     try:
+        encoded_url = quote(url, safe='')
         dictValues = bol_scraper(url)
         return dictValues
     except Exception as e:

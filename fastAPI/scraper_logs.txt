@@ -1,0 +1,166 @@
+2025-03-05 16:02:30 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:02:31 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:02:33 - DEBUG: Page loaded successfully
+2025-03-05 16:02:33 - DEBUG: Accepting cookies
+2025-03-05 16:02:34 - DEBUG: Cookies accepted
+2025-03-05 16:02:34 - DEBUG: Selecting country/language
+2025-03-05 16:02:34 - DEBUG: Selected country/language Successfully
+2025-03-05 16:02:34 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 16:02:34 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:02:41 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:02:42 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:02:45 - DEBUG: Page loaded successfully
+2025-03-05 16:02:45 - DEBUG: Accepting cookies
+2025-03-05 16:02:45 - DEBUG: Cookies accepted
+2025-03-05 16:02:45 - DEBUG: Selecting country/language
+2025-03-05 16:02:46 - DEBUG: Selected country/language Successfully
+2025-03-05 16:02:46 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 16:02:46 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:04:13 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:04:13 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:04:16 - DEBUG: Page loaded successfully
+2025-03-05 16:04:16 - DEBUG: Accepting cookies
+2025-03-05 16:04:16 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
+@debugger eval code line 234 > eval:1:10
+evaluate@debugger eval code:234:30
+@debugger eval code:1:44
+
+2025-03-05 16:04:16 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:05:35 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:05:36 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:05:38 - DEBUG: Page loaded successfully
+2025-03-05 16:05:38 - DEBUG: Accepting cookies
+2025-03-05 16:05:38 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
+@debugger eval code line 234 > eval:1:10
+evaluate@debugger eval code:234:30
+@debugger eval code:1:44
+
+2025-03-05 16:05:38 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:06:09 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:06:09 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:06:11 - DEBUG: Page loaded successfully
+2025-03-05 16:06:11 - DEBUG: Accepting cookies
+2025-03-05 16:06:11 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
+@debugger eval code line 234 > eval:1:10
+evaluate@debugger eval code:234:30
+@debugger eval code:1:44
+
+2025-03-05 16:06:11 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:06:37 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:06:38 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:06:40 - DEBUG: Page loaded successfully
+2025-03-05 16:06:40 - DEBUG: Accepting cookies
+2025-03-05 16:06:40 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '#.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
+@debugger eval code line 234 > eval:1:10
+evaluate@debugger eval code:234:30
+@debugger eval code:1:44
+
+2025-03-05 16:06:40 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:07:14 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:07:14 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:07:18 - DEBUG: Page loaded successfully
+2025-03-05 16:07:18 - DEBUG: Accepting cookies
+2025-03-05 16:07:18 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
+@debugger eval code line 234 > eval:1:10
+evaluate@debugger eval code:234:30
+@debugger eval code:1:44
+
+2025-03-05 16:07:18 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:08:58 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:08:58 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:09:00 - DEBUG: Page loaded successfully
+2025-03-05 16:09:00 - DEBUG: Accepting cookies
+2025-03-05 16:09:00 - DEBUG: Cookies accepted
+2025-03-05 16:09:00 - DEBUG: Selecting country/language
+2025-03-05 16:09:01 - DEBUG: Selected country/language Successfully
+2025-03-05 16:09:01 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 16:09:01 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:09:04 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:09:04 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:09:08 - DEBUG: Page loaded successfully
+2025-03-05 16:09:08 - DEBUG: Accepting cookies
+2025-03-05 16:09:08 - DEBUG: Cookies accepted
+2025-03-05 16:09:08 - DEBUG: Selecting country/language
+2025-03-05 16:09:08 - DEBUG: Selected country/language Successfully
+2025-03-05 16:09:08 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 16:09:08 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:09:22 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:09:22 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:09:26 - DEBUG: Page loaded successfully
+2025-03-05 16:09:26 - DEBUG: Accepting cookies
+2025-03-05 16:09:26 - DEBUG: Cookies accepted
+2025-03-05 16:09:26 - DEBUG: Selecting country/language
+2025-03-05 16:09:26 - DEBUG: Selected country/language Successfully
+2025-03-05 16:09:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 16:09:27 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:10:40 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:10:41 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:10:42 - DEBUG: Page loaded successfully
+2025-03-05 16:10:42 - DEBUG: Accepting cookies
+2025-03-05 16:10:42 - DEBUG: Cookies accepted
+2025-03-05 16:10:42 - DEBUG: Selecting country/language
+2025-03-05 16:10:47 - ERROR: Failed to select country/language: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
+  -     14 × locator resolved to hidden <button data-test="continue-button" data-analytics-value="Language_modal:doorgaan" data-analytics-id="px_country_language_modal_continue" class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn">Doorgaan</button>
+
+2025-03-05 16:10:47 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:10:53 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:10:53 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:10:56 - DEBUG: Page loaded successfully
+2025-03-05 16:10:56 - DEBUG: Accepting cookies
+2025-03-05 16:10:56 - DEBUG: Cookies accepted
+2025-03-05 16:10:56 - DEBUG: Selecting country/language
+2025-03-05 16:10:57 - DEBUG: Selected country/language Successfully
+2025-03-05 16:10:57 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 16:10:57 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:11:20 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:11:20 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:11:22 - DEBUG: Page loaded successfully
+2025-03-05 16:11:22 - DEBUG: Accepting cookies
+2025-03-05 16:11:22 - DEBUG: Cookies accepted
+2025-03-05 16:11:22 - DEBUG: Selecting country/language
+2025-03-05 16:11:23 - DEBUG: Selected country/language Successfully
+2025-03-05 16:11:23 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 16:11:23 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:12:07 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:12:08 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:12:09 - DEBUG: Page loaded successfully
+2025-03-05 16:12:09 - DEBUG: Accepting cookies
+2025-03-05 16:12:09 - DEBUG: Cookies accepted
+2025-03-05 16:12:09 - DEBUG: Selecting country/language
+2025-03-05 16:12:14 - ERROR: Failed to select country/language: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
+  -     13 × locator resolved to hidden <button data-test="continue-button" data-analytics-value="Language_modal:doorgaan" data-analytics-id="px_country_language_modal_continue" class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn">Doorgaan</button>
+
+2025-03-05 16:12:14 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:12:59 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:12:59 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:13:00 - ERROR: Failed to load page: Page.goto() got an unexpected keyword argument 'network_idle_timeout'
+2025-03-05 16:13:00 - DEBUG: Closing browser, scraping succesful
+
+2025-03-05 16:17:21 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-05 16:17:21 - DEBUG: Navigating to Bol.com product page
+2025-03-05 16:17:23 - DEBUG: Page loaded successfully
+2025-03-05 16:17:23 - DEBUG: Accepting cookies
+2025-03-05 16:17:24 - DEBUG: Cookies accepted
+2025-03-05 16:17:24 - DEBUG: Selecting country/language
+2025-03-05 16:17:24 - DEBUG: Selected country/language Successfully
+2025-03-05 16:17:24 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-05 16:17:24 - DEBUG: Closing browser, scraping succesful
+
