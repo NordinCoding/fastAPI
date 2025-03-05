@@ -39,15 +39,15 @@ def bol_scraper(URL):
             log_to_file("Initializing Bol.com scraper browser instance", "DEBUG")
             
             browser = p.firefox.launch(
-                headless=False,
+                headless=True,
                 args=["--no-sandbox",
-                    "--disable-setuid-sandbox",
+                    #"--disable-setuid-sandbox",
                     "--disable-dev-shm-usage",
-                    "--disable-accelerated-2d-canvas",
-                    "--no-first-run",
-                    "--no-zygote",
-                    "--single-process",
-                    "--disable-gpu",
+                    #"--disable-accelerated-2d-canvas",
+                    #"--no-first-run",
+                    #"--no-zygote",
+                    #"--single-process",
+                    #"--disable-gpu",
                     ]
             )
             context = browser.new_context(
