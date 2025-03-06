@@ -85,9 +85,8 @@ def bol_scraper(URL):
             log_to_file("Accepting cookies", "DEBUG")
             
             try:
-                cookies_button = page.locator('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
-                cookies_button.wait_for(state="visible", timeout=5000)
-                cookies_button.click(force=True)
+                page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]', timeout=5000)
+                page.click('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
             except Exception as e:
                 log_to_file(f"Failed to accept cookies: {str(e)}", "ERROR")
                 return {"error": "Cookies button not found", "details": str(e)}
@@ -98,9 +97,8 @@ def bol_scraper(URL):
             log_to_file("Selecting country/language", "DEBUG")
             
             try:
-                button = page.locator('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
-                button.wait_for(state="visible", timeout=5000)
-                button.click(force=True)
+                page.wait_for_selector('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]', timeout=5000)
+                page.click('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
             except Exception as e:
                 log_to_file(f"Failed to select country/language: {str(e)}", "ERROR")
                 return {"error": "Country/language button not found", "details": str(e)}
