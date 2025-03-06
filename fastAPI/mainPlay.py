@@ -23,7 +23,7 @@ def log_to_file(message, level="INFO"):
 
 
 def bol_scraper(URL):
-    """
+    """s
     Scrapes product information from Bol.com
     
     Args:
@@ -35,11 +35,12 @@ def bol_scraper(URL):
     
     with sync_playwright() as p:
         try:
-            # Create a headless browser instance and give it context to imitate a real user
+            # Create a headless browser instance and give it extra context to imitate a real user
             log_to_file("Initializing Bol.com scraper browser instance", "DEBUG")
             
-            browser = p.firefox.launch(
+            browser = p.chromium.launch(
                 headless=True,
+                channel="chrome",
                 args=["--no-sandbox",
                     #"--disable-setuid-sandbox",
                     "--disable-dev-shm-usage",
@@ -52,10 +53,9 @@ def bol_scraper(URL):
             )
             context = browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-                viewport={"width": 1280, "height": 800},
                 locale="NL",
+                no_viewport=True,
                 timezone_id="Netherlands/Amsterdam",
-                accept_downloads=True,
                 bypass_csp=True
             )
 

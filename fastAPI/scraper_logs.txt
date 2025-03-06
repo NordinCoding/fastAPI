@@ -368,3 +368,193 @@ Call log:
 2025-03-05 21:20:21 - DEBUG: Scraping and formatting product data and storing it in dictValues
 2025-03-05 21:20:21 - DEBUG: Closing browser, scraping succesful
 
+2025-03-06 15:09:41 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:09:42 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:09:43 - DEBUG: Page loaded successfully
+2025-03-06 15:09:43 - DEBUG: Accepting cookies
+2025-03-06 15:09:43 - DEBUG: Cookies accepted
+2025-03-06 15:09:43 - DEBUG: Selecting country/language
+2025-03-06 15:09:43 - DEBUG: Selected country/language Successfully
+2025-03-06 15:09:43 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:09:44 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:15:10 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:15:10 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:15:15 - ERROR: Failed to load page: Page.goto: Timeout 5000ms exceeded.
+Call log:
+  - navigating to "https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle", waiting until "load"
+
+2025-03-06 15:15:15 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:15:26 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:15:27 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:15:29 - DEBUG: Page loaded successfully
+2025-03-06 15:15:29 - DEBUG: Accepting cookies
+2025-03-06 15:15:29 - DEBUG: Cookies accepted
+2025-03-06 15:15:29 - DEBUG: Selecting country/language
+2025-03-06 15:15:30 - DEBUG: Selected country/language Successfully
+2025-03-06 15:15:30 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:15:30 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:15:45 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:15:45 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:15:46 - DEBUG: Page loaded successfully
+2025-03-06 15:15:46 - DEBUG: Accepting cookies
+2025-03-06 15:15:46 - DEBUG: Cookies accepted
+2025-03-06 15:15:46 - DEBUG: Selecting country/language
+2025-03-06 15:15:47 - DEBUG: Selected country/language Successfully
+2025-03-06 15:15:47 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:15:47 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:15:57 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:15:57 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:15:59 - DEBUG: Page loaded successfully
+2025-03-06 15:15:59 - DEBUG: Accepting cookies
+2025-03-06 15:15:59 - DEBUG: Cookies accepted
+2025-03-06 15:15:59 - DEBUG: Selecting country/language
+2025-03-06 15:15:59 - DEBUG: Selected country/language Successfully
+2025-03-06 15:15:59 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:16:00 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:16:17 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:16:17 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:16:18 - DEBUG: Page loaded successfully
+2025-03-06 15:16:18 - DEBUG: Accepting cookies
+2025-03-06 15:16:18 - DEBUG: Cookies accepted
+2025-03-06 15:16:18 - DEBUG: Selecting country/language
+2025-03-06 15:16:19 - DEBUG: Selected country/language Successfully
+2025-03-06 15:16:19 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:16:19 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:16:21 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:16:21 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:16:22 - DEBUG: Page loaded successfully
+2025-03-06 15:16:22 - DEBUG: Accepting cookies
+2025-03-06 15:16:22 - DEBUG: Cookies accepted
+2025-03-06 15:16:22 - DEBUG: Selecting country/language
+2025-03-06 15:16:22 - DEBUG: Selected country/language Successfully
+2025-03-06 15:16:22 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:16:23 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:16:24 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:16:24 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:16:25 - DEBUG: Page loaded successfully
+2025-03-06 15:16:25 - DEBUG: Accepting cookies
+2025-03-06 15:16:25 - DEBUG: Cookies accepted
+2025-03-06 15:16:25 - DEBUG: Selecting country/language
+2025-03-06 15:16:26 - DEBUG: Selected country/language Successfully
+2025-03-06 15:16:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:16:26 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:16:38 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:16:38 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:16:39 - DEBUG: Page loaded successfully
+2025-03-06 15:16:39 - DEBUG: Accepting cookies
+2025-03-06 15:16:39 - DEBUG: Cookies accepted
+2025-03-06 15:16:39 - DEBUG: Selecting country/language
+2025-03-06 15:16:40 - DEBUG: Selected country/language Successfully
+2025-03-06 15:16:40 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:16:40 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:16:41 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:16:42 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:16:43 - DEBUG: Page loaded successfully
+2025-03-06 15:16:43 - DEBUG: Accepting cookies
+2025-03-06 15:16:43 - DEBUG: Cookies accepted
+2025-03-06 15:16:43 - DEBUG: Selecting country/language
+2025-03-06 15:16:43 - DEBUG: Selected country/language Successfully
+2025-03-06 15:16:43 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:16:43 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:16:45 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:16:45 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:16:46 - DEBUG: Page loaded successfully
+2025-03-06 15:16:46 - DEBUG: Accepting cookies
+2025-03-06 15:16:46 - DEBUG: Cookies accepted
+2025-03-06 15:16:46 - DEBUG: Selecting country/language
+2025-03-06 15:16:47 - DEBUG: Selected country/language Successfully
+2025-03-06 15:16:47 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:16:47 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:20:47 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:20:48 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:20:48 - DEBUG: Page loaded successfully
+2025-03-06 15:20:48 - DEBUG: Accepting cookies
+2025-03-06 15:20:48 - DEBUG: Cookies accepted
+2025-03-06 15:20:48 - DEBUG: Selecting country/language
+2025-03-06 15:20:49 - DEBUG: Selected country/language Successfully
+2025-03-06 15:20:49 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:20:49 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:21:18 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:21:18 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:21:19 - DEBUG: Page loaded successfully
+2025-03-06 15:21:19 - DEBUG: Accepting cookies
+2025-03-06 15:21:19 - DEBUG: Cookies accepted
+2025-03-06 15:21:19 - DEBUG: Selecting country/language
+2025-03-06 15:21:19 - DEBUG: Selected country/language Successfully
+2025-03-06 15:21:19 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:21:19 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:21:52 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:21:52 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:21:53 - DEBUG: Page loaded successfully
+2025-03-06 15:21:53 - DEBUG: Accepting cookies
+2025-03-06 15:21:53 - DEBUG: Cookies accepted
+2025-03-06 15:21:53 - DEBUG: Selecting country/language
+2025-03-06 15:21:54 - DEBUG: Selected country/language Successfully
+2025-03-06 15:21:54 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:21:54 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:23:37 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:23:38 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:23:39 - DEBUG: Page loaded successfully
+2025-03-06 15:23:39 - DEBUG: Accepting cookies
+2025-03-06 15:23:39 - DEBUG: Cookies accepted
+2025-03-06 15:23:39 - DEBUG: Selecting country/language
+2025-03-06 15:23:39 - DEBUG: Selected country/language Successfully
+2025-03-06 15:23:39 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:23:39 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:24:54 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:24:54 - ERROR: An error occurred: BrowserType.launch() got an unexpected keyword argument 'no_viewport'
+2025-03-06 15:25:13 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:25:13 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:25:15 - DEBUG: Page loaded successfully
+2025-03-06 15:25:15 - DEBUG: Accepting cookies
+2025-03-06 15:25:15 - DEBUG: Cookies accepted
+2025-03-06 15:25:15 - DEBUG: Selecting country/language
+2025-03-06 15:25:15 - DEBUG: Selected country/language Successfully
+2025-03-06 15:25:15 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:25:16 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:26:15 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:26:15 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:26:17 - DEBUG: Page loaded successfully
+2025-03-06 15:26:17 - DEBUG: Accepting cookies
+2025-03-06 15:26:17 - DEBUG: Cookies accepted
+2025-03-06 15:26:17 - DEBUG: Selecting country/language
+2025-03-06 15:26:17 - DEBUG: Selected country/language Successfully
+2025-03-06 15:26:17 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:26:18 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:26:27 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:26:27 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:26:28 - DEBUG: Page loaded successfully
+2025-03-06 15:26:28 - DEBUG: Accepting cookies
+2025-03-06 15:26:28 - DEBUG: Cookies accepted
+2025-03-06 15:26:28 - DEBUG: Selecting country/language
+2025-03-06 15:26:28 - DEBUG: Selected country/language Successfully
+2025-03-06 15:26:28 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:26:29 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:27:32 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:27:32 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:27:34 - DEBUG: Page loaded successfully
+2025-03-06 15:27:34 - DEBUG: Accepting cookies
+2025-03-06 15:27:34 - DEBUG: Cookies accepted
+2025-03-06 15:27:34 - DEBUG: Selecting country/language
+2025-03-06 15:27:34 - DEBUG: Selected country/language Successfully
+2025-03-06 15:27:34 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:27:34 - DEBUG: Closing browser, scraping succesful
+
