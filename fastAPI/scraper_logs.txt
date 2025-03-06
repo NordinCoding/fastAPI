@@ -558,3 +558,71 @@ Call log:
 2025-03-06 15:27:34 - DEBUG: Scraping and formatting product data and storing it in dictValues
 2025-03-06 15:27:34 - DEBUG: Closing browser, scraping succesful
 
+2025-03-06 15:34:30 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:34:30 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:34:32 - DEBUG: Page loaded successfully
+2025-03-06 15:34:32 - DEBUG: Accepting cookies
+2025-03-06 15:34:33 - DEBUG: Cookies accepted
+2025-03-06 15:34:33 - DEBUG: Selecting country/language
+2025-03-06 15:34:33 - DEBUG: Selected country/language Successfully
+2025-03-06 15:34:33 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:34:33 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:36:24 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:36:24 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:36:26 - DEBUG: Page loaded successfully
+2025-03-06 15:36:26 - DEBUG: Accepting cookies
+2025-03-06 15:36:26 - DEBUG: Cookies accepted
+2025-03-06 15:36:26 - DEBUG: Selecting country/language
+2025-03-06 15:36:26 - DEBUG: Selected country/language Successfully
+2025-03-06 15:36:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:36:27 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:36:31 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:36:31 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:36:32 - DEBUG: Page loaded successfully
+2025-03-06 15:36:32 - DEBUG: Accepting cookies
+2025-03-06 15:36:32 - DEBUG: Cookies accepted
+2025-03-06 15:36:32 - DEBUG: Selecting country/language
+2025-03-06 15:36:32 - DEBUG: Selected country/language Successfully
+2025-03-06 15:36:32 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:36:33 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:39:17 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:39:17 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:39:19 - DEBUG: Page loaded successfully
+2025-03-06 15:39:19 - DEBUG: Accepting cookies
+2025-03-06 15:39:19 - DEBUG: Cookies accepted
+2025-03-06 15:39:19 - DEBUG: Selecting country/language
+2025-03-06 15:39:19 - DEBUG: Selected country/language Successfully
+2025-03-06 15:39:19 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:39:20 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:39:24 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:39:24 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:39:26 - DEBUG: Page loaded successfully
+2025-03-06 15:39:26 - DEBUG: Accepting cookies
+2025-03-06 15:39:26 - DEBUG: Cookies accepted
+2025-03-06 15:39:26 - DEBUG: Selecting country/language
+2025-03-06 15:39:26 - DEBUG: Selected country/language Successfully
+2025-03-06 15:39:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:39:27 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:40:09 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:40:09 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:40:14 - ERROR: Failed to load page: Page.goto: Timeout 5000ms exceeded.
+Call log:
+  - navigating to "https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle", waiting until "load"
+
+2025-03-06 15:40:14 - DEBUG: Closing browser, scraping succesful
+
+2025-03-06 15:40:22 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-06 15:40:22 - DEBUG: Navigating to Bol.com product page
+2025-03-06 15:40:22 - DEBUG: Page loaded successfully
+2025-03-06 15:40:22 - DEBUG: Accepting cookies
+2025-03-06 15:40:22 - DEBUG: Cookies accepted
+2025-03-06 15:40:22 - DEBUG: Selecting country/language
+2025-03-06 15:40:23 - DEBUG: Selected country/language Successfully
+2025-03-06 15:40:23 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-06 15:40:23 - DEBUG: Closing browser, scraping succesful
+

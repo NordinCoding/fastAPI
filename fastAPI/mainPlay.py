@@ -40,21 +40,23 @@ def bol_scraper(URL):
             
             browser = p.chromium.launch(
                 headless=True,
-                channel="chrome",
                 args=["--no-sandbox",
-                    #"--disable-setuid-sandbox",
-                    "--disable-dev-shm-usage",
-                    #"--disable-accelerated-2d-canvas",
-                    #"--no-first-run",
-                    #"--no-zygote",
-                    #"--single-process",
-                    #"--disable-gpu",
-                    ]
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+                "--disable-extensions",
+                "--disable-audio-output",
+                "--disable-background-networking",
+                "--disable-background-timer-throttling",
+                "--disable-breakpad",
+                "--disable-component-extensions-with-background-pages",
+                "--disable-features=TranslateUI,BlinkGenPropertyTrees",
+                "--disable-ipc-flooding-protection",
+                ]
             )
             context = browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
                 locale="NL",
-                no_viewport=True,
+                viewport={"width": 1280, "height": 800},
                 timezone_id="Netherlands/Amsterdam",
                 bypass_csp=True
             )
