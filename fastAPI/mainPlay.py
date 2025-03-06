@@ -38,7 +38,7 @@ def bol_scraper(URL):
             # Create a headless browser instance and give it extra context to imitate a real user
             log_to_file("Initializing Bol.com scraper browser instance", "DEBUG")
             
-            browser = p.chromium.launch(
+            browser = p.firefox.launch(
                 headless=True,
                 args=["--no-sandbox",
                 "--disable-dev-shm-usage",
@@ -58,6 +58,7 @@ def bol_scraper(URL):
                 locale="NL",
                 viewport={"width": 1280, "height": 800},
                 timezone_id="Netherlands/Amsterdam",
+                accept_downloads=True,
                 bypass_csp=True
             )
 
