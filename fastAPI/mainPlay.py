@@ -2,6 +2,7 @@ from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 import time
 import datetime
+import random
 
 
 def log_to_file(message, level="INFO"):
@@ -32,6 +33,13 @@ def bol_scraper(URL):
     Returns:
         dict: Product details including name, current price and original price
     """
+    user_agent_strings = [
+    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
+    "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko",
+    "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko",
+    ]
     
     with sync_playwright() as p:
         try:
@@ -40,6 +48,7 @@ def bol_scraper(URL):
             
             browser = p.firefox.launch(
                 headless=True,
+                slow_mo=100,
                 args=["--no-sandbox",
                 "--disable-dev-shm-usage",
                 "--disable-gpu",
@@ -54,27 +63,32 @@ def bol_scraper(URL):
                 ]
             )
             context = browser.new_context(
-                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+                user_agent=random.choice(user_agent_strings),
                 locale="NL",
                 viewport={"width": 1280, "height": 800},
                 timezone_id="Netherlands/Amsterdam",
                 accept_downloads=True,
                 bypass_csp=True
             )
+            
+            context.set_default_timeout(5000)
 
             context.add_init_script("""
-                Object.defineProperty(navigator, 'webdriver', {
-                    get: () => undefined
-                });
+                Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
             """)
 
   
-            # Go to the URL and wait for the page to load
-            log_to_file("Navigating to Bol.com product page", "DEBUG")
-            
-            page = browser.new_page()
+            # Create a new page, Go to the URL and wait for the page to load
+            log_to_file("Creating new page", "DEBUG")
             try:
-                page.goto(URL, timeout=5000)
+                page = browser.new_page()
+            except Exception as e:
+                log_to_file(f"Failed to create new page: {str(e)}", "ERROR")
+                return {"error": "Failed to create new page", "details": str(e)}
+            
+            log_to_file("Navigating to Bol.com product page", "DEBUG") 
+            try:
+                page.goto(URL)
                 time.sleep(0.2)
             except Exception as e:
                 log_to_file(f"Failed to load page: {str(e)}", "ERROR")
@@ -86,7 +100,7 @@ def bol_scraper(URL):
             log_to_file("Accepting cookies", "DEBUG")
             
             try:
-                page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]', timeout=5000)
+                page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
                 page.click('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
             except Exception as e:
                 log_to_file(f"Failed to accept cookies: {str(e)}", "ERROR")
@@ -98,7 +112,7 @@ def bol_scraper(URL):
             log_to_file("Selecting country/language", "DEBUG")
             
             try:
-                page.wait_for_selector('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]', timeout=5000)
+                page.wait_for_selector('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
                 page.click('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
             except Exception as e:
                 log_to_file(f"Failed to select country/language: {str(e)}", "ERROR")
@@ -117,7 +131,7 @@ def bol_scraper(URL):
             log_to_file("Scraping and formatting product data and storing it in dictValues", "DEBUG")
             
             try:
-                page.wait_for_selector('[class="promo-price"]', state="visible", timeout=5000)
+                page.wait_for_selector('[class="promo-price"]', state="visible")
                 time.sleep(0.2)
                 dictValues["name"] = page.inner_html('[class="u-mr--xs"]').replace("\n", "").strip().replace("&amp;", "&")
                 dictValues["currentPrice"] = page.locator('[class="promo-price"]').first.inner_text().replace("\n", ".").replace(",", ".").replace("-", "00").strip()
