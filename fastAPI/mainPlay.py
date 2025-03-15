@@ -49,6 +49,7 @@ def bol_scraper(URL):
             browser = p.firefox.launch(
                 headless=True,
                 slow_mo=100,
+                timeout=10000,
                 args=["--no-sandbox",
                 "--disable-dev-shm-usage",
                 "--disable-gpu",
@@ -81,7 +82,7 @@ def bol_scraper(URL):
             # Create a new page, Go to the URL and wait for the page to load
             log_to_file("Creating new page", "DEBUG")
             try:
-                page = browser.new_page()
+                page = context.new_page()
             except Exception as e:
                 log_to_file(f"Failed to create new page: {str(e)}", "ERROR")
                 return {"error": "Failed to create new page", "details": str(e)}
