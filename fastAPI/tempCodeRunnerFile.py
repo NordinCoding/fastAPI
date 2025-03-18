@@ -1,2 +1,3 @@
 
-            except Exception as e:
+
+        finally:
