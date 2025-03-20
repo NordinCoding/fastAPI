@@ -1,1103 +1,504 @@
-2025-03-05 16:02:30 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:02:31 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:02:33 - DEBUG: Page loaded successfully
-2025-03-05 16:02:33 - DEBUG: Accepting cookies
-2025-03-05 16:02:34 - DEBUG: Cookies accepted
-2025-03-05 16:02:34 - DEBUG: Selecting country/language
-2025-03-05 16:02:34 - DEBUG: Selected country/language Successfully
-2025-03-05 16:02:34 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:02:34 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:02:41 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:02:42 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:02:45 - DEBUG: Page loaded successfully
-2025-03-05 16:02:45 - DEBUG: Accepting cookies
-2025-03-05 16:02:45 - DEBUG: Cookies accepted
-2025-03-05 16:02:45 - DEBUG: Selecting country/language
-2025-03-05 16:02:46 - DEBUG: Selected country/language Successfully
-2025-03-05 16:02:46 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:02:46 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:04:13 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:04:13 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:04:16 - DEBUG: Page loaded successfully
-2025-03-05 16:04:16 - DEBUG: Accepting cookies
-2025-03-05 16:04:16 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
-@debugger eval code line 234 > eval:1:10
-evaluate@debugger eval code:234:30
-@debugger eval code:1:44
-
-2025-03-05 16:04:16 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:05:35 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:05:36 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:05:38 - DEBUG: Page loaded successfully
-2025-03-05 16:05:38 - DEBUG: Accepting cookies
-2025-03-05 16:05:38 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
-@debugger eval code line 234 > eval:1:10
-evaluate@debugger eval code:234:30
-@debugger eval code:1:44
-
-2025-03-05 16:05:38 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:06:09 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:06:09 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:06:11 - DEBUG: Page loaded successfully
-2025-03-05 16:06:11 - DEBUG: Accepting cookies
-2025-03-05 16:06:11 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
-@debugger eval code line 234 > eval:1:10
-evaluate@debugger eval code:234:30
-@debugger eval code:1:44
-
-2025-03-05 16:06:11 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:06:37 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:06:38 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:06:40 - DEBUG: Page loaded successfully
-2025-03-05 16:06:40 - DEBUG: Accepting cookies
-2025-03-05 16:06:40 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '#.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
-@debugger eval code line 234 > eval:1:10
-evaluate@debugger eval code:234:30
-@debugger eval code:1:44
-
-2025-03-05 16:06:40 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:07:14 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:07:14 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:07:18 - DEBUG: Page loaded successfully
-2025-03-05 16:07:18 - DEBUG: Accepting cookies
-2025-03-05 16:07:18 - ERROR: Failed to accept cookies: Page.evaluate: Document.querySelector: '.ui-btn.ui-btn--primary.ui-btn--block@screen-small' is not a valid selector
-@debugger eval code line 234 > eval:1:10
-evaluate@debugger eval code:234:30
-@debugger eval code:1:44
-
-2025-03-05 16:07:18 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:08:58 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:08:58 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:09:00 - DEBUG: Page loaded successfully
-2025-03-05 16:09:00 - DEBUG: Accepting cookies
-2025-03-05 16:09:00 - DEBUG: Cookies accepted
-2025-03-05 16:09:00 - DEBUG: Selecting country/language
-2025-03-05 16:09:01 - DEBUG: Selected country/language Successfully
-2025-03-05 16:09:01 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:09:01 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:09:04 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:09:04 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:09:08 - DEBUG: Page loaded successfully
-2025-03-05 16:09:08 - DEBUG: Accepting cookies
-2025-03-05 16:09:08 - DEBUG: Cookies accepted
-2025-03-05 16:09:08 - DEBUG: Selecting country/language
-2025-03-05 16:09:08 - DEBUG: Selected country/language Successfully
-2025-03-05 16:09:08 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:09:08 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:09:22 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:09:22 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:09:26 - DEBUG: Page loaded successfully
-2025-03-05 16:09:26 - DEBUG: Accepting cookies
-2025-03-05 16:09:26 - DEBUG: Cookies accepted
-2025-03-05 16:09:26 - DEBUG: Selecting country/language
-2025-03-05 16:09:26 - DEBUG: Selected country/language Successfully
-2025-03-05 16:09:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:09:27 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:10:40 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:10:41 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:10:42 - DEBUG: Page loaded successfully
-2025-03-05 16:10:42 - DEBUG: Accepting cookies
-2025-03-05 16:10:42 - DEBUG: Cookies accepted
-2025-03-05 16:10:42 - DEBUG: Selecting country/language
-2025-03-05 16:10:47 - ERROR: Failed to select country/language: Locator.wait_for: Target page, context or browser has been closed
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
-  -     14 � locator resolved to hidden <button data-test="continue-button" data-analytics-value="Language_modal:doorgaan" data-analytics-id="px_country_language_modal_continue" class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn">Doorgaan</button>
-
-2025-03-05 16:10:47 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:10:53 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:10:53 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:10:56 - DEBUG: Page loaded successfully
-2025-03-05 16:10:56 - DEBUG: Accepting cookies
-2025-03-05 16:10:56 - DEBUG: Cookies accepted
-2025-03-05 16:10:56 - DEBUG: Selecting country/language
-2025-03-05 16:10:57 - DEBUG: Selected country/language Successfully
-2025-03-05 16:10:57 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:10:57 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:11:20 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:11:20 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:11:22 - DEBUG: Page loaded successfully
-2025-03-05 16:11:22 - DEBUG: Accepting cookies
-2025-03-05 16:11:22 - DEBUG: Cookies accepted
-2025-03-05 16:11:22 - DEBUG: Selecting country/language
-2025-03-05 16:11:23 - DEBUG: Selected country/language Successfully
-2025-03-05 16:11:23 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:11:23 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:12:07 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:12:08 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:12:09 - DEBUG: Page loaded successfully
-2025-03-05 16:12:09 - DEBUG: Accepting cookies
-2025-03-05 16:12:09 - DEBUG: Cookies accepted
-2025-03-05 16:12:09 - DEBUG: Selecting country/language
-2025-03-05 16:12:14 - ERROR: Failed to select country/language: Locator.wait_for: Target page, context or browser has been closed
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
-  -     13 � locator resolved to hidden <button data-test="continue-button" data-analytics-value="Language_modal:doorgaan" data-analytics-id="px_country_language_modal_continue" class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn">Doorgaan</button>
-
-2025-03-05 16:12:14 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:12:59 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:12:59 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:13:00 - ERROR: Failed to load page: Page.goto() got an unexpected keyword argument 'network_idle_timeout'
-2025-03-05 16:13:00 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:17:21 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:17:21 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:17:23 - DEBUG: Page loaded successfully
-2025-03-05 16:17:23 - DEBUG: Accepting cookies
-2025-03-05 16:17:24 - DEBUG: Cookies accepted
-2025-03-05 16:17:24 - DEBUG: Selecting country/language
-2025-03-05 16:17:24 - DEBUG: Selected country/language Successfully
-2025-03-05 16:17:24 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:17:24 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 16:25:41 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 16:25:41 - DEBUG: Navigating to Bol.com product page
-2025-03-05 16:25:43 - DEBUG: Page loaded successfully
-2025-03-05 16:25:43 - DEBUG: Accepting cookies
-2025-03-05 16:25:43 - DEBUG: Cookies accepted
-2025-03-05 16:25:43 - DEBUG: Selecting country/language
-2025-03-05 16:25:44 - DEBUG: Selected country/language Successfully
-2025-03-05 16:25:44 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 16:25:44 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:00:22 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:00:23 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:00:27 - DEBUG: Page loaded successfully
-2025-03-05 21:00:27 - DEBUG: Accepting cookies
-2025-03-05 21:00:27 - DEBUG: Cookies accepted
-2025-03-05 21:00:27 - DEBUG: Selecting country/language
-2025-03-05 21:00:27 - DEBUG: Selected country/language Successfully
-2025-03-05 21:00:27 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:00:27 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:00:39 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:00:39 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:00:43 - DEBUG: Page loaded successfully
-2025-03-05 21:00:43 - DEBUG: Accepting cookies
-2025-03-05 21:00:43 - DEBUG: Cookies accepted
-2025-03-05 21:00:43 - DEBUG: Selecting country/language
-2025-03-05 21:00:44 - DEBUG: Selected country/language Successfully
-2025-03-05 21:00:44 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:00:44 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:00:51 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:00:52 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:00:56 - DEBUG: Page loaded successfully
-2025-03-05 21:00:56 - DEBUG: Accepting cookies
-2025-03-05 21:00:56 - DEBUG: Cookies accepted
-2025-03-05 21:00:56 - DEBUG: Selecting country/language
-2025-03-05 21:00:56 - DEBUG: Selected country/language Successfully
-2025-03-05 21:00:56 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:00:56 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:01:28 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:01:29 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:01:31 - DEBUG: Page loaded successfully
-2025-03-05 21:01:31 - DEBUG: Accepting cookies
-2025-03-05 21:01:31 - DEBUG: Cookies accepted
-2025-03-05 21:01:31 - DEBUG: Selecting country/language
-2025-03-05 21:01:31 - DEBUG: Selected country/language Successfully
-2025-03-05 21:01:31 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:01:32 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:01:52 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:01:53 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:01:55 - DEBUG: Page loaded successfully
-2025-03-05 21:01:55 - DEBUG: Accepting cookies
-2025-03-05 21:01:55 - DEBUG: Cookies accepted
-2025-03-05 21:01:55 - DEBUG: Selecting country/language
-2025-03-05 21:01:55 - DEBUG: Selected country/language Successfully
-2025-03-05 21:01:55 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:01:55 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:02:06 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:02:06 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:02:08 - DEBUG: Page loaded successfully
-2025-03-05 21:02:08 - DEBUG: Accepting cookies
-2025-03-05 21:02:08 - DEBUG: Cookies accepted
-2025-03-05 21:02:08 - DEBUG: Selecting country/language
-2025-03-05 21:02:09 - DEBUG: Selected country/language Successfully
-2025-03-05 21:02:09 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:02:09 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:02:15 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:02:15 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:02:17 - DEBUG: Page loaded successfully
-2025-03-05 21:02:17 - DEBUG: Accepting cookies
-2025-03-05 21:02:17 - DEBUG: Cookies accepted
-2025-03-05 21:02:17 - DEBUG: Selecting country/language
-2025-03-05 21:02:18 - DEBUG: Selected country/language Successfully
-2025-03-05 21:02:18 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:02:18 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:02:25 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:02:26 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:02:30 - DEBUG: Page loaded successfully
-2025-03-05 21:02:30 - DEBUG: Accepting cookies
-2025-03-05 21:02:30 - DEBUG: Cookies accepted
-2025-03-05 21:02:30 - DEBUG: Selecting country/language
-2025-03-05 21:02:33 - ERROR: Failed to select country/language: Locator.wait_for: Target page, context or browser has been closed
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
-  -     10 � locator resolved to hidden <button data-test="continue-button" data-analytics-value="Language_modal:doorgaan" data-analytics-id="px_country_language_modal_continue" class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn">Doorgaan</button>
-
-2025-03-05 21:02:33 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:02:35 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:02:36 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:02:42 - ERROR: Failed to load page: Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to "https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle", waiting until "load"
-
-2025-03-05 21:02:42 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:02:47 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:02:47 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:02:49 - DEBUG: Page loaded successfully
-2025-03-05 21:02:49 - DEBUG: Accepting cookies
-2025-03-05 21:02:49 - DEBUG: Cookies accepted
-2025-03-05 21:02:49 - DEBUG: Selecting country/language
-2025-03-05 21:02:54 - ERROR: Failed to select country/language: Locator.wait_for: Timeout 5000ms exceeded.
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
-  -     14 � locator resolved to hidden <button data-test="continue-button" data-analytics-value="Language_modal:doorgaan" data-analytics-id="px_country_language_modal_continue" class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn">Doorgaan</button>
-
-2025-03-05 21:02:54 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:03:04 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:03:04 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:03:06 - DEBUG: Page loaded successfully
-2025-03-05 21:03:06 - DEBUG: Accepting cookies
-2025-03-05 21:03:06 - DEBUG: Cookies accepted
-2025-03-05 21:03:06 - DEBUG: Selecting country/language
-2025-03-05 21:03:06 - DEBUG: Selected country/language Successfully
-2025-03-05 21:03:06 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:03:07 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:03:10 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:03:10 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:03:12 - DEBUG: Page loaded successfully
-2025-03-05 21:03:12 - DEBUG: Accepting cookies
-2025-03-05 21:03:12 - DEBUG: Cookies accepted
-2025-03-05 21:03:12 - DEBUG: Selecting country/language
-2025-03-05 21:03:12 - DEBUG: Selected country/language Successfully
-2025-03-05 21:03:12 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:03:12 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:03:35 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:03:36 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:03:37 - DEBUG: Page loaded successfully
-2025-03-05 21:03:37 - DEBUG: Accepting cookies
-2025-03-05 21:03:38 - DEBUG: Cookies accepted
-2025-03-05 21:03:38 - DEBUG: Selecting country/language
-2025-03-05 21:03:38 - DEBUG: Selected country/language Successfully
-2025-03-05 21:03:38 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:03:38 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:03:45 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:03:45 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:03:47 - DEBUG: Page loaded successfully
-2025-03-05 21:03:47 - DEBUG: Accepting cookies
-2025-03-05 21:03:52 - ERROR: Failed to accept cookies: Locator.wait_for: Timeout 5000ms exceeded.
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary ui-btn--block@screen-small\"]") to be visible
-
-2025-03-05 21:03:52 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:03:56 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:03:56 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:03:58 - DEBUG: Page loaded successfully
-2025-03-05 21:03:58 - DEBUG: Accepting cookies
-2025-03-05 21:03:58 - DEBUG: Cookies accepted
-2025-03-05 21:03:58 - DEBUG: Selecting country/language
-2025-03-05 21:03:58 - DEBUG: Selected country/language Successfully
-2025-03-05 21:03:58 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:03:58 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:04:02 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:04:02 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:04:04 - DEBUG: Page loaded successfully
-2025-03-05 21:04:04 - DEBUG: Accepting cookies
-2025-03-05 21:04:04 - DEBUG: Cookies accepted
-2025-03-05 21:04:04 - DEBUG: Selecting country/language
-2025-03-05 21:04:05 - DEBUG: Selected country/language Successfully
-2025-03-05 21:04:05 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:04:05 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:15:29 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:15:30 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:15:31 - DEBUG: Page loaded successfully
-2025-03-05 21:15:31 - DEBUG: Accepting cookies
-2025-03-05 21:15:31 - DEBUG: Cookies accepted
-2025-03-05 21:15:31 - DEBUG: Selecting country/language
-2025-03-05 21:15:32 - DEBUG: Selected country/language Successfully
-2025-03-05 21:15:32 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:15:32 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:20:08 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:20:08 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:20:09 - DEBUG: Page loaded successfully
-2025-03-05 21:20:09 - DEBUG: Accepting cookies
-2025-03-05 21:20:09 - DEBUG: Cookies accepted
-2025-03-05 21:20:09 - DEBUG: Selecting country/language
-2025-03-05 21:20:10 - DEBUG: Selected country/language Successfully
-2025-03-05 21:20:10 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:20:10 - DEBUG: Closing browser, scraping succesful
-
-2025-03-05 21:20:18 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-05 21:20:19 - DEBUG: Navigating to Bol.com product page
-2025-03-05 21:20:20 - DEBUG: Page loaded successfully
-2025-03-05 21:20:20 - DEBUG: Accepting cookies
-2025-03-05 21:20:21 - DEBUG: Cookies accepted
-2025-03-05 21:20:21 - DEBUG: Selecting country/language
-2025-03-05 21:20:21 - DEBUG: Selected country/language Successfully
-2025-03-05 21:20:21 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-05 21:20:21 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:09:41 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:09:42 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:09:43 - DEBUG: Page loaded successfully
-2025-03-06 15:09:43 - DEBUG: Accepting cookies
-2025-03-06 15:09:43 - DEBUG: Cookies accepted
-2025-03-06 15:09:43 - DEBUG: Selecting country/language
-2025-03-06 15:09:43 - DEBUG: Selected country/language Successfully
-2025-03-06 15:09:43 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:09:44 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:15:10 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:15:10 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:15:15 - ERROR: Failed to load page: Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to "https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle", waiting until "load"
-
-2025-03-06 15:15:15 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:15:26 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:15:27 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:15:29 - DEBUG: Page loaded successfully
-2025-03-06 15:15:29 - DEBUG: Accepting cookies
-2025-03-06 15:15:29 - DEBUG: Cookies accepted
-2025-03-06 15:15:29 - DEBUG: Selecting country/language
-2025-03-06 15:15:30 - DEBUG: Selected country/language Successfully
-2025-03-06 15:15:30 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:15:30 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:15:45 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:15:45 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:15:46 - DEBUG: Page loaded successfully
-2025-03-06 15:15:46 - DEBUG: Accepting cookies
-2025-03-06 15:15:46 - DEBUG: Cookies accepted
-2025-03-06 15:15:46 - DEBUG: Selecting country/language
-2025-03-06 15:15:47 - DEBUG: Selected country/language Successfully
-2025-03-06 15:15:47 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:15:47 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:15:57 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:15:57 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:15:59 - DEBUG: Page loaded successfully
-2025-03-06 15:15:59 - DEBUG: Accepting cookies
-2025-03-06 15:15:59 - DEBUG: Cookies accepted
-2025-03-06 15:15:59 - DEBUG: Selecting country/language
-2025-03-06 15:15:59 - DEBUG: Selected country/language Successfully
-2025-03-06 15:15:59 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:16:00 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:16:17 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:16:17 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:16:18 - DEBUG: Page loaded successfully
-2025-03-06 15:16:18 - DEBUG: Accepting cookies
-2025-03-06 15:16:18 - DEBUG: Cookies accepted
-2025-03-06 15:16:18 - DEBUG: Selecting country/language
-2025-03-06 15:16:19 - DEBUG: Selected country/language Successfully
-2025-03-06 15:16:19 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:16:19 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:16:21 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:16:21 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:16:22 - DEBUG: Page loaded successfully
-2025-03-06 15:16:22 - DEBUG: Accepting cookies
-2025-03-06 15:16:22 - DEBUG: Cookies accepted
-2025-03-06 15:16:22 - DEBUG: Selecting country/language
-2025-03-06 15:16:22 - DEBUG: Selected country/language Successfully
-2025-03-06 15:16:22 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:16:23 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:16:24 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:16:24 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:16:25 - DEBUG: Page loaded successfully
-2025-03-06 15:16:25 - DEBUG: Accepting cookies
-2025-03-06 15:16:25 - DEBUG: Cookies accepted
-2025-03-06 15:16:25 - DEBUG: Selecting country/language
-2025-03-06 15:16:26 - DEBUG: Selected country/language Successfully
-2025-03-06 15:16:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:16:26 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:16:38 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:16:38 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:16:39 - DEBUG: Page loaded successfully
-2025-03-06 15:16:39 - DEBUG: Accepting cookies
-2025-03-06 15:16:39 - DEBUG: Cookies accepted
-2025-03-06 15:16:39 - DEBUG: Selecting country/language
-2025-03-06 15:16:40 - DEBUG: Selected country/language Successfully
-2025-03-06 15:16:40 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:16:40 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:16:41 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:16:42 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:16:43 - DEBUG: Page loaded successfully
-2025-03-06 15:16:43 - DEBUG: Accepting cookies
-2025-03-06 15:16:43 - DEBUG: Cookies accepted
-2025-03-06 15:16:43 - DEBUG: Selecting country/language
-2025-03-06 15:16:43 - DEBUG: Selected country/language Successfully
-2025-03-06 15:16:43 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:16:43 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:16:45 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:16:45 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:16:46 - DEBUG: Page loaded successfully
-2025-03-06 15:16:46 - DEBUG: Accepting cookies
-2025-03-06 15:16:46 - DEBUG: Cookies accepted
-2025-03-06 15:16:46 - DEBUG: Selecting country/language
-2025-03-06 15:16:47 - DEBUG: Selected country/language Successfully
-2025-03-06 15:16:47 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:16:47 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:20:47 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:20:48 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:20:48 - DEBUG: Page loaded successfully
-2025-03-06 15:20:48 - DEBUG: Accepting cookies
-2025-03-06 15:20:48 - DEBUG: Cookies accepted
-2025-03-06 15:20:48 - DEBUG: Selecting country/language
-2025-03-06 15:20:49 - DEBUG: Selected country/language Successfully
-2025-03-06 15:20:49 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:20:49 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:21:18 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:21:18 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:21:19 - DEBUG: Page loaded successfully
-2025-03-06 15:21:19 - DEBUG: Accepting cookies
-2025-03-06 15:21:19 - DEBUG: Cookies accepted
-2025-03-06 15:21:19 - DEBUG: Selecting country/language
-2025-03-06 15:21:19 - DEBUG: Selected country/language Successfully
-2025-03-06 15:21:19 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:21:19 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:21:52 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:21:52 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:21:53 - DEBUG: Page loaded successfully
-2025-03-06 15:21:53 - DEBUG: Accepting cookies
-2025-03-06 15:21:53 - DEBUG: Cookies accepted
-2025-03-06 15:21:53 - DEBUG: Selecting country/language
-2025-03-06 15:21:54 - DEBUG: Selected country/language Successfully
-2025-03-06 15:21:54 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:21:54 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:23:37 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:23:38 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:23:39 - DEBUG: Page loaded successfully
-2025-03-06 15:23:39 - DEBUG: Accepting cookies
-2025-03-06 15:23:39 - DEBUG: Cookies accepted
-2025-03-06 15:23:39 - DEBUG: Selecting country/language
-2025-03-06 15:23:39 - DEBUG: Selected country/language Successfully
-2025-03-06 15:23:39 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:23:39 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:24:54 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:24:54 - ERROR: An error occurred: BrowserType.launch() got an unexpected keyword argument 'no_viewport'
-2025-03-06 15:25:13 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:25:13 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:25:15 - DEBUG: Page loaded successfully
-2025-03-06 15:25:15 - DEBUG: Accepting cookies
-2025-03-06 15:25:15 - DEBUG: Cookies accepted
-2025-03-06 15:25:15 - DEBUG: Selecting country/language
-2025-03-06 15:25:15 - DEBUG: Selected country/language Successfully
-2025-03-06 15:25:15 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:25:16 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:26:15 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:26:15 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:26:17 - DEBUG: Page loaded successfully
-2025-03-06 15:26:17 - DEBUG: Accepting cookies
-2025-03-06 15:26:17 - DEBUG: Cookies accepted
-2025-03-06 15:26:17 - DEBUG: Selecting country/language
-2025-03-06 15:26:17 - DEBUG: Selected country/language Successfully
-2025-03-06 15:26:17 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:26:18 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:26:27 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:26:27 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:26:28 - DEBUG: Page loaded successfully
-2025-03-06 15:26:28 - DEBUG: Accepting cookies
-2025-03-06 15:26:28 - DEBUG: Cookies accepted
-2025-03-06 15:26:28 - DEBUG: Selecting country/language
-2025-03-06 15:26:28 - DEBUG: Selected country/language Successfully
-2025-03-06 15:26:28 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:26:29 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:27:32 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:27:32 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:27:34 - DEBUG: Page loaded successfully
-2025-03-06 15:27:34 - DEBUG: Accepting cookies
-2025-03-06 15:27:34 - DEBUG: Cookies accepted
-2025-03-06 15:27:34 - DEBUG: Selecting country/language
-2025-03-06 15:27:34 - DEBUG: Selected country/language Successfully
-2025-03-06 15:27:34 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:27:34 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:34:30 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:34:30 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:34:32 - DEBUG: Page loaded successfully
-2025-03-06 15:34:32 - DEBUG: Accepting cookies
-2025-03-06 15:34:33 - DEBUG: Cookies accepted
-2025-03-06 15:34:33 - DEBUG: Selecting country/language
-2025-03-06 15:34:33 - DEBUG: Selected country/language Successfully
-2025-03-06 15:34:33 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:34:33 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:36:24 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:36:24 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:36:26 - DEBUG: Page loaded successfully
-2025-03-06 15:36:26 - DEBUG: Accepting cookies
-2025-03-06 15:36:26 - DEBUG: Cookies accepted
-2025-03-06 15:36:26 - DEBUG: Selecting country/language
-2025-03-06 15:36:26 - DEBUG: Selected country/language Successfully
-2025-03-06 15:36:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:36:27 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:36:31 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:36:31 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:36:32 - DEBUG: Page loaded successfully
-2025-03-06 15:36:32 - DEBUG: Accepting cookies
-2025-03-06 15:36:32 - DEBUG: Cookies accepted
-2025-03-06 15:36:32 - DEBUG: Selecting country/language
-2025-03-06 15:36:32 - DEBUG: Selected country/language Successfully
-2025-03-06 15:36:32 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:36:33 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:39:17 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:39:17 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:39:19 - DEBUG: Page loaded successfully
-2025-03-06 15:39:19 - DEBUG: Accepting cookies
-2025-03-06 15:39:19 - DEBUG: Cookies accepted
-2025-03-06 15:39:19 - DEBUG: Selecting country/language
-2025-03-06 15:39:19 - DEBUG: Selected country/language Successfully
-2025-03-06 15:39:19 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:39:20 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:39:24 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:39:24 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:39:26 - DEBUG: Page loaded successfully
-2025-03-06 15:39:26 - DEBUG: Accepting cookies
-2025-03-06 15:39:26 - DEBUG: Cookies accepted
-2025-03-06 15:39:26 - DEBUG: Selecting country/language
-2025-03-06 15:39:26 - DEBUG: Selected country/language Successfully
-2025-03-06 15:39:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:39:27 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:40:09 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:40:09 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:40:14 - ERROR: Failed to load page: Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to "https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle", waiting until "load"
-
-2025-03-06 15:40:14 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:40:22 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:40:22 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:40:22 - DEBUG: Page loaded successfully
-2025-03-06 15:40:22 - DEBUG: Accepting cookies
-2025-03-06 15:40:22 - DEBUG: Cookies accepted
-2025-03-06 15:40:22 - DEBUG: Selecting country/language
-2025-03-06 15:40:23 - DEBUG: Selected country/language Successfully
-2025-03-06 15:40:23 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:40:23 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:42:40 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:42:40 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:42:41 - DEBUG: Page loaded successfully
-2025-03-06 15:42:41 - DEBUG: Accepting cookies
-2025-03-06 15:42:41 - DEBUG: Cookies accepted
-2025-03-06 15:42:41 - DEBUG: Selecting country/language
-2025-03-06 15:42:41 - DEBUG: Selected country/language Successfully
-2025-03-06 15:42:41 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:42:42 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:45:42 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:45:42 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:45:44 - DEBUG: Page loaded successfully
-2025-03-06 15:45:44 - DEBUG: Accepting cookies
-2025-03-06 15:45:44 - DEBUG: Cookies accepted
-2025-03-06 15:45:44 - DEBUG: Selecting country/language
-2025-03-06 15:45:45 - DEBUG: Selected country/language Successfully
-2025-03-06 15:45:45 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:45:45 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:46:29 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:46:29 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:46:31 - DEBUG: Page loaded successfully
-2025-03-06 15:46:31 - DEBUG: Accepting cookies
-2025-03-06 15:46:31 - DEBUG: Cookies accepted
-2025-03-06 15:46:31 - DEBUG: Selecting country/language
-2025-03-06 15:46:31 - DEBUG: Selected country/language Successfully
-2025-03-06 15:46:31 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:46:32 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:47:05 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:47:05 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:47:06 - DEBUG: Page loaded successfully
-2025-03-06 15:47:06 - DEBUG: Accepting cookies
-2025-03-06 15:47:06 - DEBUG: Cookies accepted
-2025-03-06 15:47:06 - DEBUG: Selecting country/language
-2025-03-06 15:47:07 - DEBUG: Selected country/language Successfully
-2025-03-06 15:47:07 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:47:07 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:52:50 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:52:50 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:52:51 - DEBUG: Page loaded successfully
-2025-03-06 15:52:51 - DEBUG: Accepting cookies
-2025-03-06 15:52:51 - DEBUG: Cookies accepted
-2025-03-06 15:52:51 - DEBUG: Selecting country/language
-2025-03-06 15:52:52 - DEBUG: Selected country/language Successfully
-2025-03-06 15:52:52 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:52:53 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 15:53:24 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 15:53:24 - DEBUG: Navigating to Bol.com product page
-2025-03-06 15:53:25 - DEBUG: Page loaded successfully
-2025-03-06 15:53:25 - DEBUG: Accepting cookies
-2025-03-06 15:53:26 - DEBUG: Cookies accepted
-2025-03-06 15:53:26 - DEBUG: Selecting country/language
-2025-03-06 15:53:26 - DEBUG: Selected country/language Successfully
-2025-03-06 15:53:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 15:53:27 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 16:01:26 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 16:01:27 - DEBUG: Navigating to Bol.com product page
-2025-03-06 16:01:27 - DEBUG: Page loaded successfully
-2025-03-06 16:01:27 - DEBUG: Accepting cookies
-2025-03-06 16:01:27 - DEBUG: Cookies accepted
-2025-03-06 16:01:27 - DEBUG: Selecting country/language
-2025-03-06 16:01:28 - DEBUG: Selected country/language Successfully
-2025-03-06 16:01:28 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 16:01:28 - DEBUG: Closing browser, scraping succesful
-
-2025-03-06 16:03:45 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-06 16:03:46 - DEBUG: Navigating to Bol.com product page
-2025-03-06 16:03:47 - DEBUG: Page loaded successfully
-2025-03-06 16:03:47 - DEBUG: Accepting cookies
-2025-03-06 16:03:47 - DEBUG: Cookies accepted
-2025-03-06 16:03:47 - DEBUG: Selecting country/language
-2025-03-06 16:03:48 - DEBUG: Selected country/language Successfully
-2025-03-06 16:03:48 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-06 16:03:48 - DEBUG: Closing browser, scraping succesful
-
-2025-03-10 12:05:51 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-10 12:05:52 - DEBUG: Creating new page
-2025-03-10 12:05:52 - ERROR: Failed to create new page: Browser.new_page() got an unexpected keyword argument 'timeout'
-2025-03-10 12:05:52 - DEBUG: Closing browser, scraping succesful
-
-2025-03-10 12:06:24 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-10 12:06:25 - DEBUG: Creating new page
-2025-03-10 12:06:25 - ERROR: Failed to create new page: Browser.new_page() got an unexpected keyword argument 'timeout'
-2025-03-10 12:06:25 - DEBUG: Closing browser, scraping succesful
-
-2025-03-10 12:10:02 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-10 12:10:02 - ERROR: An error occurred: Browser.new_context() got an unexpected keyword argument 'timeout'
-2025-03-10 12:10:02 - DEBUG: Closing browser, scraping succesful
-
-2025-03-10 12:10:09 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-10 12:10:09 - ERROR: An error occurred: Browser.new_context() got an unexpected keyword argument 'timeout'
-2025-03-10 12:10:09 - DEBUG: Closing browser, scraping succesful
-
-2025-03-10 12:10:58 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-10 12:10:58 - DEBUG: Creating new page
-2025-03-10 12:10:59 - DEBUG: Navigating to Bol.com product page
-2025-03-10 12:11:00 - DEBUG: Page loaded successfully
-2025-03-10 12:11:00 - DEBUG: Accepting cookies
-2025-03-10 12:11:00 - DEBUG: Cookies accepted
-2025-03-10 12:11:00 - DEBUG: Selecting country/language
-2025-03-10 12:11:01 - DEBUG: Selected country/language Successfully
-2025-03-10 12:11:01 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-10 12:11:01 - DEBUG: Closing browser, scraping succesful
-
-2025-03-10 12:13:58 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-10 12:13:58 - DEBUG: Creating new page
-2025-03-10 12:13:59 - DEBUG: Navigating to Bol.com product page
-2025-03-10 12:14:00 - DEBUG: Page loaded successfully
-2025-03-10 12:14:00 - DEBUG: Accepting cookies
-2025-03-10 12:14:00 - DEBUG: Cookies accepted
-2025-03-10 12:14:00 - DEBUG: Selecting country/language
-2025-03-10 12:14:00 - DEBUG: Selected country/language Successfully
-2025-03-10 12:14:00 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-10 12:14:01 - DEBUG: Closing browser, scraping succesful
-
-2025-03-10 12:30:23 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-10 12:30:24 - DEBUG: Creating new page
-2025-03-10 12:30:24 - DEBUG: Navigating to Bol.com product page
-2025-03-10 12:30:25 - DEBUG: Page loaded successfully
-2025-03-10 12:30:25 - DEBUG: Accepting cookies
-2025-03-10 12:30:26 - DEBUG: Cookies accepted
-2025-03-10 12:30:26 - DEBUG: Selecting country/language
-2025-03-10 12:30:26 - DEBUG: Selected country/language Successfully
-2025-03-10 12:30:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-10 12:30:26 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:36:45 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:36:46 - DEBUG: Creating new page
-2025-03-15 11:36:46 - ERROR: Failed to create new page: BrowserContext.new_page: Invalid timezone ID: Netherlands/Amsterdam
-2025-03-15 11:36:46 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:36:47 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:36:47 - DEBUG: Creating new page
-2025-03-15 11:37:11 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:37:14 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:37:15 - DEBUG: Creating new page
-2025-03-15 11:37:16 - ERROR: Failed to create new page: BrowserContext.new_page: Invalid timezone ID: Netherlands/Amsterdam
-2025-03-15 11:37:16 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:37:20 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:37:20 - DEBUG: Creating new page
-2025-03-15 11:37:21 - ERROR: Failed to create new page: BrowserContext.new_page: Invalid timezone ID: Netherlands/Amsterdam
-2025-03-15 11:37:21 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:37:33 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:37:34 - DEBUG: Creating new page
-2025-03-15 11:37:34 - ERROR: Failed to create new page: BrowserContext.new_page: Invalid timezone ID: Netherlands/Amsterdam
-2025-03-15 11:37:34 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:37:42 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:37:43 - DEBUG: Creating new page
-2025-03-15 11:37:43 - ERROR: Failed to create new page: BrowserContext.new_page: Invalid timezone ID: Netherlands/Amsterdam
-2025-03-15 11:37:43 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:37:54 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:37:54 - DEBUG: Creating new page
-2025-03-15 11:37:55 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:37:56 - DEBUG: Page loaded successfully
-2025-03-15 11:37:56 - DEBUG: Accepting cookies
-2025-03-15 11:37:56 - DEBUG: Cookies accepted
-2025-03-15 11:37:56 - DEBUG: Selecting country/language
-2025-03-15 11:37:57 - DEBUG: Selected country/language Successfully
-2025-03-15 11:37:57 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:37:57 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:38:11 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:38:12 - DEBUG: Creating new page
-2025-03-15 11:38:12 - ERROR: Failed to create new page: BrowserContext.new_page: Invalid timezone ID: Netherlands/Amsterdam
-2025-03-15 11:38:12 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:39:19 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:39:20 - DEBUG: Creating new page
-2025-03-15 11:39:21 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:39:22 - DEBUG: Page loaded successfully
-2025-03-15 11:39:22 - DEBUG: Accepting cookies
-2025-03-15 11:39:22 - DEBUG: Cookies accepted
-2025-03-15 11:39:22 - DEBUG: Selecting country/language
-2025-03-15 11:39:22 - DEBUG: Selected country/language Successfully
-2025-03-15 11:39:22 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:39:23 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:40:46 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:40:47 - DEBUG: Creating new page
-2025-03-15 11:40:47 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:40:48 - DEBUG: Page loaded successfully
-2025-03-15 11:40:48 - DEBUG: Accepting cookies
-2025-03-15 11:40:48 - DEBUG: Cookies accepted
-2025-03-15 11:40:48 - DEBUG: Selecting country/language
-2025-03-15 11:40:48 - DEBUG: Selected country/language Successfully
-2025-03-15 11:40:48 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:40:49 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:44:01 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:44:01 - DEBUG: Creating new page
-2025-03-15 11:44:01 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:44:03 - DEBUG: Page loaded successfully
-2025-03-15 11:44:03 - DEBUG: Accepting cookies
-2025-03-15 11:44:03 - DEBUG: Cookies accepted
-2025-03-15 11:44:03 - DEBUG: Selecting country/language
-2025-03-15 11:44:03 - DEBUG: Selected country/language Successfully
-2025-03-15 11:44:03 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:44:04 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:44:15 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:44:16 - DEBUG: Creating new page
-2025-03-15 11:44:16 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:44:21 - ERROR: Failed to load page: Page.goto: Timeout 5000ms exceeded.
-Call log:
-  - navigating to "https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle", waiting until "load"
-
-2025-03-15 11:44:21 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:44:31 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:44:31 - DEBUG: Creating new page
-2025-03-15 11:44:31 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:44:32 - DEBUG: Page loaded successfully
-2025-03-15 11:44:32 - DEBUG: Accepting cookies
-2025-03-15 11:44:32 - DEBUG: Cookies accepted
-2025-03-15 11:44:32 - DEBUG: Selecting country/language
-2025-03-15 11:44:32 - DEBUG: Selected country/language Successfully
-2025-03-15 11:44:32 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:44:33 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:44:35 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:44:35 - DEBUG: Creating new page
-2025-03-15 11:44:36 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:44:36 - DEBUG: Page loaded successfully
-2025-03-15 11:44:36 - DEBUG: Accepting cookies
-2025-03-15 11:44:36 - DEBUG: Cookies accepted
-2025-03-15 11:44:36 - DEBUG: Selecting country/language
-2025-03-15 11:44:37 - DEBUG: Selected country/language Successfully
-2025-03-15 11:44:37 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:44:37 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:46:32 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:46:32 - DEBUG: Creating new page
-2025-03-15 11:46:32 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:46:33 - DEBUG: Page loaded successfully
-2025-03-15 11:46:33 - DEBUG: Accepting cookies
-2025-03-15 11:46:33 - DEBUG: Cookies accepted
-2025-03-15 11:46:33 - DEBUG: Selecting country/language
-2025-03-15 11:46:33 - DEBUG: Selected country/language Successfully
-2025-03-15 11:46:33 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:46:34 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:48:24 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:48:25 - DEBUG: Creating new page
-2025-03-15 11:48:25 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:48:27 - DEBUG: Page loaded successfully
-2025-03-15 11:48:27 - DEBUG: Accepting cookies
-2025-03-15 11:48:28 - DEBUG: Cookies accepted
-2025-03-15 11:48:28 - DEBUG: Selecting country/language
-2025-03-15 11:48:28 - DEBUG: Selected country/language Successfully
-2025-03-15 11:48:28 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:48:29 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:48:37 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:48:37 - DEBUG: Creating new page
-2025-03-15 11:48:37 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:48:38 - DEBUG: Page loaded successfully
-2025-03-15 11:48:38 - DEBUG: Accepting cookies
-2025-03-15 11:48:43 - ERROR: Failed to accept cookies: Page.wait_for_selector: Timeout 5000ms exceeded.
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary ui-btn--block@screen-small\"]") to be visible
-
-2025-03-15 11:48:43 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:48:47 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:48:47 - DEBUG: Creating new page
-2025-03-15 11:48:47 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:48:48 - DEBUG: Page loaded successfully
-2025-03-15 11:48:48 - DEBUG: Accepting cookies
-2025-03-15 11:48:49 - DEBUG: Cookies accepted
-2025-03-15 11:48:49 - DEBUG: Selecting country/language
-2025-03-15 11:48:50 - DEBUG: Selected country/language Successfully
-2025-03-15 11:48:50 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:48:51 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 11:48:55 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 11:48:55 - DEBUG: Creating new page
-2025-03-15 11:48:55 - DEBUG: Navigating to Bol.com product page
-2025-03-15 11:48:57 - DEBUG: Page loaded successfully
-2025-03-15 11:48:57 - DEBUG: Accepting cookies
-2025-03-15 11:48:57 - DEBUG: Cookies accepted
-2025-03-15 11:48:57 - DEBUG: Selecting country/language
-2025-03-15 11:48:58 - DEBUG: Selected country/language Successfully
-2025-03-15 11:48:58 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 11:48:59 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 15:16:32 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 15:16:32 - DEBUG: Creating new page
-2025-03-15 15:16:33 - DEBUG: Navigating to Bol.com product page
-2025-03-15 15:16:34 - DEBUG: Page loaded successfully
-2025-03-15 15:16:34 - DEBUG: Accepting cookies
-2025-03-15 15:16:34 - DEBUG: Cookies accepted
-2025-03-15 15:16:34 - DEBUG: Selecting country/language
-2025-03-15 15:16:35 - DEBUG: Selected country/language Successfully
-2025-03-15 15:16:35 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 15:16:35 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 15:16:45 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 15:16:46 - DEBUG: Creating new page
-2025-03-15 15:16:46 - DEBUG: Navigating to Bol.com product page
-2025-03-15 15:16:47 - DEBUG: Page loaded successfully
-2025-03-15 15:16:47 - DEBUG: Accepting cookies
-2025-03-15 15:16:47 - DEBUG: Cookies accepted
-2025-03-15 15:16:47 - DEBUG: Selecting country/language
-2025-03-15 15:16:48 - DEBUG: Selected country/language Successfully
-2025-03-15 15:16:48 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 15:16:48 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 15:16:58 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 15:16:59 - DEBUG: Creating new page
-2025-03-15 15:16:59 - DEBUG: Navigating to Bol.com product page
-2025-03-15 15:17:00 - DEBUG: Page loaded successfully
-2025-03-15 15:17:00 - DEBUG: Accepting cookies
-2025-03-15 15:17:01 - DEBUG: Cookies accepted
-2025-03-15 15:17:01 - DEBUG: Selecting country/language
-2025-03-15 15:17:01 - DEBUG: Selected country/language Successfully
-2025-03-15 15:17:01 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 15:17:01 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 15:17:07 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 15:17:07 - DEBUG: Creating new page
-2025-03-15 15:17:08 - DEBUG: Navigating to Bol.com product page
-2025-03-15 15:17:09 - DEBUG: Page loaded successfully
-2025-03-15 15:17:09 - DEBUG: Accepting cookies
-2025-03-15 15:17:15 - ERROR: Failed to accept cookies: Page.wait_for_selector: Target page, context or browser has been closed
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary ui-btn--block@screen-small\"]") to be visible
-
-2025-03-15 15:17:15 - DEBUG: Closing browser, scraping succesful
-
-2025-03-15 15:17:19 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-15 15:17:19 - DEBUG: Creating new page
-2025-03-15 15:17:20 - DEBUG: Navigating to Bol.com product page
-2025-03-15 15:17:21 - DEBUG: Page loaded successfully
-2025-03-15 15:17:21 - DEBUG: Accepting cookies
-2025-03-15 15:17:21 - DEBUG: Cookies accepted
-2025-03-15 15:17:21 - DEBUG: Selecting country/language
-2025-03-15 15:17:21 - DEBUG: Selected country/language Successfully
-2025-03-15 15:17:21 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-15 15:17:22 - DEBUG: Closing browser, scraping succesful
-
-2025-03-18 15:20:24 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:20:25 - DEBUG: Creating new page
-2025-03-18 15:20:26 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:20:27 - DEBUG: Page loaded successfully
-2025-03-18 15:20:27 - DEBUG: Accepting cookies
-2025-03-18 15:20:28 - DEBUG: Cookies accepted
-2025-03-18 15:20:28 - DEBUG: Selecting country/language
-2025-03-18 15:20:28 - DEBUG: Selected country/language Successfully
-2025-03-18 15:20:28 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-18 15:20:28 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:20:32 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:20:32 - DEBUG: Creating new page
-2025-03-18 15:20:33 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:20:34 - DEBUG: Page loaded successfully
-2025-03-18 15:20:34 - DEBUG: Accepting cookies
-2025-03-18 15:20:36 - DEBUG: Cookies accepted
-2025-03-18 15:20:36 - DEBUG: Selecting country/language
-2025-03-18 15:20:39 - DEBUG: Selected country/language Successfully
-2025-03-18 15:20:39 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-18 15:20:39 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:20:43 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:20:44 - DEBUG: Creating new page
-2025-03-18 15:20:44 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:20:45 - DEBUG: Page loaded successfully
-2025-03-18 15:20:45 - DEBUG: Accepting cookies
-2025-03-18 15:20:45 - DEBUG: Cookies accepted
-2025-03-18 15:20:45 - DEBUG: Selecting country/language
-2025-03-18 15:20:46 - DEBUG: Selected country/language Successfully
-2025-03-18 15:20:46 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-18 15:20:46 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:21:51 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:21:51 - DEBUG: Creating new page
-2025-03-18 15:22:13 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:22:18 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:22:18 - DEBUG: Creating new page
-2025-03-18 15:22:18 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:22:19 - DEBUG: Page loaded successfully
-2025-03-18 15:22:19 - DEBUG: Accepting cookies
-2025-03-18 15:22:21 - DEBUG: Cookies accepted
-2025-03-18 15:22:21 - DEBUG: Selecting country/language
-2025-03-18 15:22:31 - ERROR: Failed to select country/language: Page.wait_for_selector: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
-  -     24 � locator resolved to hidden <button data-test="continue-button" data-analytics-value="Language_modal:doorgaan" data-analytics-id="px_country_language_modal_continue" class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn">Doorgaan</button>
-
-2025-03-18 15:22:31 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:27:40 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:27:41 - DEBUG: Creating new page
-2025-03-18 15:27:41 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:27:42 - DEBUG: Page loaded successfully
-2025-03-18 15:27:42 - DEBUG: Accepting cookies
-2025-03-18 15:27:44 - DEBUG: Cookies accepted
-2025-03-18 15:27:44 - DEBUG: Selecting country/language
-2025-03-18 15:27:54 - ERROR: Failed to select country/language: Page.wait_for_selector: Timeout 10000ms exceeded.
-Call log:
-  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
-  -     24 � locator resolved to hidden <button data-test="continue-button" data-analytics-value="Language_modal:doorgaan" data-analytics-id="px_country_language_modal_continue" class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn">Doorgaan</button>
-
-2025-03-18 15:27:54 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:28:31 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:28:32 - DEBUG: Creating new page
-2025-03-18 15:28:32 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:28:33 - DEBUG: Page loaded successfully
-2025-03-18 15:28:33 - DEBUG: Accepting cookies
-2025-03-18 15:28:34 - DEBUG: Cookies accepted
-2025-03-18 15:28:34 - DEBUG: Selecting country/language
-2025-03-18 15:28:35 - DEBUG: Selected country/language Successfully
-2025-03-18 15:28:35 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-18 15:28:35 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:33:39 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:33:39 - DEBUG: Creating new page
-2025-03-18 15:33:40 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:33:42 - DEBUG: Page loaded successfully
-2025-03-18 15:33:42 - DEBUG: Accepting cookies
-2025-03-18 15:33:42 - DEBUG: Cookies accepted
-2025-03-18 15:33:42 - DEBUG: Selecting country/language
-2025-03-18 15:33:43 - DEBUG: Selected country/language Successfully
-2025-03-18 15:33:43 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-18 15:33:43 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:34:48 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:34:48 - DEBUG: Creating new page
-2025-03-18 15:34:48 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:34:50 - DEBUG: Page loaded successfully
-2025-03-18 15:34:50 - DEBUG: Accepting cookies
-2025-03-18 15:34:51 - DEBUG: Cookies accepted
-2025-03-18 15:34:51 - DEBUG: Selecting country/language
-2025-03-18 15:34:51 - DEBUG: Selected country/language Successfully
-2025-03-18 15:34:51 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-18 15:34:52 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:35:23 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:35:23 - DEBUG: Creating new page
-2025-03-18 15:35:23 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:35:32 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:35:35 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:35:35 - DEBUG: Creating new page
-2025-03-18 15:35:35 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:35:38 - DEBUG: Page loaded successfully
-2025-03-18 15:35:38 - DEBUG: Accepting cookies
-2025-03-18 15:35:39 - DEBUG: Cookies accepted
-2025-03-18 15:35:39 - DEBUG: Selecting country/language
-2025-03-18 15:35:39 - DEBUG: Closing browser, scraping successful
-
-2025-03-18 15:35:44 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:35:44 - WARNING: Browser was never initialized, skipping close
-2025-03-18 15:35:52 - DEBUG: Initializing Bol.com scraper browser instance
-2025-03-18 15:35:52 - DEBUG: Creating new page
-2025-03-18 15:35:53 - DEBUG: Navigating to Bol.com product page
-2025-03-18 15:35:54 - DEBUG: Page loaded successfully
-2025-03-18 15:35:54 - DEBUG: Accepting cookies
-2025-03-18 15:35:56 - DEBUG: Cookies accepted
-2025-03-18 15:35:56 - DEBUG: Selecting country/language
-2025-03-18 15:35:57 - DEBUG: Selected country/language Successfully
-2025-03-18 15:35:57 - DEBUG: Scraping and formatting product data and storing it in dictValues
-2025-03-18 15:35:57 - DEBUG: Closing browser, scraping successful
+2025-03-20 17:34:46 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-20 17:34:46 - DEBUG: Creating new page
+2025-03-20 17:34:47 - DEBUG: Navigating to Bol.com product page
+2025-03-20 17:34:48 - DEBUG: Page loaded successfully
+2025-03-20 17:34:48 - DEBUG: Accepting cookies
+2025-03-20 17:34:49 - DEBUG: 
+        
+            <button class="modal__window--close-btn  js_close_modal_window fright u-hide" data-test="modal-window-close">
+                <span class="srt">Sluit venster</span>
+                <svg version="1.1" viewBox="0 0 14 14" aria-hidden="true" class="svg-inline--bi bi-cross bi-lg" data-test="icon-cross" focusable="false"><path fill-rule="evenodd" d="M7 7.378l3.363 3.363a.496.496 0 00.703-.004c.19-.19.197-.51.004-.703L7.707 6.67l3.363-3.363a.496.496 0 00-.004-.703.502.502 0 00-.703-.004L7 5.964 3.637 2.6a.496.496 0 00-.703.004.502.502 0 00-.004.703L6.293 6.67 2.93 10.034a.496.496 0 00.004.703c.19.19.51.197.703.004L7 7.378z"></path></svg>
+            </button>
+        
+        <div class="css-loader"></div>
+        <div class="modal__window__content js_modal_content">
+            <wsp-consent-modal-ofc class="consent-modal-ofc" consent-version="6" should-refresh-the-page="false">
+    <div id="js-first-screen" class="first-screen">
+        <div class="consent-modal-ofc__logo u-mb">
+            <svg class="wsp-main-logo h-color-brand" role="img" focusable="false" aria-hidden="true" data-test="consent-modal-ofc-bol-logo">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+            </svg>
+        </div>
+        <h2 class="consent-modal-ofc__title" data-test="consent-modal-ofc-title">Jouw privacyvoorkeuren</h2>
+        <p id="js-first-screen-consent-content" class="consent-modal-ofc__description" data-test="consent-modal-ofc-description">
+            <span>Om bol.com goed te laten werken, gebruiken we altijd functionele en analytische cookies en vergelijkbare technieken. Je kunt kiezen voor <strong>je eigen bol.com</strong> met persoonlijke aanbevelingen en advertenties, zodat we beter op jouw interesses aansluiten. Ook in nieuwsbrieven en notificaties als je die krijgt. Verder kun je kiezen voor <strong>persoonlijke advertenties buiten bol.com.</strong></span>
+<span>In beide gevallen bepalen we je interesses. Hiervoor voegen we info uit je bestellingen samen met je favorieten, algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a> en <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-4">gegevens van anderen</a> als je ze hier toestemming voor hebt gegeven. Met cookies en vergelijkbare technieken verzamelen we ook je bol.com surfgedrag. Doen we natuurlijk niet als je tracking of cookies uit hebt gezet op je toestel of in je browser.</span>
+<span>De persoonlijke advertenties buiten bol.com kun je zien bij onze partners doordat we <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5C">versleutelde gegevens</a> delen en cookies en vergelijkbare technieken gebruiken. Zie ook ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a> en <a href="https://www.bol.com/nl/nl/tc/cookiebeleid/">cookiebeleid</a>. Vind je deze twee persoonlijke ervaringen binnen en buiten bol.com oké, kies dan voor ‘Alles accepteren’. Zelf instellen kan ook. Kies je voor weigeren, dan plaatsen we alleen functionele en analytische cookies. Achteraf aanpassen kan altijd, bij ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a>.</span>
+</p>
+    </div>
+    <div id="js-second-screen" class="second-screen" style="display: none">
+        <h2 class="consent-modal-ofc__title" data-test="consent-modal-ofc-title">Kies je privacyvoorkeuren</h2>
+        <p class="consent-modal-ofc__description js-consent-content" data-test="consent-modal-ofc-description">
+            <span>Regel hier of je bol.com persoonlijk wil maken. Want jouw bol.com hoeft echt niet dat van de buren te zijn. Deze persoonlijke ervaringen kunnen we bieden door je interesses te bepalen. Als je hiervoor toestemming geeft, kunnen we info uit je bestellingen samenvoegen met je favorieten, algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a> en <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-4">gegevens van anderen</a> als je ze hier toestemming voor hebt gegeven. Met cookies en vergelijkbare technieken verzamelen we ook je bol.com surfgedrag. Doen we niet zonder toestemming of als je tracking uit hebt gezet op je toestel of in je browser.</span>
+</p>
+        <div class="consent-modal-ofc__toggle-group">
+            <span><strong>Je eigen bol.com</strong></span>
+            <span><span>Persoonlijke aanbevelingen en advertenties op onze website en app. En als je ervoor bent aangemeld ook in notificaties en nieuwsbrieven.</span>
+<span>Als je hiervoor toestemming geeft, dan doen we dit op basis van:</span>
+</span>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-internal-transactional-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je bestellingen en je algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a>, zoals je favorieten en abonnementen</span>
+</div>
+                </div>
+            </div>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-internal-behavioural-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je klik- en zoekgedrag. Als je dit aan of uit zet, doe je dat alleen voor het apparaat waar je dan op zit. Je kan het dus bijvoorbeeld aanzetten op je smartphone en uitzetten op je laptop.</span>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="consent-modal-ofc__toggle-group">
+            <span><strong>Persoonlijke advertenties buiten bol.com</strong></span>
+            <span><span>Niet zomaar reclames, maar advertenties die passen bij jouw interesses. Die kunnen we aan je laten zien op websites van <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-bijlage-1">onze partners</a> doordat we <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5C">versleutelde gegevens</a> delen en cookies en andere vergelijkbare technieken gebruiken.</span>
+<span>Als je hiervoor toestemming geeft, dan doen we dit op basis van:</span>
+</span>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-external-transactional-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je bestellingen en je algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a>, zoals je favorieten en abonnementen</span>
+</div>
+                </div>
+            </div>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-external-behavioural-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je klik- en zoekgedrag. Als je dit aan of uit zet, doe je dat alleen voor het apparaat waar je dan op zit. Je kan het dus bijvoorbeeld aanzetten op je smartphone en uitzetten op je laptop.</span>
+</div>
+                </div>
+            </div>
+        </div>
+        <p class="consent-modal-ofc__info"><span>Je kunt je keuze altijd achteraf aanpassen (bij ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a>).</span>
+<span>Zie voor meer informatie ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a> en <a href="https://www.bol.com/nl/nl/tc/cookiebeleid/">cookiebeleid</a>.</span>
+</p>
+    </div>
+    <div class="consent-modal-ofc__footer modal__footer h-flex h-flex-wrap" data-test="modal-footer">
+        <button class="ui-btn ui-btn--primary ui-btn--block@screen-small accept-selected-button" id="js-accept-selected-button" data-test="consent-modal-ofc-decline-btn">
+            Keuze opslaan
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small second-screen-accept-all-button" id="js-second-screen-accept-all-button" data-test="consent-modal-ofc-confirm-btn">
+            Alles accepteren
+        </button>
+        <button class="ui-btn ui-btn--primary ui-btn--block@screen-small" id="js-first-screen-accept-all-button" data-test="consent-modal-ofc-confirm-btn">
+            Alles accepteren
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small" id="js-select-button" data-test="consent-modal-ofc-select-btn">
+            Zelf instellen
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small" id="js-reject-all-button" data-test="consent-modal-ofc-reject-btn">
+            Weigeren
+        </button>
+    </div>
+</wsp-consent-modal-ofc>
+
+        </div>
+    
+2025-03-20 17:34:50 - DEBUG: Cookies accepted
+2025-03-20 17:34:50 - DEBUG: Selecting country/language
+2025-03-20 17:34:51 - DEBUG: Selected country/language Successfully
+2025-03-20 17:34:51 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-20 17:34:51 - DEBUG: Closing browser, scraping successful
+
+2025-03-20 17:35:57 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-20 17:35:58 - DEBUG: Creating new page
+2025-03-20 17:37:01 - DEBUG: Closing browser, scraping successful
+
+2025-03-20 17:37:07 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-20 17:37:07 - DEBUG: Creating new page
+2025-03-20 17:37:15 - DEBUG: Closing browser, scraping successful
+
+2025-03-20 17:37:19 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-20 17:37:20 - DEBUG: Creating new page
+2025-03-20 17:37:21 - DEBUG: Navigating to Bol.com product page
+2025-03-20 17:37:22 - DEBUG: Page loaded successfully
+2025-03-20 17:37:22 - DEBUG: Accepting cookies
+2025-03-20 17:37:22 - DEBUG: 
+        
+            <button class="modal__window--close-btn  js_close_modal_window fright u-hide" data-test="modal-window-close">
+                <span class="srt">Sluit venster</span>
+                <svg version="1.1" viewBox="0 0 14 14" aria-hidden="true" class="svg-inline--bi bi-cross bi-lg" data-test="icon-cross" focusable="false"><path fill-rule="evenodd" d="M7 7.378l3.363 3.363a.496.496 0 00.703-.004c.19-.19.197-.51.004-.703L7.707 6.67l3.363-3.363a.496.496 0 00-.004-.703.502.502 0 00-.703-.004L7 5.964 3.637 2.6a.496.496 0 00-.703.004.502.502 0 00-.004.703L6.293 6.67 2.93 10.034a.496.496 0 00.004.703c.19.19.51.197.703.004L7 7.378z"></path></svg>
+            </button>
+        
+        <div class="css-loader"></div>
+        <div class="modal__window__content js_modal_content">
+            <wsp-consent-modal-ofc class="consent-modal-ofc" consent-version="6" should-refresh-the-page="false">
+    <div id="js-first-screen" class="first-screen">
+        <div class="consent-modal-ofc__logo u-mb">
+            <svg class="wsp-main-logo h-color-brand" role="img" focusable="false" aria-hidden="true" data-test="consent-modal-ofc-bol-logo">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+            </svg>
+        </div>
+        <h2 class="consent-modal-ofc__title" data-test="consent-modal-ofc-title">Jouw privacyvoorkeuren</h2>
+        <p id="js-first-screen-consent-content" class="consent-modal-ofc__description" data-test="consent-modal-ofc-description">
+            <span>Om bol.com goed te laten werken, gebruiken we altijd functionele en analytische cookies en vergelijkbare technieken. Je kunt kiezen voor <strong>je eigen bol.com</strong> met persoonlijke aanbevelingen en advertenties, zodat we beter op jouw interesses aansluiten. Ook in nieuwsbrieven en notificaties als je die krijgt. Verder kun je kiezen voor <strong>persoonlijke advertenties buiten bol.com.</strong></span>
+<span>In beide gevallen bepalen we je interesses. Hiervoor voegen we info uit je bestellingen samen met je favorieten, algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a> en <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-4">gegevens van anderen</a> als je ze hier toestemming voor hebt gegeven. Met cookies en vergelijkbare technieken verzamelen we ook je bol.com surfgedrag. Doen we natuurlijk niet als je tracking of cookies uit hebt gezet op je toestel of in je browser.</span>
+<span>De persoonlijke advertenties buiten bol.com kun je zien bij onze partners doordat we <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5C">versleutelde gegevens</a> delen en cookies en vergelijkbare technieken gebruiken. Zie ook ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a> en <a href="https://www.bol.com/nl/nl/tc/cookiebeleid/">cookiebeleid</a>. Vind je deze twee persoonlijke ervaringen binnen en buiten bol.com oké, kies dan voor ‘Alles accepteren’. Zelf instellen kan ook. Kies je voor weigeren, dan plaatsen we alleen functionele en analytische cookies. Achteraf aanpassen kan altijd, bij ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a>.</span>
+</p>
+    </div>
+    <div id="js-second-screen" class="second-screen" style="display: none">
+        <h2 class="consent-modal-ofc__title" data-test="consent-modal-ofc-title">Kies je privacyvoorkeuren</h2>
+        <p class="consent-modal-ofc__description js-consent-content" data-test="consent-modal-ofc-description">
+            <span>Regel hier of je bol.com persoonlijk wil maken. Want jouw bol.com hoeft echt niet dat van de buren te zijn. Deze persoonlijke ervaringen kunnen we bieden door je interesses te bepalen. Als je hiervoor toestemming geeft, kunnen we info uit je bestellingen samenvoegen met je favorieten, algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a> en <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-4">gegevens van anderen</a> als je ze hier toestemming voor hebt gegeven. Met cookies en vergelijkbare technieken verzamelen we ook je bol.com surfgedrag. Doen we niet zonder toestemming of als je tracking uit hebt gezet op je toestel of in je browser.</span>
+</p>
+        <div class="consent-modal-ofc__toggle-group">
+            <span><strong>Je eigen bol.com</strong></span>
+            <span><span>Persoonlijke aanbevelingen en advertenties op onze website en app. En als je ervoor bent aangemeld ook in notificaties en nieuwsbrieven.</span>
+<span>Als je hiervoor toestemming geeft, dan doen we dit op basis van:</span>
+</span>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-internal-transactional-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je bestellingen en je algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a>, zoals je favorieten en abonnementen</span>
+</div>
+                </div>
+            </div>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-internal-behavioural-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je klik- en zoekgedrag. Als je dit aan of uit zet, doe je dat alleen voor het apparaat waar je dan op zit. Je kan het dus bijvoorbeeld aanzetten op je smartphone en uitzetten op je laptop.</span>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="consent-modal-ofc__toggle-group">
+            <span><strong>Persoonlijke advertenties buiten bol.com</strong></span>
+            <span><span>Niet zomaar reclames, maar advertenties die passen bij jouw interesses. Die kunnen we aan je laten zien op websites van <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-bijlage-1">onze partners</a> doordat we <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5C">versleutelde gegevens</a> delen en cookies en andere vergelijkbare technieken gebruiken.</span>
+<span>Als je hiervoor toestemming geeft, dan doen we dit op basis van:</span>
+</span>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-external-transactional-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je bestellingen en je algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a>, zoals je favorieten en abonnementen</span>
+</div>
+                </div>
+            </div>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-external-behavioural-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je klik- en zoekgedrag. Als je dit aan of uit zet, doe je dat alleen voor het apparaat waar je dan op zit. Je kan het dus bijvoorbeeld aanzetten op je smartphone en uitzetten op je laptop.</span>
+</div>
+                </div>
+            </div>
+        </div>
+        <p class="consent-modal-ofc__info"><span>Je kunt je keuze altijd achteraf aanpassen (bij ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a>).</span>
+<span>Zie voor meer informatie ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a> en <a href="https://www.bol.com/nl/nl/tc/cookiebeleid/">cookiebeleid</a>.</span>
+</p>
+    </div>
+    <div class="consent-modal-ofc__footer modal__footer h-flex h-flex-wrap" data-test="modal-footer">
+        <button class="ui-btn ui-btn--primary ui-btn--block@screen-small accept-selected-button" id="js-accept-selected-button" data-test="consent-modal-ofc-decline-btn">
+            Keuze opslaan
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small second-screen-accept-all-button" id="js-second-screen-accept-all-button" data-test="consent-modal-ofc-confirm-btn">
+            Alles accepteren
+        </button>
+        <button class="ui-btn ui-btn--primary ui-btn--block@screen-small" id="js-first-screen-accept-all-button" data-test="consent-modal-ofc-confirm-btn">
+            Alles accepteren
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small" id="js-select-button" data-test="consent-modal-ofc-select-btn">
+            Zelf instellen
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small" id="js-reject-all-button" data-test="consent-modal-ofc-reject-btn">
+            Weigeren
+        </button>
+    </div>
+</wsp-consent-modal-ofc>
+
+        </div>
+    
+2025-03-20 17:37:23 - DEBUG: Cookies accepted
+2025-03-20 17:37:23 - DEBUG: Selecting country/language
+2025-03-20 17:37:24 - DEBUG: Selected country/language Successfully
+2025-03-20 17:37:24 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-20 17:37:24 - DEBUG: Closing browser, scraping successful
+
+2025-03-20 17:37:29 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-20 17:37:29 - DEBUG: Creating new page
+2025-03-20 17:37:30 - DEBUG: Navigating to Bol.com product page
+2025-03-20 17:37:31 - DEBUG: Page loaded successfully
+2025-03-20 17:37:31 - DEBUG: Accepting cookies
+2025-03-20 17:37:31 - DEBUG: 
+        
+            <button class="modal__window--close-btn  js_close_modal_window fright u-hide" data-test="modal-window-close">
+                <span class="srt">Sluit venster</span>
+                <svg version="1.1" viewBox="0 0 14 14" aria-hidden="true" class="svg-inline--bi bi-cross bi-lg" data-test="icon-cross" focusable="false"><path fill-rule="evenodd" d="M7 7.378l3.363 3.363a.496.496 0 00.703-.004c.19-.19.197-.51.004-.703L7.707 6.67l3.363-3.363a.496.496 0 00-.004-.703.502.502 0 00-.703-.004L7 5.964 3.637 2.6a.496.496 0 00-.703.004.502.502 0 00-.004.703L6.293 6.67 2.93 10.034a.496.496 0 00.004.703c.19.19.51.197.703.004L7 7.378z"></path></svg>
+            </button>
+        
+        <div class="css-loader"></div>
+        <div class="modal__window__content js_modal_content">
+            <wsp-consent-modal-ofc class="consent-modal-ofc" consent-version="6" should-refresh-the-page="false">
+    <div id="js-first-screen" class="first-screen">
+        <div class="consent-modal-ofc__logo u-mb">
+            <svg class="wsp-main-logo h-color-brand" role="img" focusable="false" aria-hidden="true" data-test="consent-modal-ofc-bol-logo">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+            </svg>
+        </div>
+        <h2 class="consent-modal-ofc__title" data-test="consent-modal-ofc-title">Jouw privacyvoorkeuren</h2>
+        <p id="js-first-screen-consent-content" class="consent-modal-ofc__description" data-test="consent-modal-ofc-description">
+            <span>Om bol.com goed te laten werken, gebruiken we altijd functionele en analytische cookies en vergelijkbare technieken. Je kunt kiezen voor <strong>je eigen bol.com</strong> met persoonlijke aanbevelingen en advertenties, zodat we beter op jouw interesses aansluiten. Ook in nieuwsbrieven en notificaties als je die krijgt. Verder kun je kiezen voor <strong>persoonlijke advertenties buiten bol.com.</strong></span>
+<span>In beide gevallen bepalen we je interesses. Hiervoor voegen we info uit je bestellingen samen met je favorieten, algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a> en <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-4">gegevens van anderen</a> als je ze hier toestemming voor hebt gegeven. Met cookies en vergelijkbare technieken verzamelen we ook je bol.com surfgedrag. Doen we natuurlijk niet als je tracking of cookies uit hebt gezet op je toestel of in je browser.</span>
+<span>De persoonlijke advertenties buiten bol.com kun je zien bij onze partners doordat we <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5C">versleutelde gegevens</a> delen en cookies en vergelijkbare technieken gebruiken. Zie ook ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a> en <a href="https://www.bol.com/nl/nl/tc/cookiebeleid/">cookiebeleid</a>. Vind je deze twee persoonlijke ervaringen binnen en buiten bol.com oké, kies dan voor ‘Alles accepteren’. Zelf instellen kan ook. Kies je voor weigeren, dan plaatsen we alleen functionele en analytische cookies. Achteraf aanpassen kan altijd, bij ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a>.</span>
+</p>
+    </div>
+    <div id="js-second-screen" class="second-screen" style="display: none">
+        <h2 class="consent-modal-ofc__title" data-test="consent-modal-ofc-title">Kies je privacyvoorkeuren</h2>
+        <p class="consent-modal-ofc__description js-consent-content" data-test="consent-modal-ofc-description">
+            <span>Regel hier of je bol.com persoonlijk wil maken. Want jouw bol.com hoeft echt niet dat van de buren te zijn. Deze persoonlijke ervaringen kunnen we bieden door je interesses te bepalen. Als je hiervoor toestemming geeft, kunnen we info uit je bestellingen samenvoegen met je favorieten, algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a> en <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-4">gegevens van anderen</a> als je ze hier toestemming voor hebt gegeven. Met cookies en vergelijkbare technieken verzamelen we ook je bol.com surfgedrag. Doen we niet zonder toestemming of als je tracking uit hebt gezet op je toestel of in je browser.</span>
+</p>
+        <div class="consent-modal-ofc__toggle-group">
+            <span><strong>Je eigen bol.com</strong></span>
+            <span><span>Persoonlijke aanbevelingen en advertenties op onze website en app. En als je ervoor bent aangemeld ook in notificaties en nieuwsbrieven.</span>
+<span>Als je hiervoor toestemming geeft, dan doen we dit op basis van:</span>
+</span>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-internal-transactional-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je bestellingen en je algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a>, zoals je favorieten en abonnementen</span>
+</div>
+                </div>
+            </div>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-internal-behavioural-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je klik- en zoekgedrag. Als je dit aan of uit zet, doe je dat alleen voor het apparaat waar je dan op zit. Je kan het dus bijvoorbeeld aanzetten op je smartphone en uitzetten op je laptop.</span>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="consent-modal-ofc__toggle-group">
+            <span><strong>Persoonlijke advertenties buiten bol.com</strong></span>
+            <span><span>Niet zomaar reclames, maar advertenties die passen bij jouw interesses. Die kunnen we aan je laten zien op websites van <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-bijlage-1">onze partners</a> doordat we <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5C">versleutelde gegevens</a> delen en cookies en andere vergelijkbare technieken gebruiken.</span>
+<span>Als je hiervoor toestemming geeft, dan doen we dit op basis van:</span>
+</span>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-external-transactional-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je bestellingen en je algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a>, zoals je favorieten en abonnementen</span>
+</div>
+                </div>
+            </div>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-external-behavioural-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je klik- en zoekgedrag. Als je dit aan of uit zet, doe je dat alleen voor het apparaat waar je dan op zit. Je kan het dus bijvoorbeeld aanzetten op je smartphone en uitzetten op je laptop.</span>
+</div>
+                </div>
+            </div>
+        </div>
+        <p class="consent-modal-ofc__info"><span>Je kunt je keuze altijd achteraf aanpassen (bij ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a>).</span>
+<span>Zie voor meer informatie ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a> en <a href="https://www.bol.com/nl/nl/tc/cookiebeleid/">cookiebeleid</a>.</span>
+</p>
+    </div>
+    <div class="consent-modal-ofc__footer modal__footer h-flex h-flex-wrap" data-test="modal-footer">
+        <button class="ui-btn ui-btn--primary ui-btn--block@screen-small accept-selected-button" id="js-accept-selected-button" data-test="consent-modal-ofc-decline-btn">
+            Keuze opslaan
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small second-screen-accept-all-button" id="js-second-screen-accept-all-button" data-test="consent-modal-ofc-confirm-btn">
+            Alles accepteren
+        </button>
+        <button class="ui-btn ui-btn--primary ui-btn--block@screen-small" id="js-first-screen-accept-all-button" data-test="consent-modal-ofc-confirm-btn">
+            Alles accepteren
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small" id="js-select-button" data-test="consent-modal-ofc-select-btn">
+            Zelf instellen
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small" id="js-reject-all-button" data-test="consent-modal-ofc-reject-btn">
+            Weigeren
+        </button>
+    </div>
+</wsp-consent-modal-ofc>
+
+        </div>
+    
+2025-03-20 17:37:32 - DEBUG: Cookies accepted
+2025-03-20 17:37:32 - DEBUG: Selecting country/language
+2025-03-20 17:37:32 - DEBUG: Selected country/language Successfully
+2025-03-20 17:37:32 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-20 17:37:33 - DEBUG: Closing browser, scraping successful
+
+2025-03-20 17:37:37 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-20 17:37:38 - DEBUG: Creating new page
+2025-03-20 17:37:38 - DEBUG: Navigating to Bol.com product page
+2025-03-20 17:37:39 - DEBUG: Page loaded successfully
+2025-03-20 17:37:39 - DEBUG: Accepting cookies
+2025-03-20 17:37:40 - DEBUG: 
+        
+            <button class="modal__window--close-btn  js_close_modal_window fright u-hide" data-test="modal-window-close">
+                <span class="srt">Sluit venster</span>
+                <svg version="1.1" viewBox="0 0 14 14" aria-hidden="true" class="svg-inline--bi bi-cross bi-lg" data-test="icon-cross" focusable="false"><path fill-rule="evenodd" d="M7 7.378l3.363 3.363a.496.496 0 00.703-.004c.19-.19.197-.51.004-.703L7.707 6.67l3.363-3.363a.496.496 0 00-.004-.703.502.502 0 00-.703-.004L7 5.964 3.637 2.6a.496.496 0 00-.703.004.502.502 0 00-.004.703L6.293 6.67 2.93 10.034a.496.496 0 00.004.703c.19.19.51.197.703.004L7 7.378z"></path></svg>
+            </button>
+        
+        <div class="css-loader"></div>
+        <div class="modal__window__content js_modal_content">
+            <wsp-consent-modal-ofc class="consent-modal-ofc" consent-version="6" should-refresh-the-page="false">
+    <div id="js-first-screen" class="first-screen">
+        <div class="consent-modal-ofc__logo u-mb">
+            <svg class="wsp-main-logo h-color-brand" role="img" focusable="false" aria-hidden="true" data-test="consent-modal-ofc-bol-logo">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+            </svg>
+        </div>
+        <h2 class="consent-modal-ofc__title" data-test="consent-modal-ofc-title">Jouw privacyvoorkeuren</h2>
+        <p id="js-first-screen-consent-content" class="consent-modal-ofc__description" data-test="consent-modal-ofc-description">
+            <span>Om bol.com goed te laten werken, gebruiken we altijd functionele en analytische cookies en vergelijkbare technieken. Je kunt kiezen voor <strong>je eigen bol.com</strong> met persoonlijke aanbevelingen en advertenties, zodat we beter op jouw interesses aansluiten. Ook in nieuwsbrieven en notificaties als je die krijgt. Verder kun je kiezen voor <strong>persoonlijke advertenties buiten bol.com.</strong></span>
+<span>In beide gevallen bepalen we je interesses. Hiervoor voegen we info uit je bestellingen samen met je favorieten, algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a> en <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-4">gegevens van anderen</a> als je ze hier toestemming voor hebt gegeven. Met cookies en vergelijkbare technieken verzamelen we ook je bol.com surfgedrag. Doen we natuurlijk niet als je tracking of cookies uit hebt gezet op je toestel of in je browser.</span>
+<span>De persoonlijke advertenties buiten bol.com kun je zien bij onze partners doordat we <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5C">versleutelde gegevens</a> delen en cookies en vergelijkbare technieken gebruiken. Zie ook ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a> en <a href="https://www.bol.com/nl/nl/tc/cookiebeleid/">cookiebeleid</a>. Vind je deze twee persoonlijke ervaringen binnen en buiten bol.com oké, kies dan voor ‘Alles accepteren’. Zelf instellen kan ook. Kies je voor weigeren, dan plaatsen we alleen functionele en analytische cookies. Achteraf aanpassen kan altijd, bij ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a>.</span>
+</p>
+    </div>
+    <div id="js-second-screen" class="second-screen" style="display: none">
+        <h2 class="consent-modal-ofc__title" data-test="consent-modal-ofc-title">Kies je privacyvoorkeuren</h2>
+        <p class="consent-modal-ofc__description js-consent-content" data-test="consent-modal-ofc-description">
+            <span>Regel hier of je bol.com persoonlijk wil maken. Want jouw bol.com hoeft echt niet dat van de buren te zijn. Deze persoonlijke ervaringen kunnen we bieden door je interesses te bepalen. Als je hiervoor toestemming geeft, kunnen we info uit je bestellingen samenvoegen met je favorieten, algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a> en <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-4">gegevens van anderen</a> als je ze hier toestemming voor hebt gegeven. Met cookies en vergelijkbare technieken verzamelen we ook je bol.com surfgedrag. Doen we niet zonder toestemming of als je tracking uit hebt gezet op je toestel of in je browser.</span>
+</p>
+        <div class="consent-modal-ofc__toggle-group">
+            <span><strong>Je eigen bol.com</strong></span>
+            <span><span>Persoonlijke aanbevelingen en advertenties op onze website en app. En als je ervoor bent aangemeld ook in notificaties en nieuwsbrieven.</span>
+<span>Als je hiervoor toestemming geeft, dan doen we dit op basis van:</span>
+</span>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-internal-transactional-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je bestellingen en je algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a>, zoals je favorieten en abonnementen</span>
+</div>
+                </div>
+            </div>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-internal-behavioural-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je klik- en zoekgedrag. Als je dit aan of uit zet, doe je dat alleen voor het apparaat waar je dan op zit. Je kan het dus bijvoorbeeld aanzetten op je smartphone en uitzetten op je laptop.</span>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="consent-modal-ofc__toggle-group">
+            <span><strong>Persoonlijke advertenties buiten bol.com</strong></span>
+            <span><span>Niet zomaar reclames, maar advertenties die passen bij jouw interesses. Die kunnen we aan je laten zien op websites van <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-bijlage-1">onze partners</a> doordat we <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5C">versleutelde gegevens</a> delen en cookies en andere vergelijkbare technieken gebruiken.</span>
+<span>Als je hiervoor toestemming geeft, dan doen we dit op basis van:</span>
+</span>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-external-transactional-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je bestellingen en je algemene <a href="https://www.bol.com/nl/nl/tc/privacybeleid/#privacy-artikel-5D">klantinfo</a>, zoals je favorieten en abonnementen</span>
+</div>
+                </div>
+            </div>
+            <div class="consent-modal-ofc__consent-toggle-container">
+                <div>
+                    <label class="c-switch c-switch--label-right">
+                        <input class="c-switch__input" id="js-external-behavioural-consent" type="checkbox">
+                        <span class="c-switch__slider" data-test="toggleSwitchSlider"></span>
+                    </label>
+                </div>
+                <div class="consent-modal-ofc__consent-toggle-container__description-container">
+                    <div><span>Je klik- en zoekgedrag. Als je dit aan of uit zet, doe je dat alleen voor het apparaat waar je dan op zit. Je kan het dus bijvoorbeeld aanzetten op je smartphone en uitzetten op je laptop.</span>
+</div>
+                </div>
+            </div>
+        </div>
+        <p class="consent-modal-ofc__info"><span>Je kunt je keuze altijd achteraf aanpassen (bij ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a>).</span>
+<span>Zie voor meer informatie ons <a href="https://www.bol.com/nl/nl/tc/privacybeleid/">privacybeleid</a> en <a href="https://www.bol.com/nl/nl/tc/cookiebeleid/">cookiebeleid</a>.</span>
+</p>
+    </div>
+    <div class="consent-modal-ofc__footer modal__footer h-flex h-flex-wrap" data-test="modal-footer">
+        <button class="ui-btn ui-btn--primary ui-btn--block@screen-small accept-selected-button" id="js-accept-selected-button" data-test="consent-modal-ofc-decline-btn">
+            Keuze opslaan
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small second-screen-accept-all-button" id="js-second-screen-accept-all-button" data-test="consent-modal-ofc-confirm-btn">
+            Alles accepteren
+        </button>
+        <button class="ui-btn ui-btn--primary ui-btn--block@screen-small" id="js-first-screen-accept-all-button" data-test="consent-modal-ofc-confirm-btn">
+            Alles accepteren
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small" id="js-select-button" data-test="consent-modal-ofc-select-btn">
+            Zelf instellen
+        </button>
+        <button class="ui-btn ui-btn--secondary ui-btn--block@screen-small" id="js-reject-all-button" data-test="consent-modal-ofc-reject-btn">
+            Weigeren
+        </button>
+    </div>
+</wsp-consent-modal-ofc>
+
+        </div>
+    
+2025-03-20 17:37:40 - DEBUG: Cookies accepted
+2025-03-20 17:37:40 - DEBUG: Selecting country/language
+2025-03-20 17:37:41 - DEBUG: Selected country/language Successfully
+2025-03-20 17:37:41 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-20 17:37:41 - DEBUG: Closing browser, scraping successful
 

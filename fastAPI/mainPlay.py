@@ -19,7 +19,7 @@ def log_to_file(message, level="INFO"):
     log_entry = f"{timestamp} - {level}: {message}\n"
 
     # Write the log entry to the log file
-    with open("scraper_logs.txt", "a") as file:
+    with open("scraper_logs.txt", "a", encoding="utf-8") as file:
         file.write(log_entry)
 
 
@@ -66,7 +66,6 @@ def bol_scraper(URL):
             context = browser.new_context(
                 user_agent=random.choice(user_agent_strings),
                 locale="NL",
-                viewport={"width": 1280, "height": 800},
                 timezone_id="Europe/Amsterdam",
                 accept_downloads=True,
                 bypass_csp=True
@@ -106,7 +105,7 @@ def bol_scraper(URL):
 
             try:
                 page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
-                page.screenshot(path="screenshot.png")
+                log_to_file(page.inner_html('[class="modal__window js_modal_window"]'), "DEBUG")
                 time.sleep(0.5)
                 page.click('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
             except Exception as e:
