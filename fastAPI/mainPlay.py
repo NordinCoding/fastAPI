@@ -104,8 +104,8 @@ def bol_scraper(URL):
             log_to_file("Accepting cookies", "DEBUG")
 
             try:
-                page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
                 log_to_file(page.inner_html('[class="modal__window js_modal_window"]'), "DEBUG")
+                page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
                 time.sleep(0.5)
                 page.click('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
             except Exception as e:
