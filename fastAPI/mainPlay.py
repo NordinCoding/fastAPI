@@ -3,7 +3,11 @@ from bs4 import BeautifulSoup
 import time
 import datetime
 import random
+from dotenv import load_dotenv
+import os
 
+# Load environment variables from .env file
+load_dotenv()
 
 def log_to_file(message, level="INFO"):
     """
@@ -41,24 +45,7 @@ def bol_scraper(URL):
     "Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko",
     ]
 
-    proxies = [
-        {"server": "http://166.0.35.15:6524"},#GOOD
-        {"server": "http://23.27.65.71:5574"},#GOOD
-        {"server": "http://166.0.37.79:5588"},#GOOD
-        {"server": "http://45.39.212.203:8746"},#GOOD
-        {"server": "http://82.23.97.234:7960"},#GOOD
-        {"server": "http://45.39.150.33:8267"},#GOOD
-        {"server": "http://166.0.41.244:6752"},#GOOD
-        {"server": "http://166.0.36.52:6061"},#GOOD
-        {"server": "http://166.0.47.113:6620"},#GOOD
-        {"server": "http://150.241.117.165:5669"},#GOOD
-        {"server": "http://104.253.248.15:5794"},#GOOD
-        {"server": "http://166.0.40.8:7016"},#GOOD
-        {"server": "http://166.0.36.235:6244"},#GOOD
-        {"server": "http://166.0.34.109:7118"},#GOOD
-        {"server": "http://45.39.157.230:9262"},#GOOD
-        {"server": "http://46.203.184.203:7470"}]#GOOD
-    
+    proxies = [{"server": os.getenv(f"PROXY_{i}")} for i in range(15)]
     
     with sync_playwright() as p:
         try:
@@ -67,9 +54,9 @@ def bol_scraper(URL):
 
             browser = p.firefox.launch(
                 #Rotatig proxies to avoid getting blocked
-                proxy={"server": proxies[15]["server"],
-                       "username": "syhmtvia",
-                       "password": "jja001k6t9wu"},
+                proxy={"server": proxies[random.randint(0,15)]["server"],
+                       "username": os.getenv("PROXY_USERNAME"),
+                       "password": os.getenv("PROXY_PASSWORD")},
                 headless=False,
                 slow_mo=100,
                 timeout=10000,
@@ -128,7 +115,6 @@ def bol_scraper(URL):
             log_to_file("Accepting cookies", "DEBUG")
 
             try:
-                log_to_file(page.inner_html('[class="modal__window js_modal_window"]'), "DEBUG")
                 page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
                 time.sleep(random.uniform(0.5, 1.0))
                 page.click('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')

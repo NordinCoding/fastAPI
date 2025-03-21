@@ -3335,3 +3335,117 @@ Call log:
 2025-03-21 11:31:55 - DEBUG: Scraping and formatting product data and storing it in dictValues
 2025-03-21 11:31:56 - DEBUG: Closing browser, scraping successful
 
+2025-03-21 11:46:43 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:46:43 - DEBUG: Creating new page
+2025-03-21 11:46:44 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:46:46 - DEBUG: Page loaded successfully
+2025-03-21 11:46:46 - DEBUG: Accepting cookies
+2025-03-21 11:46:47 - DEBUG: Cookies accepted
+2025-03-21 11:46:47 - DEBUG: Selecting country/language
+2025-03-21 11:46:47 - DEBUG: Selected country/language Successfully
+2025-03-21 11:46:47 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-21 11:46:48 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:48:23 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:48:24 - DEBUG: Creating new page
+2025-03-21 11:48:24 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:48:34 - ERROR: Failed to load page: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle", waiting until "load"
+
+2025-03-21 11:48:34 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:48:37 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:48:38 - DEBUG: Creating new page
+2025-03-21 11:48:39 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:48:47 - DEBUG: Page loaded successfully
+2025-03-21 11:48:47 - DEBUG: Accepting cookies
+2025-03-21 11:48:50 - DEBUG: Cookies accepted
+2025-03-21 11:48:50 - DEBUG: Selecting country/language
+2025-03-21 11:48:50 - DEBUG: Selected country/language Successfully
+2025-03-21 11:48:50 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-21 11:48:51 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:48:55 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:48:55 - DEBUG: Creating new page
+2025-03-21 11:48:56 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:48:57 - DEBUG: Page loaded successfully
+2025-03-21 11:48:57 - DEBUG: Accepting cookies
+2025-03-21 11:49:01 - ERROR: Failed to accept cookies: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("[class=\"ui-btn ui-btn--primary ui-btn--block@screen-small\"]") to be visible
+
+2025-03-21 11:49:01 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:49:13 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:49:13 - DEBUG: Creating new page
+2025-03-21 11:49:14 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:49:15 - DEBUG: Page loaded successfully
+2025-03-21 11:49:15 - DEBUG: Accepting cookies
+2025-03-21 11:49:16 - ERROR: Failed to accept cookies: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("[class=\"ui-btn ui-btn--primary ui-btn--block@screen-small\"]") to be visible
+
+2025-03-21 11:49:16 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:49:18 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:49:19 - DEBUG: Creating new page
+2025-03-21 11:49:19 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:49:20 - DEBUG: Page loaded successfully
+2025-03-21 11:49:20 - DEBUG: Accepting cookies
+2025-03-21 11:49:23 - DEBUG: Cookies accepted
+2025-03-21 11:49:23 - DEBUG: Selecting country/language
+2025-03-21 11:49:24 - DEBUG: Selected country/language Successfully
+2025-03-21 11:49:24 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-21 11:49:24 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:49:27 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:49:27 - DEBUG: Creating new page
+2025-03-21 11:49:28 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:49:38 - ERROR: Failed to load page: Page.goto: Timeout 10000ms exceeded.
+Call log:
+  - navigating to "https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle", waiting until "load"
+
+2025-03-21 11:49:38 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:49:43 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:49:44 - DEBUG: Creating new page
+2025-03-21 11:49:44 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:49:46 - DEBUG: Page loaded successfully
+2025-03-21 11:49:46 - DEBUG: Accepting cookies
+2025-03-21 11:49:48 - DEBUG: Cookies accepted
+2025-03-21 11:49:48 - DEBUG: Selecting country/language
+2025-03-21 11:49:49 - DEBUG: Selected country/language Successfully
+2025-03-21 11:49:49 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-21 11:49:50 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:49:53 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:49:54 - DEBUG: Creating new page
+2025-03-21 11:49:55 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:49:56 - DEBUG: Page loaded successfully
+2025-03-21 11:49:56 - DEBUG: Accepting cookies
+2025-03-21 11:49:57 - DEBUG: Cookies accepted
+2025-03-21 11:49:57 - DEBUG: Selecting country/language
+2025-03-21 11:49:58 - DEBUG: Selected country/language Successfully
+2025-03-21 11:49:58 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-21 11:49:58 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:50:01 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:50:02 - DEBUG: Creating new page
+2025-03-21 11:50:03 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:50:04 - DEBUG: Page loaded successfully
+2025-03-21 11:50:04 - DEBUG: Accepting cookies
+2025-03-21 11:50:08 - DEBUG: Cookies accepted
+2025-03-21 11:50:08 - DEBUG: Selecting country/language
+2025-03-21 11:50:09 - DEBUG: Selected country/language Successfully
+2025-03-21 11:50:09 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-21 11:50:09 - DEBUG: Closing browser, scraping successful
+
+2025-03-21 11:50:16 - DEBUG: Initializing Bol.com scraper browser instance
+2025-03-21 11:50:17 - DEBUG: Creating new page
+2025-03-21 11:50:17 - DEBUG: Navigating to Bol.com product page
+2025-03-21 11:50:19 - DEBUG: Page loaded successfully
+2025-03-21 11:50:19 - DEBUG: Accepting cookies
+2025-03-21 11:50:19 - ERROR: Failed to accept cookies: Page.wait_for_selector: Target page, context or browser has been closed
+2025-03-21 11:50:19 - DEBUG: Closing browser, scraping successful
+
