@@ -44,19 +44,22 @@ def bol_scraper(URL):
     "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36",
     "Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko",
     ]
-
-    proxies = [{"server": os.getenv(f"PROXY_{i}")} for i in range(15)]
+    
+    proxies = [{"server": os.getenv(f"PROXY_{i}")} for i in range(1, 21)]
+    print(proxies[3]["server"])
+    random_proxy = random.randint(0,19)
     
     with sync_playwright() as p:
         try:
             # Create a headless browser instance and give it extra context to imitate a real user
             log_to_file("Initializing Bol.com scraper browser instance", "DEBUG")
 
-            browser = p.firefox.launch(
+            browser = p.chromium.launch(
                 #Rotatig proxies to avoid getting blocked
-                proxy={"server": proxies[random.randint(0,15)]["server"],
-                       "username": os.getenv("PROXY_USERNAME"),
-                       "password": os.getenv("PROXY_PASSWORD")},
+                
+                proxy={"server": (proxies[17]["server"]),
+                "username": os.getenv("PROXY_USERNAME"),
+                "password": os.getenv("PROXY_PASSWORD")},
                 headless=False,
                 slow_mo=100,
                 timeout=10000,
@@ -83,7 +86,7 @@ def bol_scraper(URL):
             )
             
             context.add_cookies([
-                {'name': 'cookie_consent', 'value': 'true', 'domain': 'example.com', 'path': '/'}
+                {'name': 'cookie_consent', 'value': 'true', 'domain': 'bol.com', 'path': '/'}
             ])
 
             context.set_default_timeout(10000)
@@ -101,13 +104,13 @@ def bol_scraper(URL):
                 log_to_file(f"Failed to create new page: {str(e)}", "ERROR")
                 return {"error": "Failed to create new page", "details": str(e)}
 
-            log_to_file("Navigating to Bol.com product page", "DEBUG")
+            log_to_file(f"Navigating to Bol.com product page using {proxies[random_proxy]}", "DEBUG")
             try:
                 page.goto(URL)
-                time.sleep(random.uniform(0.5, 1.0))
+                time.sleep(random.uniform(0.5, 2.5))
             except Exception as e:
-                log_to_file(f"Failed to load page: {str(e)}", "ERROR")
-                return {"error": "Page not found", "details": str(e)}
+                log_to_file(f"Failed to load page/proxy connection error: {str(e)}", "ERROR")
+                return {"error": "Page not found/proxy connection error", "details": str(e)}
             log_to_file("Page loaded successfully", "DEBUG")
 
 
@@ -116,7 +119,7 @@ def bol_scraper(URL):
 
             try:
                 page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
-                time.sleep(random.uniform(0.5, 1.0))
+                time.sleep(random.uniform(0.5, 2.5))
                 page.click('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
             except Exception as e:
                 log_to_file(f"Failed to accept cookies: {str(e)}", "ERROR")
@@ -129,7 +132,7 @@ def bol_scraper(URL):
 
             try:
                 page.wait_for_selector('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
-                time.sleep(random.uniform(0.5, 1.0))
+                time.sleep(random.uniform(0.5, 2.5))
                 page.click('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
             except Exception as e:
                 log_to_file(f"Failed to select country/language: {str(e)}", "ERROR")
