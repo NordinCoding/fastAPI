@@ -6,7 +6,6 @@ import random
 from dotenv import load_dotenv
 import os
 import asyncio
-import pandas as pd
 import shutil
 
 
