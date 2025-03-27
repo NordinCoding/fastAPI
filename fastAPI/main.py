@@ -8,8 +8,6 @@ import shutil
 
 app = FastAPI()
 
-#test
-
 @app.get("/")
 async def read_root():
     return {'Correct usage: "http://136.144.172.186/scrape?url=[URL]"'}
