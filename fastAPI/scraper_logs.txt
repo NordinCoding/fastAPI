@@ -6379,3 +6379,46 @@ Call log:
 2025-03-28 10:16:13 - DEBUG: Scraping succesful
 2025-03-28 10:16:13 - DEBUG: Closing browser, check the logs for more information
 
+2025-03-28 13:29:57 - DEBUG: Creating new page and navigating to URL
+2025-03-28 13:29:57 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 13:30:01 - DEBUG: Navigated to URL successfully
+2025-03-28 13:30:01 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 13:30:02 - DEBUG: Scraping succesful
+2025-03-28 13:30:02 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 13:31:14 - ERROR: Error while closing browser: cannot access local variable 'browser' where it is not associated with a value
+2025-03-28 13:31:14 - DEBUG: Deleted session folder
+2025-03-28 13:41:34 - ERROR: Error while closing browser: cannot access local variable 'browser' where it is not associated with a value
+2025-03-28 13:41:34 - DEBUG: Deleted session folder
+2025-03-28 13:41:52 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:41:53 - ERROR: Error while closing browser: cannot access local variable 'browser' where it is not associated with a value
+2025-03-28 13:44:24 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:44:24 - ERROR: Error while closing browser: cannot access local variable 'browser' where it is not associated with a value
+2025-03-28 13:46:37 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:46:37 - ERROR: Failed to scrape item: 
+2025-03-28 13:47:13 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:47:13 - ERROR: Failed to scrape item: 
+2025-03-28 13:47:15 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:47:15 - ERROR: Failed to scrape item: 
+2025-03-28 13:48:30 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:48:31 - ERROR: Failed to scrape item: 
+2025-03-28 13:48:54 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:48:54 - ERROR: Failed to scrape item: 
+2025-03-28 13:49:02 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:49:02 - ERROR: Failed to scrape item: 
+2025-03-28 13:49:58 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:49:58 - ERROR: Failed to scrape item: 
+2025-03-28 13:54:29 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:54:29 - ERROR: Error while closing browser: cannot access local variable 'browser' where it is not associated with a value
+2025-03-28 13:54:29 - DEBUG: Deleted session folder
+2025-03-28 13:59:07 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 13:59:07 - DEBUG: Creating new page and navigating to URL
+2025-03-28 13:59:07 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 13:59:11 - DEBUG: Navigated to URL successfully
+2025-03-28 13:59:11 - DEBUG: Accepting cookies
+2025-03-28 13:59:12 - DEBUG: succesfully ccepted cookies
+2025-03-28 13:59:12 - DEBUG: Selecting country/language
+2025-03-28 13:59:13 - DEBUG: Selected Country/language succesfully
+2025-03-28 13:59:13 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 13:59:14 - DEBUG: Closing browser, check the logs for more information
+

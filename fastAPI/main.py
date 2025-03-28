@@ -16,19 +16,27 @@ async def read_root():
 
 @app.get("/scrape")
 async def scrape_item(url: str = Query(..., description="URL of the product to scrape")):
+    
+    log_to_file(f"Scraping item from URL: {url}", "INFO")
+    
+    #VPS path
     playwright_dir = "/home/nordinschoenmakers/fastAPI/fastAPI/playwright"
+    
+    #Local path
+    #playwright_dir = "C:\\playwright"
+    
     try:
         result, delete = await bol_scraper(url)
         
         if delete:
-            # Removes the session folder if delete is True, check mainPlay.py for full function
             if os.path.exists(playwright_dir):
+                # Removes the session folder if delete is True, check mainPlay.py for full function
                 try:
                     shutil.rmtree(playwright_dir)
                     log_to_file("Deleted session folder", "DEBUG")
                 except Exception as e:
                     log_to_file(f"Failed to delete session folder: {str(e)}", "ERROR")
-                
+                    
         return result
     
     except Exception as e:
