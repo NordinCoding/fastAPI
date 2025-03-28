@@ -1,3 +1,4 @@
 env/
 .env
 user1/
+scraper_logs.txt

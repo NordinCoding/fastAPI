@@ -42,11 +42,14 @@ async def bol_scraper(URL, delete=False):
         dict: Product details including name, current price and original price
     """
     
+    os.makedirs("/home/nordinschoenmakers/fastAPI/fastAPI/playwright", exist_ok=True)
+    
     async with async_playwright() as playwright:
         try:
             args = ["--disable-blink-features=AutomationControlled"
                     "--disable-gpu",
-                    "--no-sandbox",]
+                    "--no-sandbox",
+                    "--disable-dev-shm-usage"]
             
             # Create a headless browser instance and give it extra context to imitate a real user
             browser = await playwright.chromium.launch_persistent_context(
@@ -56,7 +59,7 @@ async def bol_scraper(URL, delete=False):
                 "username": os.getenv("PROXY_USERNAME"),
                 "password": os.getenv("PROXY_PASSWORD")},
                 slow_mo=100,
-                user_data_dir="C:\\playwright",	
+                user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
                 headless=True, 
                 args=args,
                 channel="chrome",
@@ -174,17 +177,3 @@ async def bol_scraper(URL, delete=False):
             except Exception as e:
                 log_to_file(f"Error while closing browser: {str(e)}", "ERROR")
                 return {"error": "Failed to close browser", "details": str(e)}, True
-    
-            
-            
-async def main():
-    #return await bol_scraper("https://www.youtube.com/watch?v=Vlb_cujWRI0")
-    return await bol_scraper("https://www.bol.com/nl/nl/p/power-8-freshstep-ozon-schoenendroger-schoenverfrisser-met-timer-uv-verlichtin-huidskooldeeltjes-geurvreters-voor-schoenen/9300000222709447/?bltgh=fa4181f4-d88b-4b77-abfe-8f00f0904d19.topDealsForYou.product-tile-9300000222709447.ProductImage&promo=main_860_deals_for_you___product_0_9300000222709447")
-    
-
-if __name__ == "__main__":
-    result, delete = asyncio.run(main())
-    if delete == True:
-        print("Deleting session folder")
-        shutil.rmtree("C:\\playwright")
-    print(result)

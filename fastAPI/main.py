@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from testing import bol_scraper, log_to_file
 from urllib.parse import unquote, quote
 import shutil
+import os
 
 app = FastAPI()
 
@@ -15,12 +16,21 @@ async def read_root():
 
 @app.get("/scrape")
 async def scrape_item(url: str = Query(..., description="URL of the product to scrape")):
+    playwright_dir = "/home/nordinschoenmakers/fastAPI/fastAPI/playwright"
     try:
         result, delete = await bol_scraper(url)
+        
         if delete:
             # Removes the session folder if delete is True, check mainPlay.py for full function
-            shutil.rmtree("C:\\playwright")
+            if os.path.exists(playwright_dir):
+                try:
+                    shutil.rmtree(playwright_dir)
+                    log_to_file("Deleted session folder", "DEBUG")
+                except Exception as e:
+                    log_to_file(f"Failed to delete session folder: {str(e)}", "ERROR")
+                
         return result
+    
     except Exception as e:
         log_to_file(f"Failed to scrape item: {str(e)}", "ERROR")
         return {"error": "Failed to scrape item", "details": str(e)}

@@ -6372,3 +6372,10 @@ Call log:
 2025-03-27 16:47:23 - DEBUG: Scraping succesful
 2025-03-27 16:47:23 - DEBUG: Closing browser, check the logs for more information
 
+2025-03-28 10:16:10 - DEBUG: Creating new page and navigating to URL
+2025-03-28 10:16:10 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 10:16:13 - DEBUG: Navigated to URL successfully
+2025-03-28 10:16:13 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 10:16:13 - DEBUG: Scraping succesful
+2025-03-28 10:16:13 - DEBUG: Closing browser, check the logs for more information
+
