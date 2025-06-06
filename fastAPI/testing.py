@@ -8,7 +8,6 @@ import os
 import asyncio
 import shutil
 
-
 load_dotenv(override=True)
 
 
@@ -44,7 +43,7 @@ async def bol_scraper(URL, delete=False):
     
     async with async_playwright() as playwright:
         try:
-            args = ["--disable-blink-features=AutomationControlled"
+            args = ["--disable-blink-features=AutomationControlled",
                     "--disable-gpu",
                     "--no-sandbox",
                     "--disable-dev-shm-usage"]
@@ -60,7 +59,7 @@ async def bol_scraper(URL, delete=False):
                 # VPS path
                 #user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
                 #Local path
-                user_data_dir= "C://playwright",
+                user_data_dir="C:\\playwright",
                 headless=False, 
                 args=args,
                 channel="chrome",
@@ -120,9 +119,24 @@ async def bol_scraper(URL, delete=False):
                         ogPrice_html = await page.locator('[class="h-nowrap buy-block__list-price"]').first.inner_html()
                         dictValues["ogPrice"] = ogPrice_html.replace("\n", "").replace(",", ".").replace("-", "00").strip()
                 except Exception as e:
+                    log_to_file("Promo price not found, looking for Niet Leverbaar class incase item is unavailable")
+                    try:
+                        if await page.query_selector('[class="text-18 mb-4"]') is not None:
+                            # Look for name of product
+                            name_html = await page.inner_html('[class="u-mr--xs"]', timeout=10000)
+                            dictValues["name"] = name_html.replace("\n", "").strip().replace("&amp;", "&")
+                            
+                            dictValues["currentPrice"] = 0.0
+                            dictValues["ogPrice"] = 0.0
+                            
+                            log_to_file("Product is not available, returning data that indicates unavailability")
+                            return dictValues, delete
+                        
+                    except Exception as e:
+                        log_to_file(f"Error while checking for unavailable product class: {e}", "ERROR")
+                    
                     log_to_file(f"Error scraping product data/altering product data: {e}", "ERROR")
                     return {"error": "Failed to scrape product data/alter product data", "details": str(e)}
-
 
             # Check if the cookies button is visible to determine if cookies and language need to be accepted
             # If not, scrape the content, check for an error and return the dictionary if no error is found
@@ -144,7 +158,7 @@ async def bol_scraper(URL, delete=False):
             except Exception as e:
                 log_to_file(f"Error accepting cookies: {e}", "ERROR")
                 return {"error": "Failed to accept cookies", "details": str(e)}, True
-            log_to_file("succesfully ccepted cookies", "DEBUG")
+            log_to_file("succesfully accepted cookies", "DEBUG")
             
             
             # Wait for the country/language button to be visiable and enabled, then click it
@@ -178,10 +192,37 @@ async def bol_scraper(URL, delete=False):
             except Exception as e:
                 log_to_file(f"Error while closing browser: {str(e)}", "ERROR")
                 return {"error": "Failed to close browser", "details": str(e)}, True
+            
+            
+            
+def test_scraper():
+    #Simple test function to verify the scraper works correctly
+
+    #Regular product with while number discount price(currentPrice) and decimal orginal price(ogPrice)"
+    test_url = "https://www.bol.com/nl/nl/p/lynnz-schoenlepel-lang-zwart-metaal-rvs-42-cm-met-leren-handgreep-stevig-leer-schoentrekker-schoen-lepel-schoenlepels/9300000072529393/?bltgh=jJfsF2XpJwjWWuh33qFIfg.2_57.59.ProductImage"
+
+
+    result = bol_scraper(test_url)
+
+    # Check that the result has the expected structure
+    assert isinstance(result, dict), "Result should be a dictionary"
+    assert "name" in result, "Result should contain product name"
+    assert "currentPrice" in result, "Result should contain current promo price"
+    assert "ogPrice" in result, "Result should contain original price"
+
+    # Print test results for manual verification
+    print("Test passed successfully!")
+    print(f"Product: {result['name']}")
+    print(f"Current price: {result['currentPrice']}")
+    print(f"Original price: {result['ogPrice']}")
+
+    return result
+
+
 
 async def main():
     #return await bol_scraper("https://www.youtube.com/watch?v=Vlb_cujWRI0")
-    return await bol_scraper("https://www.bol.com/nl/nl/p/2-in-1-soundbar-pc-speakers-met-bluetooth-5-3-rgb-verlichting-speakerset-computer-speakers/9300000185717288/?bltgh=hh7E1ewU3hKtFBmxrsFI7Q.2_65.66.ProductImage")
+    return await bol_scraper("https://www.bol.com/nl/nl/p/2-in-1-soundbar-pc-speakers-met-bluetooth-5-3-rgb-verlichting-speakerset-computer-speakers/9300000185717")
     
 
 if __name__ == "__main__":

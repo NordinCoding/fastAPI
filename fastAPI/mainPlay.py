@@ -56,6 +56,9 @@ async def bol_scraper(URL, delete=False):
                 "username": os.getenv("PROXY_USERNAME"),
                 "password": os.getenv("PROXY_PASSWORD")},
                 slow_mo=100,
+                # VPS path
+                #user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
+                #Local path
                 user_data_dir="C:\\playwright",	
                 headless=True, 
                 args=args,
@@ -115,7 +118,10 @@ async def bol_scraper(URL, delete=False):
                     else:
                         ogPrice_html = await page.locator('[class="h-nowrap buy-block__list-price"]').first.inner_html()
                         dictValues["ogPrice"] = ogPrice_html.replace("\n", "").replace(",", ".").replace("-", "00").strip()
+                    return dictValues
                 except Exception as e:
+                    # If no price is found, look for the class that contains "Niet Leverbaar", incase its found, set price to 0
+                    # so i can let the user know that the product is not available anymore
                     log_to_file("Promo price not found, looking for Niet Leverbaar class incase item is unavailable")
                     try:
                         if await page.query_selector('[class="text-18 mb-4"]') is not None:
@@ -127,7 +133,7 @@ async def bol_scraper(URL, delete=False):
                             dictValues["ogPrice"] = 0.0
                             
                             log_to_file("Product is not available, returning data that indicates unavailability")
-                            return dictValues, delete
+                            return dictValues
                         
                     except Exception as e:
                         log_to_file(f"Error while checking for unavailable product class: {e}", "ERROR")
@@ -135,16 +141,15 @@ async def bol_scraper(URL, delete=False):
                     log_to_file(f"Error scraping product data/altering product data: {e}", "ERROR")
                     return {"error": "Failed to scrape product data/alter product data", "details": str(e)}
 
-
             # Check if the cookies button is visible to determine if cookies and language need to be accepted
             # If not, scrape the content, check for an error and return the dictionary if no error is found
             if await page.query_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]') == None:
-                found_error = await get_page_content()
-                if found_error == None:
+                result = await get_page_content()
+                if not result.get("error"):
                     log_to_file("Scraping succesful", "DEBUG")
                     return dictValues, delete
                 else:
-                    return found_error, True
+                    return result, True
             
             
             # Wait for cookies button to be visable and click it
@@ -220,13 +225,10 @@ def test_scraper():
 
 async def main():
     #return await bol_scraper("https://www.youtube.com/watch?v=Vlb_cujWRI0")
-    return await bol_scraper("https://www.bol.com/nl/nl/p/denman-classic-styling-large-styling-borstel/9300000095438559/?bltgh=6c5b7363-c250-495e-9c52-17774661a297.topDealsForYou.product-tile-9300000095438559.ProductImage&promo=main_860_deals_for_you___product_2_9300000095438559")
+    return await bol_scraper("https://www.bol.com/nl/nl/p/jack-jones-heren-t-shirt-jjlino-4-pack-regular-fit-meerkleurig-s/9300000172974070/?s2a=&bltgh=sML4SIcROh3Z9mrKcj9IWA.4_57_58.60.FeatureListItem#productTitle")
 
 
 if __name__ == "__main__":
     result, delete = asyncio.run(main())
-    if delete == True:
-        print("Deleting session folder")
-        shutil.rmtree("C:\\playwright")
     print(result)
 

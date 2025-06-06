@@ -6591,3 +6591,187 @@ Call log:
 2025-06-06 11:28:25 - DEBUG: Scraping and formatting product data and storing it in dictValues
 2025-06-06 11:28:26 - DEBUG: Closing browser, check the logs for more information
 
+2025-06-06 12:13:04 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:13:04 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:13:06 - DEBUG: Navigated to URL successfully
+2025-06-06 12:13:06 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:13:08 - DEBUG: Scraping succesful
+2025-06-06 12:13:08 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:19:00 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:19:00 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:19:05 - DEBUG: Navigated to URL successfully
+2025-06-06 12:19:05 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:19:06 - DEBUG: Scraping succesful
+2025-06-06 12:19:06 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:19:23 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:19:23 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:19:32 - DEBUG: Navigated to URL successfully
+2025-06-06 12:19:32 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:19:32 - DEBUG: Scraping succesful
+2025-06-06 12:19:32 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:19:45 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:19:45 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:19:49 - DEBUG: Navigated to URL successfully
+2025-06-06 12:19:49 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:19:59 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:19:59 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 12:19:59 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:28:28 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:28:28 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:28:31 - DEBUG: Navigated to URL successfully
+2025-06-06 12:28:31 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:28:41 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:28:41 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 12:28:41 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:31:50 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:31:50 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:31:53 - DEBUG: Navigated to URL successfully
+2025-06-06 12:31:53 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:32:03 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:32:03 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 12:32:03 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-06-06 12:32:03 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:32:21 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:32:21 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:32:24 - DEBUG: Navigated to URL successfully
+2025-06-06 12:32:24 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:32:34 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:32:34 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 12:32:34 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-06-06 12:32:34 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:32:43 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:32:43 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:32:46 - DEBUG: Navigated to URL successfully
+2025-06-06 12:32:46 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:32:56 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:32:56 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 12:32:56 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:35:04 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:35:04 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:35:08 - DEBUG: Navigated to URL successfully
+2025-06-06 12:35:08 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:35:18 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:35:18 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 12:35:18 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:35:39 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:35:39 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:35:43 - DEBUG: Navigated to URL successfully
+2025-06-06 12:35:43 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:35:43 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:38:55 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:38:55 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:38:57 - DEBUG: Navigated to URL successfully
+2025-06-06 12:38:57 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:39:07 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:39:07 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-06-06 12:39:07 - DEBUG: Scraping succesful
+2025-06-06 12:39:07 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:39:16 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:39:16 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:39:18 - DEBUG: Navigated to URL successfully
+2025-06-06 12:39:18 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:39:18 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:39:48 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:39:48 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:39:52 - DEBUG: Navigated to URL successfully
+2025-06-06 12:39:52 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:40:02 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:40:02 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 12:40:02 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:40:52 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:40:52 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:40:55 - DEBUG: Navigated to URL successfully
+2025-06-06 12:40:55 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:41:05 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:41:05 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-06-06 12:41:05 - DEBUG: Scraping succesful
+2025-06-06 12:41:05 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:41:48 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:41:49 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:41:51 - DEBUG: Navigated to URL successfully
+2025-06-06 12:41:51 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:42:01 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:42:01 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-06-06 12:42:01 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:42:16 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:42:16 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:42:18 - DEBUG: Navigated to URL successfully
+2025-06-06 12:42:18 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:42:28 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:42:28 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+  -     - waiting for" https://www.bol.com/nl/nl/p/2-in-1-soundbar-pc-speakers-met-bluetooth-5-3-rgb-verlichting-speakerset-computer-speakers/9300000185717" navigation to finish...
+  -     - navigated to "https://www.bol.com/nl/nl/p/2-in-1-soundbar-pc-speakers-met-bluetooth-5-3-rgb-verlichting-speakerset-computer-speakers/9300000185717"
+
+2025-06-06 12:42:28 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:55:02 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:55:02 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:55:06 - DEBUG: Navigated to URL successfully
+2025-06-06 12:55:06 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:55:16 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:55:16 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-06-06 12:55:16 - DEBUG: Scraping succesful
+2025-06-06 12:55:16 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:55:50 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:55:50 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:55:53 - DEBUG: Navigated to URL successfully
+2025-06-06 12:55:53 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:56:03 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:56:03 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-06-06 12:56:03 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:56:34 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:56:34 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:56:37 - DEBUG: Navigated to URL successfully
+2025-06-06 12:56:37 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:56:37 - DEBUG: Scraping succesful
+2025-06-06 12:56:37 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 12:56:49 - DEBUG: Creating new page and navigating to URL
+2025-06-06 12:56:49 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 12:56:52 - DEBUG: Navigated to URL successfully
+2025-06-06 12:56:52 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 12:57:02 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 12:57:02 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 12:57:02 - DEBUG: Scraping succesful
+2025-06-06 12:57:02 - DEBUG: Closing browser, check the logs for more information
+
