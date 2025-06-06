@@ -58,10 +58,10 @@ async def bol_scraper(URL, delete=False):
                 "password": os.getenv("PROXY_PASSWORD")},
                 slow_mo=100,
                 # VPS path
-                user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
+                #user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
                 #Local path
-                #user_data_dir= "C://playwright",
-                headless=True, 
+                user_data_dir= "C://playwright",
+                headless=False, 
                 args=args,
                 channel="chrome",
                 viewport={"width": 1920, "height": 1080},
@@ -181,7 +181,7 @@ async def bol_scraper(URL, delete=False):
 
 async def main():
     #return await bol_scraper("https://www.youtube.com/watch?v=Vlb_cujWRI0")
-    return await bol_scraper("https://www.bol.com/nl/nl/p/power-8-freshstep-ozon-schoenendroger-schoenverfrisser-met-timer-uv-verlichtin-huidskooldeeltjes-geurvreters-voor-schoenen/9300000222709447/?bltgh=fa4181f4-d88b-4b77-abfe-8f00f0904d19.topDealsForYou.product-tile-9300000222709447.ProductImage&promo=main_860_deals_for_you___product_0_9300000222709447")
+    return await bol_scraper("https://www.bol.com/nl/nl/p/2-in-1-soundbar-pc-speakers-met-bluetooth-5-3-rgb-verlichting-speakerset-computer-speakers/9300000185717288/?bltgh=hh7E1ewU3hKtFBmxrsFI7Q.2_65.66.ProductImage")
     
 
 if __name__ == "__main__":

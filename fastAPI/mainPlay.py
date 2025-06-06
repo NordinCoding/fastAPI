@@ -1,13 +1,15 @@
-from playwright.sync_api import sync_playwright
+from patchright.async_api import async_playwright
 from bs4 import BeautifulSoup
 import time
 import datetime
 import random
 from dotenv import load_dotenv
 import os
+import asyncio
+import shutil
 
-# Load environment variables from .env file
-load_dotenv()
+load_dotenv(override=True)
+
 
 def log_to_file(message, level="INFO"):
     """
@@ -27,155 +29,167 @@ def log_to_file(message, level="INFO"):
         file.write(log_entry)
 
 
-def bol_scraper(URL):
+async def bol_scraper(URL, delete=False):
     """s
     Scrapes product information from Bol.com
 
     Args:
-        URL (str): Full Bol.com product URL
+    playwright (obj): Playwright instance
+    URL (str): Full Bol.com product URL
 
     Returns:
         dict: Product details including name, current price and original price
     """
-    user_agent_strings = [
-    "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
-    "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko",
-    "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko",
-    ]
     
-    proxies = [{"server": os.getenv(f"PROXY_{i}")} for i in range(1, 21)]
-    print(proxies[3]["server"])
-    random_proxy = random.randint(0,19)
-    
-    with sync_playwright() as p:
+    async with async_playwright() as playwright:
         try:
+            args = ["--disable-blink-features=AutomationControlled",
+                    "--disable-gpu",
+                    "--no-sandbox",
+                    "--disable-dev-shm-usage"]
+            
             # Create a headless browser instance and give it extra context to imitate a real user
-            log_to_file("Initializing Bol.com scraper browser instance", "DEBUG")
-
-            browser = p.chromium.launch(
-                #Rotatig proxies to avoid getting blocked
+            browser = await playwright.chromium.launch_persistent_context(
                 
-                proxy={"server": (proxies[17]["server"]),
+                # Load residential proxy from .env file
+                proxy={"server": os.getenv("PROXY_SERVER"),
                 "username": os.getenv("PROXY_USERNAME"),
                 "password": os.getenv("PROXY_PASSWORD")},
-                headless=False,
                 slow_mo=100,
-                timeout=10000,
-                args=["--no-sandbox",
-                "--disable-dev-shm-usage",
-                "--disable-gpu",
-                "--disable-extensions",
-                "--disable-audio-output",
-                "--disable-background-networking",
-                "--disable-background-timer-throttling",
-                "--disable-breakpad",
-                "--disable-component-extensions-with-background-pages",
-                "--disable-features=TranslateUI,BlinkGenPropertyTrees",
-                "--disable-ipc-flooding-protection",
-                ]
-            )
-            context = browser.new_context(
-                user_agent=random.choice(user_agent_strings),
-                locale="NL",
+                user_data_dir="C:\\playwright",	
+                headless=True, 
+                args=args,
+                channel="chrome",
                 viewport={"width": 1920, "height": 1080},
-                timezone_id="Europe/Amsterdam",
-                accept_downloads=True,
-                bypass_csp=True
+                timeout=10000
             )
             
-            context.add_cookies([
-                {'name': 'cookie_consent', 'value': 'true', 'domain': 'bol.com', 'path': '/'}
-            ])
-
-            context.set_default_timeout(10000)
-
-            context.add_init_script("""
-                Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-            """)
-
-
-            # Create a new page, Go to the URL and wait for the page to load
-            log_to_file("Creating new page", "DEBUG")
+            
+            # Create new page
+            log_to_file("Creating new page and navigating to URL", "DEBUG")
             try:
-                page = context.new_page()
+                page = await browser.new_page()
             except Exception as e:
-                log_to_file(f"Failed to create new page: {str(e)}", "ERROR")
-                return {"error": "Failed to create new page", "details": str(e)}
-
-            log_to_file(f"Navigating to Bol.com product page using {proxies[random_proxy]}", "DEBUG")
+                log_to_file(f"Error creating new page: {e}", "ERROR")
+                return {"error": "Failed to create new page", "details": str(e)}, True
+            
+            # Navigate to the URL, log which proxy is being used
+            log_to_file(f"Navigating to Bol.com product page using residential proxy", "DEBUG")
             try:
-                page.goto(URL)
-                time.sleep(random.uniform(0.5, 2.5))
+                await page.goto(URL)
+                time.sleep(random.uniform(0.5, 2))
             except Exception as e:
-                log_to_file(f"Failed to load page/proxy connection error: {str(e)}", "ERROR")
-                return {"error": "Page not found/proxy connection error", "details": str(e)}
-            log_to_file("Page loaded successfully", "DEBUG")
-
-
-            # Wait for the accept cookies button to be visible and enabled, then click it
-            log_to_file("Accepting cookies", "DEBUG")
-
-            try:
-                page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
-                time.sleep(random.uniform(0.5, 2.5))
-                page.click('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
-            except Exception as e:
-                log_to_file(f"Failed to accept cookies: {str(e)}", "ERROR")
-                return {"error": "Cookies button not found", "details": str(e)}
-            log_to_file("Cookies accepted", "DEBUG")
-
-
-            # Wait for the country/language button to be visible and enabled, then click it
-            log_to_file("Selecting country/language", "DEBUG")
-
-            try:
-                page.wait_for_selector('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
-                time.sleep(random.uniform(0.5, 2.5))
-                page.click('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
-            except Exception as e:
-                log_to_file(f"Failed to select country/language: {str(e)}", "ERROR")
-                return {"error": "Country/language button not found", "details": str(e)}
-            log_to_file("Selected country/language Successfully", "DEBUG")
-
-            # Create dictionary to store the product details
+                log_to_file(f"Error navigating to URL: {e}", "ERROR")
+                return {"error": "Failed to navigate to URL", "details": str(e)}, True
+            log_to_file("Navigated to URL successfully", "DEBUG")
+            
+            
+            # Create a dictionary to store the product details
             dictValues = {
                 "name": "",
                 "currentPrice": "",
                 "ogPrice": ""
             }
+            
+            
+            async def get_page_content():
+                #Wait for the promo price, the list-price and name elements to be visible and get its inner HTML/text
+                #Data is cleaned up and stored in the dictionary so it can be returned
+                log_to_file("Scraping and formatting product data and storing it in dictValues", "DEBUG")
+                try:
+                    await page.wait_for_selector('[class="promo-price"]', state="visible", timeout=10000)
+                    time.sleep(0.2)
+                    
+                    # Get the inner HTML of the name element, format it and store it in the dictionary
+                    name_html = await page.inner_html('[class="u-mr--xs"]', timeout=10000)
+                    dictValues["name"] = name_html.replace("\n", "").strip().replace("&amp;", "&")
+                    
+                    # Get the inner HTML of the current price element, format it and store it in the dictionarys
+                    currentPrice_html = await page.locator('[class="promo-price"]').first.inner_text()
+                    dictValues["currentPrice"] = currentPrice_html.replace("\n", ".").replace(",", ".").replace("-", "00").strip()
+                    
+                    # If the original price is not available, set it to the current price
+                        # Get the inner HTML of the original price element, format it and store it in the dictionary
+                    if await page.query_selector('[class="h-nowrap buy-block__list-price"]') == None:
+                        dictValues["ogPrice"] = dictValues["currentPrice"]
+                    else:
+                        ogPrice_html = await page.locator('[class="h-nowrap buy-block__list-price"]').first.inner_html()
+                        dictValues["ogPrice"] = ogPrice_html.replace("\n", "").replace(",", ".").replace("-", "00").strip()
+                except Exception as e:
+                    log_to_file("Promo price not found, looking for Niet Leverbaar class incase item is unavailable")
+                    try:
+                        if await page.query_selector('[class="text-18 mb-4"]') is not None:
+                            # Look for name of product
+                            name_html = await page.inner_html('[class="u-mr--xs"]', timeout=10000)
+                            dictValues["name"] = name_html.replace("\n", "").strip().replace("&amp;", "&")
+                            
+                            dictValues["currentPrice"] = 0.0
+                            dictValues["ogPrice"] = 0.0
+                            
+                            log_to_file("Product is not available, returning data that indicates unavailability")
+                            return dictValues, delete
+                        
+                    except Exception as e:
+                        log_to_file(f"Error while checking for unavailable product class: {e}", "ERROR")
+                    
+                    log_to_file(f"Error scraping product data/altering product data: {e}", "ERROR")
+                    return {"error": "Failed to scrape product data/alter product data", "details": str(e)}
 
-            # Wait for the promo price, the list-price and name elements to be visible and get its inner HTML/text
-            # The inner HTML/text is then cleaned up and stored in the dictionary so it can be returned to the main script
-            log_to_file("Scraping and formatting product data and storing it in dictValues", "DEBUG")
 
-            try:
-                page.wait_for_selector('[class="promo-price"]', state="visible")
-                time.sleep(0.2)
-                dictValues["name"] = page.inner_html('[class="u-mr--xs"]').replace("\n", "").strip().replace("&amp;", "&")
-                dictValues["currentPrice"] = page.locator('[class="promo-price"]').first.inner_text().replace("\n", ".").replace(",", ".").replace("-", "00").strip()
-
-                visible = page.locator('[class="h-nowrap buy-block__list-price"]').is_visible()
-                if visible:
-                    dictValues["ogPrice"] = page.locator('[class="h-nowrap buy-block__list-price"]').first.inner_html().replace("\n", "").replace(",", ".").replace("-", "00").strip()
+            # Check if the cookies button is visible to determine if cookies and language need to be accepted
+            # If not, scrape the content, check for an error and return the dictionary if no error is found
+            if await page.query_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]') == None:
+                found_error = await get_page_content()
+                if found_error == None:
+                    log_to_file("Scraping succesful", "DEBUG")
+                    return dictValues, delete
                 else:
-                    dictValues["ogPrice"] = dictValues["currentPrice"]
+                    return found_error, True
+            
+            
+            # Wait for cookies button to be visable and click it
+            log_to_file("Accepting cookies", "DEBUG")
+            try:
+                await page.wait_for_selector('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]', timeout=10000)
+                time.sleep(random.uniform(0.5, 2))
+                await page.click('[class="ui-btn ui-btn--primary ui-btn--block@screen-small"]')
             except Exception as e:
-                log_to_file(f"Failed to find product data or error altering product data: {str(e)}", "ERROR")
-                return {"error": "Failed to find product data or error altering product data", "details": str(e)}
-
-            return dictValues
-
+                log_to_file(f"Error accepting cookies: {e}", "ERROR")
+                return {"error": "Failed to accept cookies", "details": str(e)}, True
+            log_to_file("succesfully accepted cookies", "DEBUG")
+            
+            
+            # Wait for the country/language button to be visiable and enabled, then click it
+            log_to_file("Selecting country/language", "DEBUG")
+            try:
+                # Uncomment the line below to take a screenshot of the page for debugging purposes
+                # This line tends to be error prone, not sure why yet
+                #wait page.screenshot(path="screenshot1.png")
+                await page.wait_for_selector('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]', timeout=10000)
+                time.sleep(random.uniform(0.5, 2))
+                await page.click('[class="ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn"]')
+            except Exception as e:
+                log_to_file(f"Error selecting country/language: {e}", "ERROR")
+                return {"error": "Failed to select country/language", "details": str(e)}, True
+            log_to_file("Selected Country/language succesfully", "DEBUG")
+            
+            
+            # Get the name, current price and original price of the product
+            await get_page_content()
+            return dictValues, delete
+            
+            
         finally:
             try:
                 if browser:
-                    log_to_file("Closing browser, scraping successful\n", "DEBUG")
-                    browser.close()
-            except NameError:
-                log_to_file("Browser was never initialized, skipping close", "WARNING")
+                    log_to_file("Closing browser, check the logs for more information\n", "DEBUG")
+                    await browser.close()
+                else:
+                    log_to_file("Browser was never initialized, skipping close", "WARNING")
+                    return {"error": "Browser was never initialized", "details": "Browser was never initialized"}, True     
             except Exception as e:
                 log_to_file(f"Error while closing browser: {str(e)}", "ERROR")
+                return {"error": "Failed to close browser", "details": str(e)}, True
 
 
 
@@ -202,11 +216,17 @@ def test_scraper():
 
     return result
 
-if __name__ == "__main__":
-    dictValues = bol_scraper("https://www.bol.com/nl/nl/p/msi-mpg-321urx-qd-oled-4k-gaming-monitor-usb-c-90w-kvm-240hz-32-inch/9300000170615582/?s2a=&bltgh=lA0upNIJYGjnpqDtg19Lcw.2_72_73.74.FeatureOptionButton#productTitle")
-    print(dictValues)
 
-    # Uncomment the line below to run the test function
-    # results = test_scraper()
-    # print(results)
+
+async def main():
+    #return await bol_scraper("https://www.youtube.com/watch?v=Vlb_cujWRI0")
+    return await bol_scraper("https://www.bol.com/nl/nl/p/denman-classic-styling-large-styling-borstel/9300000095438559/?bltgh=6c5b7363-c250-495e-9c52-17774661a297.topDealsForYou.product-tile-9300000095438559.ProductImage&promo=main_860_deals_for_you___product_2_9300000095438559")
+
+
+if __name__ == "__main__":
+    result, delete = asyncio.run(main())
+    if delete == True:
+        print("Deleting session folder")
+        shutil.rmtree("C:\\playwright")
+    print(result)
 

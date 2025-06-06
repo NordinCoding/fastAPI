@@ -6422,3 +6422,172 @@ Call log:
 2025-03-28 13:59:13 - DEBUG: Scraping and formatting product data and storing it in dictValues
 2025-03-28 13:59:14 - DEBUG: Closing browser, check the logs for more information
 
+2025-03-28 14:08:04 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 14:08:06 - DEBUG: Creating new page and navigating to URL
+2025-03-28 14:08:06 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 14:08:10 - DEBUG: Navigated to URL successfully
+2025-03-28 14:08:10 - DEBUG: Accepting cookies
+2025-03-28 14:08:11 - DEBUG: succesfully ccepted cookies
+2025-03-28 14:08:11 - DEBUG: Selecting country/language
+2025-03-28 14:08:21 - ERROR: Error selecting country/language: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
+
+2025-03-28 14:08:21 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 14:08:21 - DEBUG: Deleted session folder
+2025-03-28 14:08:32 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 14:08:33 - DEBUG: Creating new page and navigating to URL
+2025-03-28 14:08:33 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 14:08:37 - DEBUG: Navigated to URL successfully
+2025-03-28 14:08:37 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 14:08:37 - DEBUG: Scraping succesful
+2025-03-28 14:08:37 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 14:20:04 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 14:20:04 - ERROR: Error while closing browser: cannot access local variable 'browser' where it is not associated with a value
+2025-03-28 14:20:04 - DEBUG: Deleted session folder
+2025-03-28 14:20:20 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 14:20:21 - DEBUG: Creating new page and navigating to URL
+2025-03-28 14:20:21 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 14:20:25 - DEBUG: Navigated to URL successfully
+2025-03-28 14:20:25 - DEBUG: Accepting cookies
+2025-03-28 14:20:26 - DEBUG: succesfully ccepted cookies
+2025-03-28 14:20:26 - DEBUG: Selecting country/language
+2025-03-28 14:20:27 - DEBUG: Selected Country/language succesfully
+2025-03-28 14:20:27 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 14:20:28 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 14:57:35 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 14:57:36 - DEBUG: Creating new page and navigating to URL
+2025-03-28 14:57:36 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 14:57:39 - DEBUG: Navigated to URL successfully
+2025-03-28 14:57:39 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 14:57:39 - DEBUG: Scraping succesful
+2025-03-28 14:57:39 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:20:52 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 15:20:53 - ERROR: Error while closing browser: cannot access local variable 'browser' where it is not associated with a value
+2025-03-28 15:20:53 - DEBUG: Deleted session folder
+2025-03-28 15:24:14 - INFO: Scraping item from URL: https://www.bol.com/nl/nl/p/geschikt-voor-samsung-galaxy-s24-screenprotector-gehard-glas-full-guardcover/9300000171386474/?bltgh=c46a418f-b878-41a1-a012-82a2248d88fa.topDealsForYou.product-tile-9300000171386474.ProductImage
+2025-03-28 15:24:14 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:24:14 - ERROR: Error while closing browser: cannot access local variable 'page' where it is not associated with a value
+2025-03-28 15:29:27 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:29:27 - ERROR: Error while closing browser: cannot access local variable 'page' where it is not associated with a value
+2025-03-28 15:29:37 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:29:37 - ERROR: Error while closing browser: cannot access local variable 'page' where it is not associated with a value
+2025-03-28 15:29:45 - ERROR: Error while closing browser: cannot access local variable 'browser' where it is not associated with a value
+2025-03-28 15:30:10 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:30:10 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:30:12 - DEBUG: Navigated to URL successfully
+2025-03-28 15:30:12 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 15:30:13 - DEBUG: Scraping succesful
+2025-03-28 15:30:13 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:30:23 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:30:23 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:30:27 - DEBUG: Navigated to URL successfully
+2025-03-28 15:30:27 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 15:30:37 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+  -     3 × waiting for" https://www.bol.com/nl/nl/p/power-8-freshstep-ozon-schoenendroger-schoenverfrisser-met-timer-uv-verlichtin-huidskooldeeltjes-geurvreters-voor-schoenen/9300000222709447/?bltgh=fa4181f4-d88b-4b77-abfe-…" navigation to finish...
+  -       - navigated to "https://www.bol.com/nl/nl/p/power-8-freshstep-ozon-schoenendroger-schoenverfrisser-met-timer-uv-verlichtin-huidskooldeeltjes-geurvreters-voor-schoenen/9300000222709447/?bltgh=fa4181f4-d88b-4b77-abfe-…"
+
+2025-03-28 15:30:37 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:30:46 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:30:47 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:30:49 - DEBUG: Navigated to URL successfully
+2025-03-28 15:30:49 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 15:30:59 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+  -     5 × waiting for" https://www.bol.com/nl/nl/p/power-8-freshstep-ozon-schoenendroger-schoenverfrisser-met-timer-uv-verlichtin-huidskooldeeltjes-geurvreters-voor-schoenen/9300000222709447/?bltgh=fa4181f4-d88b-4b77-abfe-…" navigation to finish...
+  -       - navigated to "https://www.bol.com/nl/nl/p/power-8-freshstep-ozon-schoenendroger-schoenverfrisser-met-timer-uv-verlichtin-huidskooldeeltjes-geurvreters-voor-schoenen/9300000222709447/?bltgh=fa4181f4-d88b-4b77-abfe-…"
+
+2025-03-28 15:30:59 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:31:09 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:31:09 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:31:11 - DEBUG: Navigated to URL successfully
+2025-03-28 15:31:11 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 15:31:21 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+  -     4 × waiting for" https://www.bol.com/nl/nl/p/power-8-freshstep-ozon-schoenendroger-schoenverfrisser-met-timer-uv-verlichtin-huidskooldeeltjes-geurvreters-voor-schoenen/9300000222709447/?bltgh=fa4181f4-d88b-4b77-abfe-…" navigation to finish...
+  -       - navigated to "https://www.bol.com/nl/nl/p/power-8-freshstep-ozon-schoenendroger-schoenverfrisser-met-timer-uv-verlichtin-huidskooldeeltjes-geurvreters-voor-schoenen/9300000222709447/?bltgh=fa4181f4-d88b-4b77-abfe-…"
+
+2025-03-28 15:31:21 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:31:46 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:31:46 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:31:49 - DEBUG: Navigated to URL successfully
+2025-03-28 15:31:49 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 15:31:50 - DEBUG: Scraping succesful
+2025-03-28 15:31:50 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:32:00 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:32:00 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:32:03 - DEBUG: Navigated to URL successfully
+2025-03-28 15:32:03 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 15:32:09 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-03-28 15:32:09 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:32:19 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:32:19 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:32:21 - DEBUG: Navigated to URL successfully
+2025-03-28 15:32:21 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 15:32:28 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+  -     2 × waiting for" https://www.bol.com/nl/nl/p/trust-gxt-611-wezz-speakerset-rgb-verlichting-zwart/9300000120310668/?bltgh=d9b728d8-2987-4446-ae3e-0038ebff6b45.topPicksForYou.product-tile-9300000120310668.ProductImage&…" navigation to finish...
+  -       - navigated to "https://www.bol.com/nl/nl/p/trust-gxt-611-wezz-speakerset-rgb-verlichting-zwart/9300000120310668/?bltgh=d9b728d8-2987-4446-ae3e-0038ebff6b45.topPicksForYou.product-tile-9300000120310668.ProductImage&…"
+
+2025-03-28 15:32:28 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:32:42 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:32:42 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:32:44 - DEBUG: Navigated to URL successfully
+2025-03-28 15:32:44 - DEBUG: Accepting cookies
+2025-03-28 15:32:46 - DEBUG: succesfully ccepted cookies
+2025-03-28 15:32:46 - DEBUG: Selecting country/language
+2025-03-28 15:32:56 - ERROR: Error selecting country/language: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"ui-btn ui-btn--primary  u-disable-mouse js-country-language-btn\"]") to be visible
+  -     - waiting for" https://www.bol.com/nl/nl/p/2-in-1-soundbar-pc-speakers-met-bluetooth-5-3-rgb-verlichting-speakerset-computer-speakers/9300000185717288/?bltgh=hh7E1ewU3hKtFBmxrsFI7Q.2_65.66.ProductImage" navigation to finish...
+  -     - navigated to "https://www.bol.com/nl/nl/p/2-in-1-soundbar-pc-speakers-met-bluetooth-5-3-rgb-verlichting-speakerset-computer-speakers/9300000185717288/?bltgh=hh7E1ewU3hKtFBmxrsFI7Q.2_65.66.ProductImage"
+
+2025-03-28 15:32:56 - DEBUG: Closing browser, check the logs for more information
+
+2025-03-28 15:32:59 - DEBUG: Creating new page and navigating to URL
+2025-03-28 15:32:59 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-03-28 15:33:02 - DEBUG: Navigated to URL successfully
+2025-03-28 15:33:02 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-03-28 15:33:06 - DEBUG: Scraping succesful
+2025-03-28 15:33:06 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 11:27:29 - DEBUG: Creating new page and navigating to URL
+2025-06-06 11:27:29 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 11:27:34 - DEBUG: Navigated to URL successfully
+2025-06-06 11:27:34 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 11:27:44 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 11:27:45 - INFO: Product is not available, returning data that indicates unavailability
+2025-06-06 11:27:45 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 11:28:20 - DEBUG: Creating new page and navigating to URL
+2025-06-06 11:28:20 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 11:28:22 - DEBUG: Navigated to URL successfully
+2025-06-06 11:28:22 - DEBUG: Accepting cookies
+2025-06-06 11:28:24 - DEBUG: succesfully accepted cookies
+2025-06-06 11:28:24 - DEBUG: Selecting country/language
+2025-06-06 11:28:25 - DEBUG: Selected Country/language succesfully
+2025-06-06 11:28:25 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 11:28:26 - DEBUG: Closing browser, check the logs for more information
+
