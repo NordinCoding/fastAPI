@@ -6775,3 +6775,416 @@ Call log:
 2025-06-06 12:57:02 - DEBUG: Scraping succesful
 2025-06-06 12:57:02 - DEBUG: Closing browser, check the logs for more information
 
+2025-06-06 14:43:12 - DEBUG: Creating new page and navigating to URL
+2025-06-06 14:43:12 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 14:43:15 - ERROR: Error navigating to URL: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.bol.com/nl/nl/p/krachtige-elektrische-voet-hard-skin-remover-oplaadbaar-1-best-verkochte-eeltverwijderaar-in-de-vs-hometek-blauw/9200000101846681/?bltgh=08f95591-ca78-45ee-bfab-47fdff6d30dc.topDealsForYou.product-tile-9200000101846681.ProductImage&promo=main_860_deals_for_you___product_0_9200000101846681
+Call log:
+  - navigating to "https://www.bol.com/nl/nl/p/krachtige-elektrische-voet-hard-skin-remover-oplaadbaar-1-best-verkochte-eeltverwijderaar-in-de-vs-hometek-blauw/9200000101846681/?bltgh=08f95591-ca78-45ee-bfab-47fdff6d30dc.topDealsForYou.product-tile-9200000101846681.ProductImage&promo=main_860_deals_for_you___product_0_9200000101846681", waiting until "load"
+
+2025-06-06 14:43:15 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 14:43:22 - DEBUG: Creating new page and navigating to URL
+2025-06-06 14:43:22 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 14:43:26 - ERROR: Error navigating to URL: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.bol.com/nl/nl/p/krachtige-elektrische-voet-hard-skin-remover-oplaadbaar-1-best-verkochte-eeltverwijderaar-in-de-vs-hometek-blauw/9200000101846681/?bltgh=08f95591-ca78-45ee-bfab-47fdff6d30dc.topDealsForYou.product-tile-9200000101846681.ProductImage&promo=main_860_deals_for_you___product_0_9200000101846681
+Call log:
+  - navigating to "https://www.bol.com/nl/nl/p/krachtige-elektrische-voet-hard-skin-remover-oplaadbaar-1-best-verkochte-eeltverwijderaar-in-de-vs-hometek-blauw/9200000101846681/?bltgh=08f95591-ca78-45ee-bfab-47fdff6d30dc.topDealsForYou.product-tile-9200000101846681.ProductImage&promo=main_860_deals_for_you___product_0_9200000101846681", waiting until "load"
+
+2025-06-06 14:43:26 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 14:43:48 - DEBUG: Creating new page and navigating to URL
+2025-06-06 14:43:48 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 14:43:52 - ERROR: Error navigating to URL: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.youtube.com/
+Call log:
+  - navigating to "https://www.youtube.com/", waiting until "load"
+
+2025-06-06 14:43:52 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 14:45:33 - DEBUG: Creating new page and navigating to URL
+2025-06-06 14:45:33 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 14:45:36 - ERROR: Error navigating to URL: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.youtube.com/
+Call log:
+  - navigating to "https://www.youtube.com/", waiting until "load"
+
+2025-06-06 14:45:36 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 14:47:32 - DEBUG: Creating new page and navigating to URL
+2025-06-06 14:47:32 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 14:47:35 - ERROR: Error navigating to URL: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.youtube.com/
+Call log:
+  - navigating to "https://www.youtube.com/", waiting until "load"
+
+2025-06-06 14:47:35 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 14:47:53 - DEBUG: Creating new page and navigating to URL
+2025-06-06 14:47:53 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 14:47:56 - ERROR: Error navigating to URL: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.youtube.com/
+Call log:
+  - navigating to "https://www.youtube.com/", waiting until "load"
+
+2025-06-06 14:47:56 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 14:48:22 - DEBUG: Creating new page and navigating to URL
+2025-06-06 14:48:23 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 14:48:26 - ERROR: Error navigating to URL: Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at https://www.youtube.com/
+Call log:
+  - navigating to "https://www.youtube.com/", waiting until "load"
+
+2025-06-06 14:48:26 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 14:51:38 - DEBUG: Creating new page and navigating to URL
+2025-06-06 14:51:38 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 14:51:41 - DEBUG: Navigated to URL successfully
+2025-06-06 14:51:41 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 14:51:51 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 14:51:51 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"promo-price\"]") to be visible
+
+2025-06-06 14:51:51 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 15:08:34 - DEBUG: Creating new page and navigating to URL
+2025-06-06 15:08:34 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 15:08:37 - DEBUG: Navigated to URL successfully
+2025-06-06 15:08:37 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 15:08:42 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 15:08:42 - ERROR: Error while checking for unavailable product class: Page.query_selector: Target page, context or browser has been closed
+2025-06-06 15:08:42 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 15:08:43 - DEBUG: Creating new page and navigating to URL
+2025-06-06 15:08:43 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 15:08:46 - DEBUG: Navigated to URL successfully
+2025-06-06 15:08:46 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-06-06 15:08:46 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-06-06 15:08:46 - ERROR: Error while checking for unavailable product class: Page.query_selector: Target page, context or browser has been closed
+2025-06-06 15:08:46 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 15:08:47 - DEBUG: Creating new page and navigating to URL
+2025-06-06 15:08:47 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-06-06 15:08:48 - ERROR: Error navigating to URL: Page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  - navigating to "https://www.youtube.com/", waiting until "load"
+
+2025-06-06 15:08:48 - DEBUG: Closing browser, check the logs for more information
+
+2025-06-06 15:08:48 - ERROR: Error while closing browser: BrowserContext.close: Target page, context or browser has been closed
+2025-07-18 13:26:11 - DEBUG: Creating new page and navigating to URL
+2025-07-18 13:26:11 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-07-18 13:26:15 - DEBUG: Navigated to URL successfully
+2025-07-18 13:26:15 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 13:26:15 - DEBUG: Scraping succesful
+2025-07-18 13:26:15 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 13:26:30 - DEBUG: Creating new page and navigating to URL
+2025-07-18 13:26:30 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-07-18 13:26:33 - DEBUG: Navigated to URL successfully
+2025-07-18 13:26:33 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 13:26:33 - DEBUG: Scraping succesful
+2025-07-18 13:26:33 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:22:30 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:22:30 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-07-18 17:22:32 - DEBUG: Navigated to URL successfully
+2025-07-18 17:22:32 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 17:22:42 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-07-18 17:22:42 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"css-puih25\"]") to be visible
+
+2025-07-18 17:22:42 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:22:51 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:22:51 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-07-18 17:22:53 - DEBUG: Navigated to URL successfully
+2025-07-18 17:22:53 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 17:23:03 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-07-18 17:23:03 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"css-puih25\"]") to be visible
+
+2025-07-18 17:23:03 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:24:27 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:24:27 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-07-18 17:24:30 - DEBUG: Navigated to URL successfully
+2025-07-18 17:24:30 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 17:24:32 - DEBUG: Scraping succesful
+2025-07-18 17:24:32 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:25:01 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:25:01 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-18 17:25:04 - DEBUG: Navigated to URL successfully
+2025-07-18 17:25:04 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 17:25:14 - INFO: Promo price not found, looking for Tijdelijk uitverkocht class incase item is unavailable
+2025-07-18 17:25:14 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"css-puih25\"]") to be visible
+
+2025-07-18 17:25:14 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:26:04 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:26:04 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-07-18 17:26:10 - DEBUG: Navigated to URL successfully
+2025-07-18 17:26:10 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 17:26:19 - INFO: Promo price not found, looking for Niet Leverbaar class incase item is unavailable
+2025-07-18 17:26:19 - ERROR: Error while checking for unavailable product class: Page.query_selector: Target page, context or browser has been closed
+2025-07-18 17:26:19 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:27:04 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:27:04 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-18 17:27:06 - DEBUG: Navigated to URL successfully
+2025-07-18 17:27:06 - DEBUG: Accepting cookies
+2025-07-18 17:27:16 - ERROR: Error accepting cookies: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"css-1t969u\"]") to be visible
+  -     24 × locator resolved to 2 elements. Proceeding with the first one: <a class="css-1t969u" href="/inloggen?returnUrl=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F962462%2Fhp-laptop-17-cp2956nd.html">Inloggen</a>
+
+2025-07-18 17:27:16 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:28:14 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:28:14 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-18 17:28:17 - DEBUG: Navigated to URL successfully
+2025-07-18 17:28:17 - DEBUG: Accepting cookies
+2025-07-18 17:28:27 - ERROR: Error accepting cookies: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"css-1t969u\"]") to be visible
+  -     25 × locator resolved to 2 elements. Proceeding with the first one: <a class="css-1t969u" href="/inloggen?returnUrl=https%3A%2F%2Fwww.coolblue.nl%2Fproduct%2F962462%2Fhp-laptop-17-cp2956nd.html">Inloggen</a>
+
+2025-07-18 17:28:27 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:31:08 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:31:08 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-18 17:31:19 - DEBUG: Navigated to URL successfully
+2025-07-18 17:31:19 - DEBUG: Accepting cookies
+2025-07-18 17:31:24 - DEBUG: succesfully accepted cookies
+2025-07-18 17:31:24 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 17:31:24 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-18 17:31:43 - DEBUG: Creating new page and navigating to URL
+2025-07-18 17:31:43 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-18 17:31:47 - DEBUG: Navigated to URL successfully
+2025-07-18 17:31:47 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-18 17:31:47 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-18 17:31:47 - DEBUG: Scraping succesful
+2025-07-18 17:31:47 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-19 12:11:20 - DEBUG: Creating new page and navigating to URL
+2025-07-19 12:11:20 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-19 12:11:31 - DEBUG: Navigated to URL successfully
+2025-07-19 12:11:31 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-19 12:11:31 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-19 12:11:32 - DEBUG: Scraping succesful
+2025-07-19 12:11:32 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-19 12:12:49 - DEBUG: Creating new page and navigating to URL
+2025-07-19 12:12:49 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-19 12:12:56 - DEBUG: Navigated to URL successfully
+2025-07-19 12:12:56 - DEBUG: Accepting cookies
+2025-07-19 12:13:00 - DEBUG: succesfully accepted cookies
+2025-07-19 12:13:00 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-19 12:13:01 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-19 12:14:00 - DEBUG: Creating new page and navigating to URL
+2025-07-19 12:14:01 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-19 12:14:04 - DEBUG: Navigated to URL successfully
+2025-07-19 12:14:04 - DEBUG: Accepting cookies
+2025-07-19 12:14:07 - DEBUG: succesfully accepted cookies
+2025-07-19 12:14:07 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-19 12:14:07 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-19 12:14:31 - DEBUG: Creating new page and navigating to URL
+2025-07-19 12:14:31 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-19 12:14:35 - DEBUG: Navigated to URL successfully
+2025-07-19 12:14:35 - DEBUG: Accepting cookies
+2025-07-19 12:14:38 - DEBUG: succesfully accepted cookies
+2025-07-19 12:14:38 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-19 12:14:38 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-19 12:15:55 - DEBUG: Creating new page and navigating to URL
+2025-07-19 12:15:55 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-19 12:16:03 - DEBUG: Navigated to URL successfully
+2025-07-19 12:16:03 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-19 12:16:03 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-19 12:16:03 - DEBUG: Scraping succesful
+2025-07-19 12:16:03 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-20 14:46:12 - DEBUG: Creating new page and navigating to URL
+2025-07-20 14:46:12 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-20 14:46:18 - DEBUG: Navigated to URL successfully
+2025-07-20 14:46:18 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-20 14:46:18 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-20 14:46:18 - INFO: Product is not available, returning data that indicates unavailability
+2025-07-20 14:46:18 - DEBUG: Scraping succesful
+2025-07-20 14:46:18 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-20 14:48:08 - DEBUG: Creating new page and navigating to URL
+2025-07-20 14:48:08 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-20 14:48:16 - DEBUG: Navigated to URL successfully
+2025-07-20 14:48:16 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-20 14:48:16 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-20 14:48:17 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-20 15:02:52 - DEBUG: Creating new page and navigating to URL
+2025-07-20 15:02:52 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-20 15:02:56 - DEBUG: Navigated to URL successfully
+2025-07-20 15:02:57 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-20 15:02:57 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-20 15:02:57 - DEBUG: Scraping succesful
+2025-07-20 15:02:57 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:24:02 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:24:02 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:24:10 - DEBUG: Navigated to URL successfully
+2025-07-21 16:24:10 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:24:10 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:24:10 - INFO: Product is not available, returning data that indicates unavailability
+2025-07-21 16:24:10 - DEBUG: Scraping succesful
+2025-07-21 16:24:10 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:24:55 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:24:55 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:25:01 - DEBUG: Navigated to URL successfully
+2025-07-21 16:25:01 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:25:01 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:25:02 - DEBUG: Scraping succesful
+2025-07-21 16:25:02 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:26:47 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:26:48 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:27:00 - DEBUG: Navigated to URL successfully
+2025-07-21 16:27:00 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:27:00 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:27:00 - INFO: Product available and price data found, returning dictValues
+2025-07-21 16:27:00 - DEBUG: Scraping succesful, result: {'name': 'BlueBuilt Powerbank met Snelladen 20.000 mAh', 'currentPrice': '39.99', 'ogPrice': '<span class="css00ai40hw">48.99</span>'}
+2025-07-21 16:27:00 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:45:05 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:45:05 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:45:13 - DEBUG: Navigated to URL successfully
+2025-07-21 16:45:13 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:45:13 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:45:14 - INFO: Product is not available, returning data that indicates unavailability
+2025-07-21 16:45:14 - DEBUG: Scraping succesful, result: {'name': 'Refurbished iPhone 12 256GB Zwart (Licht gebruikt)', 'currentPrice': 0.0, 'ogPrice': 0.0}
+2025-07-21 16:45:14 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:45:23 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:45:23 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:45:33 - DEBUG: Navigated to URL successfully
+2025-07-21 16:45:33 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:45:33 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:45:34 - INFO: Product is not available, returning data that indicates unavailability
+2025-07-21 16:45:34 - DEBUG: Scraping succesful, result: {'name': 'Refurbished iPhone 12 256GB Zwart (Licht gebruikt)', 'currentPrice': 0.0, 'ogPrice': 0.0}
+2025-07-21 16:45:34 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:46:07 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:46:07 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:46:13 - DEBUG: Navigated to URL successfully
+2025-07-21 16:46:13 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:46:13 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:46:16 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 2000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"css-s6m3qa\"]") to be visible
+
+2025-07-21 16:46:16 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:48:05 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:48:05 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:48:11 - DEBUG: Navigated to URL successfully
+2025-07-21 16:48:11 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:48:11 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:48:13 - INFO: Product available and price data found, returning dictValues
+2025-07-21 16:48:13 - DEBUG: Scraping succesful, result: {'name': 'HP Laptop 17-cp2956nd', 'currentPrice': '649.00', 'ogPrice': '649.00'}
+2025-07-21 16:48:13 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:51:27 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:51:27 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:51:36 - DEBUG: Navigated to URL successfully
+2025-07-21 16:51:36 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:51:36 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:51:38 - INFO: Product available and price data found, returning dictValues
+2025-07-21 16:51:38 - DEBUG: Scraping succesful, result: {'name': 'HP Laptop 17-cp2956nd', 'currentPrice': '649.00', 'ogPrice': '649.00'}
+2025-07-21 16:51:38 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:52:40 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:52:40 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:52:46 - DEBUG: Navigated to URL successfully
+2025-07-21 16:52:46 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:52:46 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:52:46 - INFO: Product is not available, returning data that indicates unavailability
+2025-07-21 16:52:46 - DEBUG: Scraping succesful, result: {'name': 'Lenovo IdeaPad Slim 3 15IRH8 83EM00CGMH', 'currentPrice': 0.0, 'ogPrice': 0.0}
+2025-07-21 16:52:46 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 16:53:33 - DEBUG: Creating new page and navigating to URL
+2025-07-21 16:53:33 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 16:53:36 - DEBUG: Navigated to URL successfully
+2025-07-21 16:53:36 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 16:53:36 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 16:53:39 - INFO: Product available and price data found, returning dictValues
+2025-07-21 16:53:39 - DEBUG: Scraping succesful, result: {'name': 'Lenovo IdeaPad Slim 3 15IAH8 83ER00MLMH', 'currentPrice': '499.00', 'ogPrice': '<span class="css00ai40hw">599<!0000 0000>.00</span>'}
+2025-07-21 16:53:39 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 17:00:10 - DEBUG: Creating new page and navigating to URL
+2025-07-21 17:00:10 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 17:00:13 - DEBUG: Navigated to URL successfully
+2025-07-21 17:00:13 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 17:00:13 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 17:00:16 - INFO: Product available and price data found, returning dictValues
+2025-07-21 17:00:16 - DEBUG: Scraping succesful, result: {'name': 'Lenovo IdeaPad Slim 3 15IAH8 83ER00MLMH', 'currentPrice': '499.00', 'ogPrice': '599<!0000 0000>.00'}
+2025-07-21 17:00:16 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 17:00:50 - DEBUG: Creating new page and navigating to URL
+2025-07-21 17:00:50 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 17:00:54 - DEBUG: Navigated to URL successfully
+2025-07-21 17:00:54 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 17:00:54 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 17:00:56 - INFO: Product available and price data found, returning dictValues
+2025-07-21 17:00:56 - DEBUG: Scraping succesful, result: {'name': 'Lenovo IdeaPad Slim 3 15IAH8 83ER00MLMH', 'currentPrice': '499.00', 'ogPrice': '599.00'}
+2025-07-21 17:00:56 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 17:02:37 - DEBUG: Creating new page and navigating to URL
+2025-07-21 17:02:37 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 17:02:42 - DEBUG: Navigated to URL successfully
+2025-07-21 17:02:42 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 17:02:42 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 17:02:52 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"css-puih25\"]") to be visible
+
+2025-07-21 17:02:52 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 17:04:57 - DEBUG: Creating new page and navigating to URL
+2025-07-21 17:04:57 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-07-21 17:05:00 - DEBUG: Navigated to URL successfully
+2025-07-21 17:05:00 - DEBUG: Accepting cookies
+2025-07-21 17:05:01 - DEBUG: succesfully accepted cookies
+2025-07-21 17:05:01 - DEBUG: Selecting country/language
+2025-07-21 17:05:02 - DEBUG: Selected Country/language succesfully
+2025-07-21 17:05:02 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 17:05:03 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 19:57:22 - DEBUG: Creating new page and navigating to URL
+2025-07-21 19:57:22 - DEBUG: Navigating to Bol.com product page using residential proxy
+2025-07-21 19:57:26 - DEBUG: Navigated to URL successfully
+2025-07-21 19:57:26 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 19:57:28 - DEBUG: Scraping succesful
+2025-07-21 19:57:28 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 19:57:37 - DEBUG: Creating new page and navigating to URL
+2025-07-21 19:57:37 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 19:57:40 - DEBUG: Navigated to URL successfully
+2025-07-21 19:57:40 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 19:57:40 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 19:57:50 - ERROR: Error scraping product data/altering product data: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator("[class=\"css-puih25\"]") to be visible
+
+2025-07-21 19:57:50 - DEBUG: Closing browser, check the logs for more information
+
+2025-07-21 19:59:19 - DEBUG: Creating new page and navigating to URL
+2025-07-21 19:59:19 - DEBUG: Navigating to coolblue.nl product page using residential proxy
+2025-07-21 19:59:24 - DEBUG: Navigated to URL successfully
+2025-07-21 19:59:24 - INFO: Cookies button not found, continuing to get_page_content
+2025-07-21 19:59:24 - DEBUG: Scraping and formatting product data and storing it in dictValues
+2025-07-21 19:59:26 - INFO: Product available and price data found, returning dictValues
+2025-07-21 19:59:26 - DEBUG: Scraping succesful, result: {'name': 'HP Laptop 17-cp2956nd', 'currentPrice': '649.00', 'ogPrice': '649.00'}
+2025-07-21 19:59:26 - DEBUG: Closing browser, check the logs for more information
+

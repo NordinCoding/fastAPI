@@ -2,7 +2,7 @@ from typing import Union
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 # Change to from mainPlay once youve updated mainPlay.py
-from testing import bol_scraper, log_to_file
+from mainPlay import bol_scraper, coolblue_scraper, log_to_file
 from urllib.parse import unquote, quote
 import shutil
 import os
@@ -24,9 +24,16 @@ async def scrape_item(url: str = Query(..., description="URL of the product to s
 
     #Local path
     playwright_dir = "C:\\playwright"
-
+    
+    supported_sites = {"www.bol.com/": bol_scraper,
+                        "www.coolblue.nl/": coolblue_scraper,
+                        "www.coolblue.be/": coolblue_scraper
+                        }
+    
     try:
-        result, delete = await bol_scraper(url)
+        for url_check in supported_sites:
+            if url_check in url:
+                result, delete = await supported_sites[url_check](url)
 
         if delete:
             if os.path.exists(playwright_dir):

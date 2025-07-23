@@ -1,0 +1,14 @@
+Detect product availability after finding price in coolblue scraper, take it out of the except block and put it in the regular flow, make the timeout 3 seconds(test out 1 and 2 seconds for optimisation) DONE!!!!
+
+fix formatting bug on discounted products DONE!!!!!
+
+change comments to fit coolblue scraper DONE !!!!!
+
+
+alter app.py to accept coolbue URLs, make sure it also validates the URLs and keep watch on the / checking for bol URLs, gotta make that a module to also accept coolblue URLs
+
+Create backup of API VPS
+
+Push new scrapers to API VPS
+
+test out if APIs work, try to break them
