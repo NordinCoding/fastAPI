@@ -2,7 +2,7 @@ from typing import Union
 from fastapi import FastAPI, HTTPException, Query
 from pydantic import BaseModel
 # Change to from mainPlay once youve updated mainPlay.py
-from mainPlay import bol_scraper, coolblue_scraper, log_to_file
+from mainPlay import bol_scraper, coolblue_scraper, mediamarkt_scraper, log_to_file
 from urllib.parse import unquote, quote
 import shutil
 import os
@@ -27,8 +27,8 @@ async def scrape_item(url: str = Query(..., description="URL of the product to s
     
     supported_sites = {"www.bol.com/": bol_scraper,
                         "www.coolblue.nl/": coolblue_scraper,
-                        "www.coolblue.be/": coolblue_scraper
-                        }
+                        "www.coolblue.be/": coolblue_scraper,
+                        "www.mediamarkt.nl/": mediamarkt_scraper}
     
     try:
         for url_check in supported_sites:
