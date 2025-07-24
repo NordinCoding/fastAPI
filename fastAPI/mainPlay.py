@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 import os
 import asyncio
 import shutil
+import re
 
 load_dotenv(override=True)
 
@@ -60,7 +61,7 @@ async def bol_scraper(URL, delete=False):
                 #user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
                 #Local path
                 user_data_dir="C:\\playwright",	
-                headless=False, 
+                headless=True, 
                 args=args,
                 channel="chrome",
                 viewport={"width": 1920, "height": 1080},
@@ -199,7 +200,7 @@ async def bol_scraper(URL, delete=False):
 
 
 
-
+# Doesnt work due to solid bot detection from coolblue, might try to break through some day
 async def coolblue_scraper(URL, delete=False):
     """s
     Scrapes product information from coolblue.nl
@@ -358,7 +359,7 @@ async def coolblue_scraper(URL, delete=False):
 
 
 
-async def mediamarkt_scraper(URL):
+async def mediamarkt_scraper(URL, delete=False):
     """s
     Scrapes product information from coolblue.nl
 
@@ -389,7 +390,7 @@ async def mediamarkt_scraper(URL):
                 #user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
                 #Local path
                 user_data_dir="C:\\playwright",	
-                headless=False, 
+                headless=True, 
                 args=args,
                 channel="chrome",
                 viewport={"width": 1920, "height": 1080},
@@ -409,7 +410,7 @@ async def mediamarkt_scraper(URL):
             log_to_file(f"Navigating to coolblue.nl product page using residential proxy", "DEBUG")
             try:
                 await page.goto(URL)
-                time.sleep(random.uniform(0.5, 2))
+                await asyncio.sleep(random.uniform(0.5, 2))
             except Exception as e:
                 log_to_file(f"Error navigating to URL: {e}", "ERROR")
                 return {"error": "Failed to navigate to URL", "details": str(e)}, True
@@ -423,34 +424,43 @@ async def mediamarkt_scraper(URL):
                 "ogPrice": ""
             }
             
+            name_selector = "fBtdkS"
+            currentprice_selector = "bPkjPs"
+            button_selector = "gKJbFU"
+            
             async def get_page_content():
                 #Wait for the price and name elements to be visible and get its inner HTML/text
                 #Data is cleaned up and stored in the dictionary so it can be returned
                 log_to_file("Scraping and formatting product data and storing it in dictValues", "DEBUG")
                 try:
-                    await page.wait_for_selector('[class="css-puih25"]', state="visible", timeout=10000)
-                    time.sleep(0.2)
+                    await page.wait_for_selector(f'.{currentprice_selector}', state="visible", timeout=10000)
+                    await asyncio.sleep(0.2)
                     
                     # Get the inner text of the name element, format it and store it in the dictionary
-                    name_html = await page.inner_html('[class="css-1o2kclk"]', timeout=10000)
+                    name_html = await page.inner_html(f'.{name_selector}', timeout=10000)
                     dictValues["name"] = name_html.replace("\n", "").strip().replace("&amp;", "&")
                     
                     # Get the inner HTML of the current price element, format it and store it in the dictionarys
-                    currentPrice_html = await page.locator('[class="css-puih25"]').first.inner_text()
+                    currentPrice_html = await page.inner_text('[data-test="branded-price-whole-value"]')
                     dictValues["currentPrice"] = currentPrice_html.replace("\n", ".").replace(",", ".").replace("-", "00").strip()
                     
                     # If the original price is not available, set it to the current price
-                    if await page.query_selector('[class="css-4q9vvt"]') == None:
+                    if await page.query_selector('[class="sc-6bbc79bc-0 gjYPaT"]') == None:
+                        log_to_file("ogPrice not found, setting ogPrice to currentPrice")
                         dictValues["ogPrice"] = dictValues["currentPrice"]
                         
                     # Get the inner text of the original price element, format it and store it in the dictionary
                     else:
-                        ogPrice_html = await page.locator('[class="css-4q9vvt"]').first.inner_text()
-                        dictValues["ogPrice"] = ogPrice_html.replace("\n", "").replace(",", ".").replace("-", "00").strip()
+                        element_contents = await page.locator('[class="sc-6bbc79bc-0 gjYPaT"]').all()
+                        for contents in element_contents:
+                            content = await contents.inner_html()
+                            if "€" in content:
+                                ogPrice_html = content.strip()
+                        dictValues["ogPrice"] = re.sub("[^0-9.,]", "", ogPrice_html)
                     
                     # Check to see product availability
                     try:
-                        await page.wait_for_selector('[class="css-s6m3qa"]', timeout=2000)
+                        await page.wait_for_selector('[class="gQsXVb"]', timeout=2000)
                         
                         # Set price values to 0. Indicating unavailable product
                         dictValues["currentPrice"] = 0.0
@@ -474,9 +484,7 @@ async def mediamarkt_scraper(URL):
             # If not, scrape the content, check for an error and return the dictionary if no error is found
             
             try:
-                html = await page.content()
-                log_to_file(html)
-                await page.wait_for_selector('[class="sc-8d20e71e-1 gKJbFU"]', timeout=3000)
+                await page.wait_for_selector(f'.{button_selector}', timeout=1000)
             except:
                 log_to_file("Cookies button not found, continuing to get_page_content")
                 result = await get_page_content()
@@ -490,9 +498,9 @@ async def mediamarkt_scraper(URL):
             # Wait for cookies button to be visable and click it
             log_to_file("Accepting cookies", "DEBUG")
             try:
-                await page.wait_for_selector('[class="sc-8d20e71e-1 gKJbFU"]', timeout=10000)
-                time.sleep(random.uniform(0.5, 2))
-                await page.click('[class="sc-8d20e71e-1 gKJbFU"]')
+                await page.wait_for_selector(f'.{button_selector}', timeout=10000)
+                await asyncio.sleep(random.uniform(0.5, 2))
+                await page.click(f'.{button_selector}')
             except Exception as e:
                 log_to_file(f"Error accepting cookies: {e}", "ERROR")
                 return {"error": "Failed to accept cookies", "details": str(e)}, True
@@ -549,7 +557,7 @@ async def main():
     #return await bol_scraper("https://www.bol.com/nl/nl/p/hoesje-geschikt-voor-samsung-galaxy-s25-ultra-book-case-leer-slimline-zwart/9300000232176510")
     #return await coolblue_scraper("https://www.coolblue.nl/product/962462")
     #return await bol_scraper("https://www.coolblue.nl/product/962462")
-    return await mediamarkt_scraper("https://www.mediamarkt.nl/nl/product/_philips-psg200020-stoomgenerator-wit-1869621.html")
+    return await mediamarkt_scraper("https://www.mediamarkt.nl/nl/product/_dyson-v8-advanced-steelstofzuiger-incl-kruimelzuiger-nikkel-1869993.html")
 
 if __name__ == "__main__":
     result, delete = asyncio.run(main())

@@ -18,3 +18,7 @@ coolblue doesnt work, bot detection is way too good.
 
 
 Test out on new websites if you can get the HTML before you put effort into making the bot, figure out if your bot is detected first
+
+Mediamarkt seems to work, no blocking, successfully clicked cookies button
+Next step:
+    add data scraping and test out again in prod.

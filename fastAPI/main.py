@@ -26,9 +26,17 @@ async def scrape_item(url: str = Query(..., description="URL of the product to s
     playwright_dir = "C:\\playwright"
     
     supported_sites = {"www.bol.com/": bol_scraper,
-                        "www.coolblue.nl/": coolblue_scraper,
-                        "www.coolblue.be/": coolblue_scraper,
-                        "www.mediamarkt.nl/": mediamarkt_scraper}
+                        "mediamarkt.de/": mediamarkt_scraper,
+                        "mediamarkt.at/": mediamarkt_scraper,
+                        "mediamarkt.be/": mediamarkt_scraper,
+                        "mediamarkt.hu/": mediamarkt_scraper,
+                        "mediamarkt.it/": mediamarkt_scraper,
+                        "mediamarkt.nl/": mediamarkt_scraper,
+                        "mediamarkt.pl/": mediamarkt_scraper,
+                        "mediamarkt.pt/": mediamarkt_scraper,
+                        "mediamarkt.es/": mediamarkt_scraper,
+                        "mediamarkt.ch/": mediamarkt_scraper,
+                        "mediamarkt.com.tr/": mediamarkt_scraper}
     
     try:
         for url_check in supported_sites:
