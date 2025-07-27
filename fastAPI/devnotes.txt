@@ -22,3 +22,6 @@ Test out on new websites if you can get the HTML before you put effort into maki
 Mediamarkt seems to work, no blocking, successfully clicked cookies button
 Next step:
     add data scraping and test out again in prod.
+
+
+pretty sure it works, push to VPS, make sure flask app accepts it, check if everything works smoothly, test edge cases, test every form of price

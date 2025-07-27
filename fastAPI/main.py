@@ -11,7 +11,7 @@ app = FastAPI()
 
 @app.get("/")
 async def read_root():
-    return {'Correct usage: "http://136.144.172.186/scrape?url=[URL]"'}
+    return {'Correct usage: "http://136.144.172.186/user_scrape/scrape?url=[URL]"'}
 
 
 @app.get("/scrape")
@@ -20,23 +20,13 @@ async def scrape_item(url: str = Query(..., description="URL of the product to s
     log_to_file(f"Scraping item from URL: {url}", "INFO")
 
     #VPS path
-    #playwright_dir = "/home/nordinschoenmakers/fastAPI/fastAPI/playwright"
+    playwright_dir = "/home/nordinschoenmakers/fastAPI/fastAPI/playwright"
 
     #Local path
-    playwright_dir = "C:\\playwright"
+    #playwright_dir = "C:\\playwright"
     
-    supported_sites = {"www.bol.com/": bol_scraper,
-                        "mediamarkt.de/": mediamarkt_scraper,
-                        "mediamarkt.at/": mediamarkt_scraper,
-                        "mediamarkt.be/": mediamarkt_scraper,
-                        "mediamarkt.hu/": mediamarkt_scraper,
-                        "mediamarkt.it/": mediamarkt_scraper,
-                        "mediamarkt.nl/": mediamarkt_scraper,
-                        "mediamarkt.pl/": mediamarkt_scraper,
-                        "mediamarkt.pt/": mediamarkt_scraper,
-                        "mediamarkt.es/": mediamarkt_scraper,
-                        "mediamarkt.ch/": mediamarkt_scraper,
-                        "mediamarkt.com.tr/": mediamarkt_scraper}
+    supported_sites = {"bol.com/": bol_scraper,
+                        "mediamarkt.nl/": mediamarkt_scraper}
     
     try:
         for url_check in supported_sites:

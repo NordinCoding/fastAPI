@@ -58,9 +58,9 @@ async def bol_scraper(URL, delete=False):
                 "password": os.getenv("PROXY_PASSWORD")},
                 slow_mo=100,
                 # VPS path
-                #user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
+                user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
                 #Local path
-                user_data_dir="C:\\playwright",	
+                #user_data_dir="C:\\playwright",	
                 headless=True, 
                 args=args,
                 channel="chrome",
@@ -387,9 +387,9 @@ async def mediamarkt_scraper(URL, delete=False):
                 "password": os.getenv("PROXY_PASSWORD")},
                 slow_mo=100,
                 # VPS path
-                #user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
+                user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
                 #Local path
-                user_data_dir="C:\\playwright",	
+                #user_data_dir="C:\\playwright",	
                 headless=True, 
                 args=args,
                 channel="chrome",
@@ -407,7 +407,7 @@ async def mediamarkt_scraper(URL, delete=False):
                 return {"error": "Failed to create new page", "details": str(e)}, True
             
             # Navigate to the URL, log which proxy is being used
-            log_to_file(f"Navigating to coolblue.nl product page using residential proxy", "DEBUG")
+            log_to_file(f"Navigating to mediamarkt.nl product page using residential proxy", "DEBUG")
             try:
                 await page.goto(URL)
                 await asyncio.sleep(random.uniform(0.5, 2))
@@ -442,35 +442,45 @@ async def mediamarkt_scraper(URL, delete=False):
                     
                     # Get the inner HTML of the current price element, format it and store it in the dictionarys
                     currentPrice_html = await page.inner_text('[data-test="branded-price-whole-value"]')
-                    dictValues["currentPrice"] = currentPrice_html.replace("\n", ".").replace(",", ".").replace("-", "00").strip()
+                    currentPrice_decimal_html = await page.inner_text('[data-test="branded-price-decimal-value"]')
+                    currentPrice_html = currentPrice_html + currentPrice_decimal_html
+                    print(currentPrice_html)
+                    dictValues["currentPrice"] = currentPrice_html.replace("\n", ".").replace(",", ".").replace("–", "00").strip()
                     
                     # If the original price is not available, set it to the current price
-                    if await page.query_selector('[class="sc-6bbc79bc-0 gjYPaT"]') == None:
+                    if await page.query_selector('[class="sc-6bbc79bc-0 hjKwWk notranslate"]') == None:
                         log_to_file("ogPrice not found, setting ogPrice to currentPrice")
                         dictValues["ogPrice"] = dictValues["currentPrice"]
                         
-                    # Get the inner text of the original price element, format it and store it in the dictionary
+                    # Get all elements that use the original prices class due to reuse in the HTML, look through them to find the price element
                     else:
-                        element_contents = await page.locator('[class="sc-6bbc79bc-0 gjYPaT"]').all()
+                        element_contents = await page.locator('[class="sc-6bbc79bc-0 hjKwWk notranslate"]').all()
                         for contents in element_contents:
-                            content = await contents.inner_html()
+                            content = await contents.inner_text()
                             if "€" in content:
                                 ogPrice_html = content.strip()
-                        dictValues["ogPrice"] = re.sub("[^0-9.,]", "", ogPrice_html)
+                                break
+                            
+                        # Extract price using regex
+                        ogPrice_html = re.sub("[^0-9.,€]", "", ogPrice_html).replace(',', '.')
+                        prices = ogPrice_html.split("€")
+                        dictValues["ogPrice"] = prices[-1]
                     
                     # Check to see product availability
                     try:
-                        await page.wait_for_selector('[class="gQsXVb"]', timeout=2000)
+                        log_to_file("Checking product availability")
+                        availabiliy_check = await page.inner_text('[data-test="mms-cofr-delivery_AVAILABLE"]', timeout=2000)
+                        if "online" not in availabiliy_check.lower():
+                            raise PlaywrightTimeoutError("Product is not available")
+
+                        log_to_file("Product available and price data found, returning dictValues")
                         
-                        # Set price values to 0. Indicating unavailable product
+                    # Set price values to 0. Indicating unavailable product
+                    except PlaywrightTimeoutError:
+                        
                         dictValues["currentPrice"] = 0.0
                         dictValues["ogPrice"] = 0.0   
-                        
                         log_to_file("Product is not available, returning data that indicates unavailability")
-                    
-                    # Hitting except block indidicates product is available
-                    except PlaywrightTimeoutError:
-                        log_to_file("Product available and price data found, returning dictValues")
                         
                     return dictValues
                              
@@ -518,7 +528,7 @@ async def mediamarkt_scraper(URL, delete=False):
                     log_to_file("Closing browser, check the logs for more information\n", "DEBUG")
                     await browser.close()
                 else:
-                    log_to_file("Browser was never initialized, skipping close", "WARNING")
+                    log_to_file("Browser was never initialized, skipping close\n", "WARNING")
                     return {"error": "Browser was never initialized", "details": "Browser was never initialized"}, True     
             except Exception as e:
                 log_to_file(f"Error while closing browser: {str(e)}", "ERROR")
@@ -556,8 +566,8 @@ async def main():
     #return await bol_scraper("https://www.youtube.com/watch?v=Vlb_cujWRI0")
     #return await bol_scraper("https://www.bol.com/nl/nl/p/hoesje-geschikt-voor-samsung-galaxy-s25-ultra-book-case-leer-slimline-zwart/9300000232176510")
     #return await coolblue_scraper("https://www.coolblue.nl/product/962462")
-    #return await bol_scraper("https://www.coolblue.nl/product/962462")
-    return await mediamarkt_scraper("https://www.mediamarkt.nl/nl/product/_dyson-v8-advanced-steelstofzuiger-incl-kruimelzuiger-nikkel-1869993.html")
+    #return await bol_scraper("https://www.bol.com/nl/nl/p/noppies-flared-legging-foix-meisjes-broek-maat-86/9300000176390734/?bltgh=3c186224-e162-420a-9bb0-9492c54ba5c6.topDealsForYou.product-tile-9300000176390734.ProductImage&promo=main_860_deals_for_you___product_19_9300000176390734&cid=1753535241410-9189794353869")
+    return await mediamarkt_scraper("https://www.mediamarkt.nl/nl/product/_ninja-ninja-detect-3-in-1-foodprocessor-blender-en-smoothie-maker-blendsense-technologie-tb401eu-hand-mixer-zwart-146115008.html")
 
 if __name__ == "__main__":
     result, delete = asyncio.run(main())
