@@ -445,7 +445,7 @@ async def mediamarkt_scraper(URL, delete=False):
                     currentPrice_decimal_html = await page.inner_text('[data-test="branded-price-decimal-value"]')
                     currentPrice_html = currentPrice_html + currentPrice_decimal_html
                     print(currentPrice_html)
-                    dictValues["currentPrice"] = currentPrice_html.replace("\n", ".").replace(",", ".").replace("–", "00").strip()
+                    dictValues["currentPrice"] = re.sub("[^0-9.,–]", "", currentPrice_html).replace("\n", ".").replace(",", ".").replace("–", "00").strip()
                     
                     # If the original price is not available, set it to the current price
                     if await page.query_selector('[class="sc-6bbc79bc-0 hjKwWk notranslate"]') == None:
@@ -567,7 +567,7 @@ async def main():
     #return await bol_scraper("https://www.bol.com/nl/nl/p/hoesje-geschikt-voor-samsung-galaxy-s25-ultra-book-case-leer-slimline-zwart/9300000232176510")
     #return await coolblue_scraper("https://www.coolblue.nl/product/962462")
     #return await bol_scraper("https://www.bol.com/nl/nl/p/noppies-flared-legging-foix-meisjes-broek-maat-86/9300000176390734/?bltgh=3c186224-e162-420a-9bb0-9492c54ba5c6.topDealsForYou.product-tile-9300000176390734.ProductImage&promo=main_860_deals_for_you___product_19_9300000176390734&cid=1753535241410-9189794353869")
-    return await mediamarkt_scraper("https://www.mediamarkt.nl/nl/product/_ninja-ninja-detect-3-in-1-foodprocessor-blender-en-smoothie-maker-blendsense-technologie-tb401eu-hand-mixer-zwart-146115008.html")
+    return await mediamarkt_scraper("https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-5g-128gb-navy-128-gb-blauw-1877857.html")
 
 if __name__ == "__main__":
     result, delete = asyncio.run(main())
