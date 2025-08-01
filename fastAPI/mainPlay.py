@@ -424,7 +424,8 @@ async def mediamarkt_scraper(URL, delete=False):
                 "ogPrice": ""
             }
             
-            name_selector = "fBtdkS"
+            # These tend to change pretty often, keeping them here but I might not use them consistently
+            name_selector = "mms-select-details-header"
             currentprice_selector = "bPkjPs"
             button_selector = "gKJbFU"
             
@@ -437,24 +438,24 @@ async def mediamarkt_scraper(URL, delete=False):
                     await asyncio.sleep(0.2)
                     
                     # Get the inner text of the name element, format it and store it in the dictionary
-                    name_html = await page.inner_html(f'.{name_selector}', timeout=10000)
-                    dictValues["name"] = name_html.replace("\n", "").strip().replace("&amp;", "&")
+                    name_contents = await page.locator(f'data-test={name_selector}').all_inner_texts()
+                    name_html = name_contents[0].split('\n')
+                    dictValues["name"] = name_html[0].replace("\n", "").strip().replace("&amp;", "&")
                     
-                    # Get the inner HTML of the current price element, format it and store it in the dictionarys
+                    # Get the inner HTML of the current price element, format it and store it in the dictionary
                     currentPrice_html = await page.inner_text('[data-test="branded-price-whole-value"]')
                     currentPrice_decimal_html = await page.inner_text('[data-test="branded-price-decimal-value"]')
                     currentPrice_html = currentPrice_html + currentPrice_decimal_html
-                    print(currentPrice_html)
                     dictValues["currentPrice"] = re.sub("[^0-9.,–]", "", currentPrice_html).replace("\n", ".").replace(",", ".").replace("–", "00").strip()
                     
                     # If the original price is not available, set it to the current price
-                    if await page.query_selector('[class="sc-6bbc79bc-0 hjKwWk notranslate"]') == None:
+                    if await page.query_selector('[data-test="mms-strike-price-type-map"]') == None:
                         log_to_file("ogPrice not found, setting ogPrice to currentPrice")
                         dictValues["ogPrice"] = dictValues["currentPrice"]
                         
                     # Get all elements that use the original prices class due to reuse in the HTML, look through them to find the price element
                     else:
-                        element_contents = await page.locator('[class="sc-6bbc79bc-0 hjKwWk notranslate"]').all()
+                        element_contents = await page.locator('[data-test="mms-strike-price-type-map"]').all()
                         for contents in element_contents:
                             content = await contents.inner_text()
                             if "€" in content:
@@ -494,7 +495,7 @@ async def mediamarkt_scraper(URL, delete=False):
             # If not, scrape the content, check for an error and return the dictionary if no error is found
             
             try:
-                await page.wait_for_selector(f'.{button_selector}', timeout=1000)
+                await page.wait_for_selector('[id="pwa-consent-layer-accept-all-button"]', timeout=1000)
             except:
                 log_to_file("Cookies button not found, continuing to get_page_content")
                 result = await get_page_content()
@@ -508,9 +509,9 @@ async def mediamarkt_scraper(URL, delete=False):
             # Wait for cookies button to be visable and click it
             log_to_file("Accepting cookies", "DEBUG")
             try:
-                await page.wait_for_selector(f'.{button_selector}', timeout=10000)
+                await page.wait_for_selector('[id="pwa-consent-layer-accept-all-button"]', timeout=10000)
                 await asyncio.sleep(random.uniform(0.5, 2))
-                await page.click(f'.{button_selector}')
+                await page.click('[id="pwa-consent-layer-accept-all-button"]')
             except Exception as e:
                 log_to_file(f"Error accepting cookies: {e}", "ERROR")
                 return {"error": "Failed to accept cookies", "details": str(e)}, True
