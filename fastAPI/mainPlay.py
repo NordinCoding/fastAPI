@@ -390,7 +390,7 @@ async def mediamarkt_scraper(URL, delete=False):
                 user_data_dir="/home/nordinschoenmakers/fastAPI/fastAPI/playwright",	
                 #Local path
                 #user_data_dir="C:\\playwright",	
-                headless=True, 
+                headless=False, 
                 args=args,
                 channel="chrome",
                 viewport={"width": 1920, "height": 1080},
@@ -449,14 +449,15 @@ async def mediamarkt_scraper(URL, delete=False):
                     dictValues["currentPrice"] = re.sub("[^0-9.,–]", "", currentPrice_html).replace("\n", ".").replace(",", ".").replace("–", "00").strip()
                     
                     # If the original price is not available, set it to the current price
-                    if await page.query_selector('[data-test="mms-strike-price-type-map"]') == None:
+                    if await page.query_selector('p[data-test="mms-strike-price-type-map"]') == None:
                         log_to_file("ogPrice not found, setting ogPrice to currentPrice")
                         dictValues["ogPrice"] = dictValues["currentPrice"]
                         
                     # Get all elements that use the original prices class due to reuse in the HTML, look through them to find the price element
                     else:
-                        element_contents = await page.locator('[data-test="mms-strike-price-type-map"]').all()
+                        element_contents = await page.locator('p[data-test="mms-strike-price-type-map"]').all()
                         for contents in element_contents:
+                            print(await contents.inner_html())
                             content = await contents.inner_text()
                             if "€" in content:
                                 ogPrice_html = content.strip()
@@ -568,7 +569,7 @@ async def main():
     #return await bol_scraper("https://www.bol.com/nl/nl/p/hoesje-geschikt-voor-samsung-galaxy-s25-ultra-book-case-leer-slimline-zwart/9300000232176510")
     #return await coolblue_scraper("https://www.coolblue.nl/product/962462")
     #return await bol_scraper("https://www.bol.com/nl/nl/p/noppies-flared-legging-foix-meisjes-broek-maat-86/9300000176390734/?bltgh=3c186224-e162-420a-9bb0-9492c54ba5c6.topDealsForYou.product-tile-9300000176390734.ProductImage&promo=main_860_deals_for_you___product_19_9300000176390734&cid=1753535241410-9189794353869")
-    return await mediamarkt_scraper("https://www.mediamarkt.nl/nl/product/_samsung-galaxy-s25-5g-128gb-navy-128-gb-blauw-1877857.html")
+    return await mediamarkt_scraper("https://www.mediamarkt.nl/nl/product/_apple-airpods-pro-2e-generatie-1791726.html")
 
 if __name__ == "__main__":
     result, delete = asyncio.run(main())
